@@ -1,0 +1,3891 @@
+From: "Saved by Internet Explorer 11"
+Subject: android-apktool - A tool for reverse engineering Android apk files - Google Project Hosting
+Date: Tue, 11 Mar 2014 15:38:59 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF3D40.054B5CA0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://code.google.com/p/android-apktool/
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+ =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3DUTF-8"> =20
+<META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">   =
+
+<META name=3D"ROBOTS" content=3D"NOARCHIVE">   <LINK =
+href=3D"https://ssl.gstatic.com/codesite/ph/images/phosting.ico"=20
+rel=3D"icon" type=3D"image/vnd.microsoft.icon">   =20
+<SCRIPT type=3D"text/javascript">=0A=
+ =0A=
+ =0A=
+ =0A=
+ =0A=
+ var codesite_token =3D null;=0A=
+ =0A=
+ =0A=
+ var CS_env =3D {"loggedInUserEmail": null, "assetHostPath": =
+"https://ssl.gstatic.com/codesite/ph", "assetVersionPath": =
+"https://ssl.gstatic.com/codesite/ph/11512667522589661435", =
+"profileUrl": null, "projectHomeUrl": "/p/android-apktool", =
+"relativeBaseUrl": "", "token": null, "domainName": null, "projectName": =
+"android-apktool"};=0A=
+ var _gaq =3D _gaq || [];=0A=
+ _gaq.push(=0A=
+ ['siteTracker._setAccount', 'UA-18071-1'],=0A=
+ ['siteTracker._trackPageview']);=0A=
+ =0A=
+ _gaq.push(=0A=
+ ['projectTracker._setAccount', 'UA-3737795-11'],=0A=
+ ['projectTracker._trackPageview']);=0A=
+ =0A=
+ (function() {=0A=
+ var ga =3D document.createElement('script'); ga.type =3D =
+'text/javascript'; ga.async =3D true;=0A=
+ ga.src =3D ('https:' =3D=3D document.location.protocol ? 'https://ssl' =
+: 'http://www') + '.google-analytics.com/ga.js';=0A=
+ (document.getElementsByTagName('head')[0] || =
+document.getElementsByTagName('body')[0]).appendChild(ga);=0A=
+ })();=0A=
+ =0A=
+ </SCRIPT>
+    <TITLE> android-apktool -   A tool for reverse engineering Android =
+apk files=20
+- Google Project Hosting  </TITLE>  <LINK =
+href=3D"https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/core=
+.css"=20
+rel=3D"stylesheet" type=3D"text/css">   <LINK =
+href=3D"https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/ph_d=
+etail.css"=20
+rel=3D"stylesheet" type=3D"text/css">     <!--[if IE]>=0A=
+ <link type=3D"text/css" rel=3D"stylesheet" =
+href=3D"https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/d_ie=
+.css" >=0A=
+<![endif]-->=20
+=20
+<STYLE type=3D"text/css">=0A=
+ .menuIcon.off { background: no-repeat =
+url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 =
+-42px }=0A=
+ .menuIcon.on { background: no-repeat =
+url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 =
+-28px }=0A=
+ .menuIcon.down { background: no-repeat =
+url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; =
+}=0A=
+ =0A=
+ =0A=
+ .psicon-container {=0A=
+ min-width:24px;=0A=
+ }=0A=
+=0A=
+ =0A=
+ </STYLE>
+=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.16412"></HEAD>=20
+<BODY class=3D"t1">
+<SCRIPT type=3D"text/javascript">=0A=
+ window.___gcfg =3D {lang: 'en'};=0A=
+ (function() =0A=
+ {var po =3D document.createElement("script");=0A=
+ po.type =3D "text/javascript"; po.async =3D true;po.src =3D =
+"https://apis.google.com/js/plusone.js";=0A=
+ var s =3D document.getElementsByTagName("script")[0];=0A=
+ s.parentNode.insertBefore(po, s);=0A=
+ })();=0A=
+</SCRIPT>
+=20
+<DIV class=3D"headbg">
+<DIV id=3D"gaia"><SPAN><A id=3D"projects-dropdown" onclick=3D"return =
+false;" href=3D"https://code.google.com/p/android-apktool/#"><U>My=20
+favorites</U> <SMALL>=E2=96=BC</SMALL></A> | <A =
+onclick=3D"_CS_click('/gb/ph/signin');"=20
+href=3D"https://www.google.com/accounts/ServiceLogin?service=3Dcode&amp;l=
+tmpl=3Dphosting&amp;continue=3Dhttps%3A%2F%2Fcode.google.com%2Fp%2Fandroi=
+d-apktool%2F&amp;followup=3Dhttps%3A%2F%2Fcode.google.com%2Fp%2Fandroid-a=
+pktool%2F"><U>Sign=20
+in</U></A>   </SPAN>  </DIV>
+<DIV class=3D"gbh" style=3D"left: 0pt;"></DIV>
+<DIV class=3D"gbh" style=3D"right: 0pt;"></DIV>
+<DIV style=3D"height: 1px;"></DIV><!--[if lte IE 7]>=0A=
+<div style=3D"text-align:center;">=0A=
+Your version of Internet Explorer is not supported. Try a browser that=0A=
+contributes to open source, such as <a =
+href=3D"http://www.firefox.com">Firefox</a>,=0A=
+<a href=3D"http://www.google.com/chrome">Google Chrome</a>, or=0A=
+<a href=3D"http://code.google.com/chrome/chromeframe/">Google Chrome =
+Frame</a>.=0A=
+</div>=0A=
+<![endif]-->=20
+=20
+<TABLE style=3D"margin: 0px 0px 10px; padding: 0px; width: 100%;" =
+cellspacing=3D"0"=20
+cellpadding=3D"0" itemtype=3D"http://schema.org/CreativeWork" =
+itemscope=3D"">
+  <TBODY>
+  <TR style=3D"height: 58px;">
+    <TD id=3D"plogo"><LINK href=3D"/p/android-apktool" itemprop=3D"url"> =
+ <A href=3D"https://code.google.com/p/android-apktool/"><IMG=20
+      alt=3D"Logo" =
+src=3D"https://code.google.com/p/android-apktool/logo?cct=3D1367694978"=20
+      itemprop=3D"image">   </A>  </TD>
+    <TD style=3D"padding-left: 0.5em;">
+      <DIV id=3D"pname"><A =
+href=3D"https://code.google.com/p/android-apktool/"><SPAN=20
+      itemprop=3D"name">android-apktool</SPAN></A>  </DIV>
+      <DIV id=3D"psum"><A id=3D"project_summary_link" =
+href=3D"https://code.google.com/p/android-apktool/"><SPAN=20
+      itemprop=3D"description">A tool for reverse engineering Android =
+apk=20
+      files</SPAN></A>   </DIV></TD>
+    <TD=20
+      style=3D"text-align: right; vertical-align: bottom; white-space: =
+nowrap;"><FORM=20
+      action=3D"/hosting/search"><INPUT name=3D"q" type=3D"text" =
+size=3D"30">  =20
+<INPUT name=3D"projectsearch" type=3D"submit" value=3D"Search projects"> =
+=20
+  </FORM></TR></TBODY></TABLE></DIV>
+<DIV class=3D"gtb" id=3D"mt"><A class=3D"tab active" =
+href=3D"https://code.google.com/p/android-apktool/">Project&nbsp;Home</A>=
+=20
+     <A class=3D"tab " =
+href=3D"https://code.google.com/p/android-apktool/downloads/list">Downloa=
+ds</A>=20
+      <A class=3D"tab "=20
+href=3D"https://code.google.com/p/android-apktool/w/list">Wiki</A>       =
+<A class=3D"tab "=20
+href=3D"https://code.google.com/p/android-apktool/issues/list">Issues</A>=
+       <A=20
+class=3D"tab "=20
+href=3D"https://code.google.com/p/android-apktool/source/checkout">Source=
+</A>     =20
+   =20
+<DIV class=3D"gtbc"></DIV></DIV>
+<TABLE width=3D"100%" align=3D"center" class=3D"st" border=3D"0" =
+cellspacing=3D"0"=20
+cellpadding=3D"0">
+  <TBODY>
+  <TR>
+    <TD class=3D"subt">
+      <DIV class=3D"st1">
+      <DIV class=3D"isf"><SPAN class=3D"inst1"><A =
+href=3D"https://code.google.com/p/android-apktool/">Summary</A>=20
+       </SPAN>   &nbsp;  <SPAN class=3D"inst3"><A =
+href=3D"https://code.google.com/p/android-apktool/people/list">People</A>=
+=20
+       </SPAN>    </DIV></DIV></TD>
+    <TD align=3D"right" class=3D"bevel-right" =
+valign=3D"top"></TD></TR></TBODY></TABLE>
+<SCRIPT type=3D"text/javascript">=0A=
+ var cancelBubble =3D false;=0A=
+ function _go(url) { document.location =3D url; }=0A=
+</SCRIPT>
+=20
+<DIV id=3D"maincol">
+<TABLE width=3D"100%">
+  <TBODY>
+  <TR class=3D"pscontent">
+    <TD class=3D"pscolumnl">
+      <DIV class=3D"phead">Project Information</DIV>
+      <UL class=3D"pslist">
+        <LI class=3D"psmeta"><A =
+href=3D"https://code.google.com/p/android-apktool/feeds">Project=20
+        feeds</A>  </LI>
+        <LI class=3D"psgap">
+        <LI class=3D"psmeta"><B>Code license</B></LI>
+        <LI class=3D"psmeta"><A =
+href=3D"http://www.apache.org/licenses/LICENSE-2.0"=20
+        rel=3D"nofollow">Apache License 2.0</A>   </LI>
+        <LI class=3D"psgap">
+        <LI class=3D"psmeta"><SPAN =
+id=3D"project_labels"><B>Labels</B><BR><A class=3D"label"=20
+        =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:apktool">apktool=
+</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:android">android=
+</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:apk">apk</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:reengineering">r=
+eengineering</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:smali">smali</A>=
+,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:decode">decode</=
+A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:resources">resou=
+rces</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:xml">xml</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:resources.arsc">=
+resources.arsc</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:AndroidManifest"=
+>AndroidManifest</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:classes.dex">cla=
+sses.dex</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:drawables">drawa=
+bles</A>,=20
+           <A class=3D"label" =
+href=3D"https://code.google.com/hosting/search?q=3Dlabel:9patch">9patch</=
+A>=20
+          </SPAN>  </LI>
+        <LI class=3D"psgap"></LI></UL>
+      <DIV class=3D"psicon">
+      <DIV class=3D"psicon-container goog-inline-block">
+      <DIV class=3D"SPRITE_people-y16 goog-inline-block vt"=20
+      style=3D"float: right;"></DIV></DIV><SPAN><B>Members</B></SPAN>  =
+</DIV>
+      <UL class=3D"pslist"><A class=3D"userlink" =
+href=3D"https://code.google.com/u/Brut.alll/">Brut.alll</A>,=20
+            <A class=3D"userlink" =
+href=3D"https://code.google.com/u/connor.tumbleson/">connor.tumbleson</A>=
+=20
+           =20
+        <LI class=3D"psmeta"><A =
+href=3D"https://code.google.com/p/android-apktool/people/list">1=20
+        committer</A>  </LI>
+        <LI class=3D"psgap"></LI></UL>
+      <DIV class=3D"phead pfeatured">Featured</DIV>
+      <DIV class=3D"psicon">
+      <DIV class=3D"psicon-container goog-inline-block">
+      <DIV class=3D"SPRITE_filedownload-g16 goog-inline-block vt" =
+style=3D"float: right;"></DIV></DIV><SPAN><B>Downloads</B></SPAN>=20
+       </DIV>
+      <UL class=3D"pslist">
+        <LI class=3D"psmeta nowrap"><A title=3D"Download" =
+onclick=3D"_gaq.push(['siteTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-linux-r05-ibot.ta=
+r.bz2', 'Featured, OpSys-Linux, =
+Type-Archive']);_gaq.push(['projectTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-linux-r05-ibot.ta=
+r.bz2', 'Featured, OpSys-Linux, Type-Archive']);"=20
+        =
+href=3D"https://android-apktool.googlecode.com/files/apktool-install-linu=
+x-r05-ibot.tar.bz2"></A>=20
+         <A title=3D"apktool dependencies and helper script for linux =
+environment"=20
+        =
+href=3D"https://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-linux-r05-ibot.tar.bz2">apktool-install-linux-r05-ibot.ta=
+r.bz2</A>=20
+         </LI>
+        <LI class=3D"psmeta nowrap"><A title=3D"Download" =
+onclick=3D"_gaq.push(['siteTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-macosx-r05-ibot.t=
+ar.bz2', 'Featured, OpSys-OSX, =
+Type-Archive']);_gaq.push(['projectTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-macosx-r05-ibot.t=
+ar.bz2', 'Featured, OpSys-OSX, Type-Archive']);"=20
+        =
+href=3D"https://android-apktool.googlecode.com/files/apktool-install-maco=
+sx-r05-ibot.tar.bz2"></A>=20
+         <A title=3D"apktool dependencies and helper script for OSX =
+environment "=20
+        =
+href=3D"https://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-macosx-r05-ibot.tar.bz2">apktool-install-macosx-r05-ibot.=
+tar.bz2</A>=20
+         </LI>
+        <LI class=3D"psmeta nowrap"><A title=3D"Download" =
+onclick=3D"_gaq.push(['siteTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-windows-r05-ibot.=
+tar.bz2', 'Featured, OpSys-Windows, =
+Type-Archive']);_gaq.push(['projectTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool-install-windows-r05-ibot.=
+tar.bz2', 'Featured, OpSys-Windows, Type-Archive']);"=20
+        =
+href=3D"https://android-apktool.googlecode.com/files/apktool-install-wind=
+ows-r05-ibot.tar.bz2"></A>=20
+         <A title=3D"apktool dependencies and helper script for windows" =
+href=3D"https://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-windows-r05-ibot.tar.bz2">apktool-install-windows-r05-ibo=
+t.tar.bz2</A>=20
+         </LI>
+        <LI class=3D"psmeta nowrap"><A title=3D"Download" =
+onclick=3D"_gaq.push(['siteTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool1.5.2.tar.bz2', =
+'Featured, Type-Executable, =
+OpSys-All']);_gaq.push(['projectTracker._trackEvent', 'Download - =
+Downloaded', =
+'//android-apktool.googlecode.com/files/apktool1.5.2.tar.bz2', =
+'Featured, Type-Executable, OpSys-All']);"=20
+        =
+href=3D"https://android-apktool.googlecode.com/files/apktool1.5.2.tar.bz2=
+"></A>=20
+         <A title=3D"apktool" =
+href=3D"https://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.5.2.tar.bz2">apktool1.5.2.tar.bz2</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A =
+href=3D"https://code.google.com/p/android-apktool/downloads/list">Show=20
+        all =C2=BB</A></LI>
+        <LI class=3D"psgap"></LI></UL>
+      <DIV class=3D"psicon">
+      <DIV class=3D"psicon-container goog-inline-block">
+      <DIV class=3D"SPRITE_paper_pencil-y16 goog-inline-block vt" =
+style=3D"float: right;"></DIV></DIV><SPAN><B>Wiki=20
+      pages</B></SPAN>  </DIV>
+      <UL class=3D"pslist nowrap">
+        <LI class=3D"psmeta"><A title=3D"Instructions on how to build =
+apktool from sources"=20
+        =
+href=3D"https://code.google.com/p/android-apktool/wiki/BuildApktool">Buil=
+dApktool</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A title=3D"List of apktool changes" =
+href=3D"https://code.google.com/p/android-apktool/wiki/Changelog">Changel=
+og</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A title=3D"Frequently asked questions" =
+href=3D"https://code.google.com/p/android-apktool/wiki/FAQ">FAQ</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A title=3D"Instructions on how to manage =
+framework files"=20
+        =
+href=3D"https://code.google.com/p/android-apktool/wiki/FrameworkFiles">Fr=
+ameworkFiles</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A title=3D"Instructions for migrating =
+between major versions of Apktool"=20
+        =
+href=3D"https://code.google.com/p/android-apktool/wiki/MigrationInstructi=
+ons">MigrationInstructions</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A title=3D"Info on how to report and =
+issue" =
+href=3D"https://code.google.com/p/android-apktool/wiki/ReportingIssues">R=
+eportingIssues</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A =
+href=3D"https://code.google.com/p/android-apktool/w/list">Show=20
+        all =C2=BB</A></LI>
+        <LI class=3D"psgap"></LI></UL>
+      <DIV class=3D"phead">Links</DIV>
+      <UL class=3D"pslist" style=3D"white-space: nowrap;">
+        <LI class=3D"psmeta"><B>External links</B></LI>
+        <LI class=3D"psmeta"><A =
+href=3D"http://forum.xda-developers.com/showthread.php?t=3D1755243"=20
+        rel=3D"nofollow">Apktool on XDA</A>  </LI>
+        <LI class=3D"psmeta"><A href=3D"https://twitter.com/iBotPeaches" =
+rel=3D"nofollow">Twitter</A>=20
+         </LI>
+        <LI class=3D"psmeta"><A href=3D"http://code.google.com/p/smali/" =
+rel=3D"nofollow">smali/baksmali</A>=20
+         </LI>
+        <LI class=3D"psgap">
+        <LI class=3D"psmeta"><B>Groups</B></LI>
+        <LI class=3D"psmeta"><A =
+href=3D"http://groups.google.com/group/apktool" rel=3D"nofollow">Google=20
+        Groups</A>  </LI>
+        <LI class=3D"psgap"></LI></UL></TD>
+    <TD class=3D"psdescription" id=3D"wikicontent">
+      <P>It is a tool for reverse engineering 3rd party, closed, binary =
+Android=20
+      apps. It can decode resources to nearly original form and rebuild =
+them=20
+      after making some modifications; it makes possible to debug smali =
+code=20
+      step by step. Also it makes working with app easier because of=20
+      project-like files structure and automation of some repetitive =
+tasks like=20
+      building apk, etc. </P>
+      <P>It is NOT intended for piracy and other non-legal uses. It =
+could be=20
+      used for localizing, adding some features or support for custom =
+platforms=20
+      and other GOOD purposes. Just try to be fair with authors of an =
+app, that=20
+      you use and probably like. </P>
+      <H2><A name=3D"Features"></A>Features<A class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#Features"></A></H2>
+      <UL>
+        <LI>decoding resources to nearly original form (including=20
+        resources.arsc, XMLs and 9.png files) and rebuilding them </LI>
+        <LI><SPAN style=3D"text-decoration: line-through;">smali =
+debugging: <A=20
+        =
+href=3D"https://code.google.com/p/android-apktool/wiki/SmaliDebugging">Sm=
+aliDebugging</A></SPAN>=20
+        (Fixed in 2.0, to be released soon!) </LI>
+        <LI>helping with some repetitive tasks </LI></UL>
+      <H2><A name=3D"Requirements"></A>Requirements<A =
+class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#Requirements"></A></H2=
+>
+      <UL>
+        <LI>JRE 1.6 (Apktool 1.x) </LI>
+        <LI>JRE 1.7 (Apktool 2.x) </LI>
+        <LI>aapt command in a PATH </LI>
+        <LI>basic knowledge Android SDK, aapt, smali and how to use =
+Google may=20
+        be useful </LI></UL>
+      <H2><A name=3D"Installation_for_noobs"></A>Installation for =
+noobs<A class=3D"section_anchor"=20
+      =
+href=3D"https://code.google.com/p/android-apktool/#Installation_for_noobs=
+"></A></H2>
+      <UL>
+        <LI>See <A =
+href=3D"https://code.google.com/p/android-apktool/wiki/OldInstall">OldIns=
+tall</A>=20
+        </LI></UL>
+      <H2><A name=3D"Installation_of_framework_files"></A>Installation =
+of=20
+      framework files<A class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#Installation_of_framew=
+ork_files"></A></H2>
+      <UL>
+        <LI>See <A =
+href=3D"https://code.google.com/p/android-apktool/wiki/FrameworkFiles">Fr=
+ameworkFiles</A>=20
+        </LI></UL>
+      <H2><A name=3D"Need_to_chat?_Join_us_in_Freenode_:)"></A>Need to =
+chat? Join=20
+      us in Freenode <A =
+href=3D"http://webchat.freenode.net/?channels=3Dapktool"=20
+      rel=3D"nofollow">#apktool</A> :)<A class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#Need_to_chat?_Join_us_=
+in_Freenode_:)"></A></H2>
+      <H2><A name=3D"Usage"></A>Usage<A class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#Usage"></A></H2>
+      <UL>
+        <LI>Open terminal/command line and type "apktool=20
+        <TT>&lt;</TT>enter<TT>&gt;</TT>". Then you should see usage =
+help. </LI>
+        <LI>Or view <A =
+href=3D"https://code.google.com/p/android-apktool/wiki/ApktoolOptions">Ap=
+ktoolOptions</A>=20
+        </LI></UL>
+      <P>Discuss it: <A href=3D"http://groups.google.com/group/apktool" =
+rel=3D"nofollow">Google=20
+      Groups</A> or <A =
+href=3D"http://forum.xda-developers.com/showthread.php?t=3D1755243"=20
+      rel=3D"nofollow">XDA</A> </P>
+      <H2><A name=3D"News"></A>News<A class=3D"section_anchor" =
+href=3D"https://code.google.com/p/android-apktool/#News"></A></H2>
+      <P>
+      <TABLE class=3D"wikitable">
+        <TBODY>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Date</STRONG>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Type</STRONG>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Version</STRONG>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Changelog</STRONG>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Download</STRONG>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><STRONG>Extras</STRONG>=20
+          </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2014.02.06 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v2.0.0b9</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://connortumbleson.com/2014/02/apktool-2-0-0-beta-9-released/=
+"=20
+            rel=3D"nofollow">Details</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            Beta 9 </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2013.10.13 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v2.0.0b7</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://connortumbleson.com/2013/10/apktool-2-0-0-beta-7-released/=
+"=20
+            rel=3D"nofollow">Details</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            Beta 7 </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2013.05.27 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            project starred by 2000 users! </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2013.02.02 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.5.2</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.5.2"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.5.2.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.12.28 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.5.1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.5.1"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.5.1.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.12.23 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            scripts </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>r05-ibot</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-macosx-r05-ibot.tar.bz2"=20
+            rel=3D"nofollow">Mac</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-windows-r05-ibot.tar.bz2"=20
+            rel=3D"nofollow">Win</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-linux-r05-ibot.tar.bz2"=20
+            rel=3D"nofollow">Unix</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.09.02 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.5.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.5.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.5.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.08.21 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.10</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.9"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.9.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.07.28 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.9</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.8"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.8.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.07.08 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.8</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.8"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.8.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.07.05 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.7</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.7"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.7.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.02.14 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.6</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.6"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.6.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2012.01.07 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.5</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.5"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.5.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.12.11 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.4</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.4"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            developer: iBotPeaches </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.12.08 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.3</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.3"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.3.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.12.07 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            project starred by 1000 users! </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.12.02 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.2</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.2"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.2.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.05.15 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.1"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.1.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            quick fix </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.05.15 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.4.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.4.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.4.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.05.04 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            scripts </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>r04-brut1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            new aapt </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-macosx-r04-brut1.tar.bz2"=20
+            rel=3D"nofollow">Mac</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-windows-r04-brut1.tar.bz2"=20
+            rel=3D"nofollow">Win</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-linux-r04-brut1.tar.bz2"=20
+            rel=3D"nofollow">Unix</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2011.01.19 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            - </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            Source Released <A =
+href=3D"https://code.google.com/p/android-apktool/wiki/BuildApktool">Buil=
+dApktool</A>=20
+          </TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.09.03 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.3.2</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.3.2"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool1.3.2.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.09.03 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            scripts </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>2.2_r01-3</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            updated Win </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-windows-2.2_r01-3.tar.bz2"=20
+            rel=3D"nofollow">Win</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.06.14 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.3.1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.3.1"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.3.1.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.06.12 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.3.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.3.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.3.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.06.04 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            scripts </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>2.2r01-1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            initial release </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-macos-2.2_r01-1.tar.bz2"=20
+            rel=3D"nofollow">Mac</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-windows-2.2_r01-1.zip"=20
+            rel=3D"nofollow">Win</A> <A =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-install-linux-2.2_r01-1.tar.bz2"=20
+            rel=3D"nofollow">Unix</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.06.03 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.2.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.2.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.2.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.04.29 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.1.1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.1.1"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.1.1.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.04.28 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.1.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.1.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.1.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.04.02 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v1.0.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#1.0.0"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-1.0.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.03.13 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v0.9.2</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#0.9.2"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-0.9.2.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.03.02 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v0.9.1</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/wiki/Changelog#0.9.1"=20
+            rel=3D"nofollow">Changes</A> </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-0.9.1.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"></TD></TR>
+        <TR>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            2010.03.01 </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            apktool </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><TT>v0.9.0</TT>=20
+          </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            initial release </TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;"><A=20
+            =
+href=3D"http://code.google.com/p/android-apktool/downloads/detail?name=3D=
+apktool-0.9.0.tar.bz2"=20
+            rel=3D"nofollow">Download</A></TD>
+          <TD style=3D"padding: 5px; border: 1px solid rgb(204, 204, =
+204); border-image: none;">=20
+            developer: brut.alll </TD></TR></TBODY></TABLE>
+      <P></P></TD></TR></TBODY></TABLE>
+<SCRIPT =
+src=3D"https://ssl.gstatic.com/codesite/ph/11512667522589661435/js/pretti=
+fy/prettify_core_compiled.js"></SCRIPT>
+=20
+<SCRIPT type=3D"text/javascript">=0A=
+ prettyPrint();=0A=
+</SCRIPT>
+    =20
+<SCRIPT =
+src=3D"https://ssl.gstatic.com/codesite/ph/11512667522589661435/js/ph_cor=
+e.js" type=3D"text/javascript"></SCRIPT>
+     </DIV>
+<DIV id=3D"footer" dir=3D"ltr">
+<DIV class=3D"text"><A=20
+href=3D"https://code.google.com/projecthosting/terms.html">Terms</A> -  =
+<A href=3D"http://www.google.com/privacy.html">Privacy</A>=20
+-  <A href=3D"https://code.google.com/p/support/">Project Hosting =
+Help</A> =20
+</DIV></DIV>
+<DIV class=3D"hostedBy" style=3D"margin-top: -20px;"><SPAN =
+style=3D"vertical-align: top;">Powered=20
+by <A href=3D"http://code.google.com/projecthosting/">Google Project=20
+Hosting</A></SPAN>  </DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: https://code.google.com/p/android-apktool/logo?cct=1367694978
+
+iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABHNCSVQICAgIfAhkiAAAEE5JREFU
+aIG1mnusZ1dVxz9773N+j3tnbmfKdJgpnfqIRQiJgU4pmEgDPkhDpCokROWhNSjaRBSMUaIQRQgg
+BTQoyssBsSmWjDXoH7QoIkXAgUpSaEBkCH2XMjP39TvPvdde/rHP73Xv73dnBuu+OTm/+zt7r72/
+67vW2muv3zHP/NEf0et+/FqqssY5BygX23QyRDnx3pO84Geey7HvO0pdNThnL1oeGEII7Nu/yj1f
+/hpf/PxXuPFVL6Y6rzyDiOhwZcBnPnWK7MeedzV/9KabOLO5Tn/QQ+MFgDNMdWCYjFFVTn70E/zS
+r93Ac667hvWtLfJ+BnFmHJxXf8Yaqqrh8gOHOfG3J/n26Qd5w5tvYn1rk7yXLZVhrKFtPE9YO8Ab
+/iCQbY+2eOjs/ayf3aLXz1H9XphTwKCqiAhnzj3Gw2ceYGN9m7yXz1J7Qc0YQ123qKlZ3zyHF8/D
+Z+5nY31Enrs9x/k20IRttkdbZMYKJvPgPDjmFjImyBgmi1+Cbno3Ci6A8xjnMU4XYjNJ6GKZxqSx
+WYuxAVCM8+BajMuWE28MuIDJPcYKWZCW2m/ThhHqsvmFaOqvCjFG7DJ7V0W7haoqPlTUYZs6jBCT
+7eibZEZRMGCtoSN+bo1t8NQhx0uNaqQO2zRhRNwpbwe2EITGW3xoyEQ9bShoQ9mB282ctYas52ib
+MOduswsGiKqA4qXC+wIfSjAZOjPCGNAIec+hCo0XjJ23XGMMTfC0PifEBiXShrE8t5Q5YwxBhLJS
+jItkEj2tjGhjATLPnKpinaXaalg/U3D0yoMpeBgzq+iJQhJzES81jYzwUqF23keiKlnmeOS+DbLc
+8YTL9uO9YM1UojHgJdBIRpAG1Ui7QN4s4YkEqOqWA4dzzp3ZGIMraKUEcVNwBnwTOHhoH5/79Df4
+qzd9kg/9y2/QeL8rHE/Bpc8h1p3MijizGGOgrjxHjx3k3Tf9E0980iX83ttfyMP3bTJYySdzGwOt
+BFqxc8ztlLeTtXKr4dgPHuK9N/8zd5y8h0y0pQkj2lCB3QEuCE2AIDWgtGFEGwJOl4PDJLNMfWui
+mQfXhkATclSFqCHNLSU2ZPPgQqANBomJuSYUtKGakzeRaw1V0XD02KV88F138uGbv8SnPv1JshiT
+z3mpUHFz+5cXoZVIiDVRY8dGwHE+5qqub0O0075TRhwSAxLbpAQpsDIPzovQBJOYU02us0MepHhQ
+brYcvfIAf/eXd3HiLXfzxbs/x9VXHyeT2E4Hip2AM8bQitCGSJAajQmcF0HmPK7bAZiJllJ3ZrQT
+nMFLoA2WGAMSPY10zMk0mCUlRFrRqVkuUhaGettz5Ngat77nC3zk7fdy6kv/wdVXH6eq6tlo2aDW
+zpllkEgTAkEbbEbXT7C6G9yEQRPxUnWm3hLNDuY6Uzcugklm6UOBDW6Hz0XaIB1zsTPzqTxjwLfC
+E46scttf/xe3vuObfOHUXRw/fg113TAcDqbMefGo2HnTCBEfA01bUW57vBS0ErEzzI0ZmzfLcUDx
+SWFjEzIka4hKWbRUpcXLiFYqrDjinFlGGpEJc40UaY3WJsW3kdW1Hrd/4F5uvfnbnPrSZ7nm+DOp
+65rBYACQomUT0kLiBJxiMIhGqrphsBZ48vF91H5EEN1hlExMeQzOS0UrOV5CB04nZhQ0UpSeY0/p
+s3ZpRlFuE7SlCTP9jMFLpA1tcokxcxKI1iIS6fUtD3xrxK03n+buL/8nz3j6ccqyYmVlOFlWFlWQ
+6JHoMdHO79AOykK48qkDbnzj99PWHmzahOfNcsqcMUrU5E9J9rwqXA7b68JP/+oRVGFro8LlIFGm
+nQxIjEiEqIKqEqNHYsBosoSmCew76LjiyQP+4s/fzwdPHMdZi6pOUrvMGMPstYuRLlWqW8VlZn7n
+XNjm5e2UqQrGQlsnDVlnOqXMidglY3KpwViIAlk/8up3X8UfvuS9tG3LR275G+qqYTDsJ9mKTqLc
+rsvoRBMuS4nznv3nMpXFl+lkWmewLiVzO3W6s43NfXZN1hnaRskHys0ffxb/cMcJXvaLNzIY9qmr
+BkWxZoGmjTGM/2a1uYiVRSwtfza+xovW+YUvVZhO59Z0V1Wy3OIbxceKt568ln+880O89Bd+eQJw
++bHWMGEtRiW0sTshXPx5byJyVqZcuBznzHTuLnM3xqBRyXsW8RC05i0nn8Xtd36YV7zsV9JWsFTi
+WECnod5+SzUKu/3yIprOyOwNLW0Vl/pvYjR9bqo4DRRjn+9kxQ6gbyMmr3jb7c/kdS8+QfFzxR7g
+DJOBZx9tuO/ekqc/9wBRFGO/N4DGgITIYNVxz12bnPyzB4lR0bg7TqlClkO5HXn68y6ZSy4m9wUA
+3bDlj295Bm++8ba9wUmIrF6S8dD/VNz2zge4+icPEnzE/R/AhaAMVi2fvf27XPHDQ2541ZM492hL
+b2AWn9it4YqrhvhxtN6xxjmAfUtdCGuHHNfdcOxCzdKw70A2t4d8Ly25TBqf9y2XXdHnqdfu57EH
+G/pDuxAcCnUpyWJmzXIJQOsMUWB7q96bORgDpAsoC8/hF9zMjMwoSltHii2h3BLEL661APOMLdLt
+jFxIALPMkmlUokyv2SPP5Puoc//vbDtzyzgjc5botPlO5zEmfWdtui8s15F8f3ltgd1rDmkNmc0s
+vYEj70eyvp3raIxJz3KLtZZ84EANdoftT8DFNCbPk0zfgMu7vl3OGvvQGzhsZnHO0us7sp4j7+8w
+y0lUnMmmlzybuIoBcWnNWW7JqlHgzMMVxVYgy80cuOCVtglsnWvxbeDcIxW+jl1msQCcJs1tnm05
+83BFNRLcpG/KSJpSMCbSlJ5yZPjuQxXnvtPSXxJQ6BIAjXHBo5QURI0JaxcE6zJQbLWY/rCnw9U+
+Me5Og8YKiqIEr/QGe5fGFdheL1jZPyDLM3RGpqrSVDW9wQDrDL5JPpz1TMf4grmNQbzHe89gZSUF
+tE6J1hratkUlMhwOJvmpJowEr2TXv+LlvPR3X8vWuXXyfm9hBtJlXksdnglzymuvv4HffMfbeNqz
+r2W0sYl1lrzX48wjj/D6l7ycP7ntIxw6ehTfNljnFod/Y2jrhkufeJhP3nobH3//Cd51x8cZbWyQ
+9/vUZcmRY8f4wJveyvZX/5tb/v6jNHVNfzCYpoBAlu9bYd+TDhP7jqzfX4igc5elCe5swmycY3jo
+APsuvwwd9rDO0uv3KcVjM8vK4UPsu/wwTVVjnVso0xhDU9fsO3qYwaVruF7GvssPo8OcvN/HFQX7
+L38i+doKqysDjh49goSAy+aDf1Z7z3pRsFWU5CHMMzdfKV3s3GNQ3T2qslVVnBuNKIoRxlpy79ks
+C2JUNsuCbDTCN4m5RcocM2dGI4q6QUQ4NxoxGo3IvacuSwbFNmXTQoyISDqBD4dz+3DWhsB221D4
+lszqhCZjLDabqYZNgKXPEsIucFE1FZJUqVBqFIsiKA2KGmi6773GXbWY2eaJVCieSARqInUnq+7k
+e5S+sTjnJtccc3Y4gP2r0DQw6EG3p3kfaMuy84tUdhifFAD6qysTBmeZs/2cWoWRb6nEY6Mlc5ZS
+PKpKGTz94PHBY2eP9HP7lcEHT+ZbGhEiyih4iuDJnaURzyh42igM9jilZA988zR3/9u/U29uYfN8
+ssiVtf0cecpV+KqZJMrpkOiQEDj9+a9OwvMEHDA6c46ybShjoAweay2ZWMoQQA2lBHri8eKx7A7v
+Y3BBApl4mpjKDIV4SvFkksAVoaWJsmc6mI2+fC933PT7kxRGSQDWt7b4qbe+nqt+4jrqzS1cv4c0
+Lf21/XziDX/K1z/xr/QvWUOaNh0inUVj5MpnX8P+q36Ac5ubSVrwZJmlkoAapZJALh4vgWldDGaT
+xnF904qnjkJUKIKnlEAmjlYCIwm0UWb8fzeD2TdPn54LEHVVMVgZ8qLrX8C9XzjFD73w+Ww/9hi9
+zBIkIFH41udO8ZzX/TZP+/mfpXj0u7hBH6OpdmWsJThLE9ouh5TEXAyoQhkDTjxhhjntfNWOfcaY
+9LwzvYgyEk/dMdeKpxBPGyNmNuvY0axzDmft/GUs1jpiL2fbNxQSkuZCoJBANhxSR6GQQKmBUjwj
+ST7xsZf+Ovfd81V8v8d2U1OKUIRA2UXiMoT0vwjbTU3Ty3jwa9/g9ht/i5FvKbyn8ImlUQg0UYiq
+nQyhCJ4ipPW0UWZKIQuYW2qwqtTeJwAS8OKJncZDN+kY8Ph8pzGy/dCjFHVNET1t8BhrsWKoYmeW
+MWA6WRojIQpFWbJ5/0OUwU/SLRGPSvKrSPK5VjxW0s9b/R3gFlRTU2lvthljMcZgjaHV2Gk5kEkg
+jkECrQqjGGhiwMb066GqYgc9ao2MQsBLqjPa0PmcQikBDUmWxph+QSViBz0KCRNwUQIiIUVLpQMX
+sJKCTU8CzYxZmkXgdhHGdD9ro1BISyGeXBxRUghXlEYSc0034RhcDEIdAkXHMpqYa0LaCqqOtSge
+YiQTTx0CMQiF+BT9OnAhdNESpQgpwhqBIJ5c2rmAohdilmMNGDW0URh1/pKFQBzfVWliZBQ8PoTu
+d+1U0VGgioE8hLTR23RcaqKgxlCKIJ0sYsSFkEwW0nYxZi4EfPA0MRJVGYVACAHr0jsqWUjR0qiZ
+W/d5wI3NUxFVgkaCRtBI7O6qinTfB43Y7ju6oul4nHSVH9t9VpiMm8qKSDcuaOyW2R1jxuNm1mFn
+5pWuyDu77vOY5fh+/gLsopL5ziIvs/1gj2cLvruASycB5QLAzVXOLrJkTrdfqU5f3WCPccz0G4+b
+KPkC5htnRhfM3BzQiyiZj5vt9TA2Rc/xSXnhuFTHSP2sTeOWMLdzvvH/O9d6UeAuuM0w4dc3UB8m
+ZUGz7PBu6E7qBvUhjdPl/jM3dCzbGCQE6qqiqdLv9nNHnscFXOdPGMOx17yS/hVHiG2LcW6xM0A6
+/DpHbFv6Vxzh2GtemRjv5CxtOvN7gyor+/czGA4ZDIe7uj6+4IDLXnQ9UlWJPWvRsCTzV1Ky7QP5
+oYNp3KiYyFs+V1dbEWE4GPCVz5zi3W9/B6FpyPL8/4G5Gcf36xsY5xIw1eU2ZqYMqA/4egPTlQn2
+NMuouF5Ovb7BFTc8n28/9B1efcv7OoHzinzcmTO93gTs2DcWtplyvbG2M+HFZYz5cak/UXFrqzzl
+jb9D3usxOTI97sztmDytb1ooXdjmSuDTcedtY4UZAyHSnF2nmjvR7wVuZl+ZdDbMXLP18ZlnSxez
+4LlZ8v2u54vnmijEWUzWm3t1ZG9wM/uISiS2LbENxCyke9umDVRk8mzXO4UzTSWCsWh3ntMwlhMw
+y97fNGY6l3RvM4znOh/BF8qcGfTJDx4g2y7IVwdI7ckPrGGcxa4MyQ8eQL3gxoWlBS1KxA16xLrG
+WINb209+cA2p2+Uvp1qD1C35wQPYlSHGWfKDB8BYXH4eT9oTXHfwtIM+7Rfv4f6b30d5bgObZ6gI
+tt/Hn91g/c67aO5/GCkqTLa4/jhWlnEOKUpiWfPoiY/hVldQEZYGDmPQILjVIeXXT+PPbvDAOz9A
+bJrpXngB7X8BO9jS9APQUmIAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/core.css
+
+body {
+	background: rgb(255, 255, 255); font: 82%/normal arial, sans-serif; =
+margin: 3px 0px; min-width: 768px; font-size-adjust: none; font-stretch: =
+normal;
+}
+.headbg {
+	margin: 0px 8px;
+}
+a:link {
+	color: rgb(0, 0, 204);
+}
+a:focus {
+	color: rgb(0, 0, 204);
+}
+a:active {
+	color: red;
+}
+select {
+	font-family: arial,sans-serif;
+}
+input {
+	font-family: arial,sans-serif;
+}
+input[type=3D'text'] {
+	border-width: 1px; border-style: solid; border-color: rgb(153, 153, =
+153) rgb(204, 204, 204) rgb(204, 204, 204); padding: 2px 1px;
+}
+input[type=3Dbutton] {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: =
+solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, =
+136); padding: 1px 3px; border-radius: 3px; border-image: none; =
+font-size: 100%; text-decoration: none; vertical-align: baseline; =
+cursor: pointer;
+}
+input[type=3Dsubmit] {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: =
+solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, =
+136); padding: 1px 3px; border-radius: 3px; border-image: none; =
+font-size: 100%; text-decoration: none; vertical-align: baseline; =
+cursor: pointer;
+}
+.buttonify {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left top rgb(227, 227, 227); border-width: 1px; border-style: =
+solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, =
+136); padding: 1px 3px; border-radius: 3px; border-image: none; =
+font-size: 100%; text-decoration: none; vertical-align: baseline; =
+cursor: pointer;
+}
+.buttonify {
+	color: rgb(0, 0, 0) !important;
+}
+input[type=3Dbutton]:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+input[type=3Dsubmit]:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+.buttonify:hover {
+	border-color: rgb(102, 102, 102); text-decoration: none !important;
+}
+.capsule_left {
+	border-right-color: currentColor; border-right-width: 0px; =
+border-right-style: none; border-top-right-radius: 0px; =
+border-bottom-right-radius: 0px;
+}
+.capsule_right {
+	border-top-left-radius: 0px; border-bottom-left-radius: 0px;
+}
+.capsule_middle {
+	border-radius: 0px; border-right-color: currentColor; =
+border-right-width: 0px; border-right-style: none;
+}
+.mode_button_active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, =
+170);
+}
+.buttonify:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, =
+170);
+}
+input[type=3Dbutton]:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, =
+170);
+}
+input[type=3Dsubmit]:active {
+	background: url("//ssl.gstatic.com/codesite/ph/images/button-bg.gif") =
+repeat-x left bottom rgb(187, 187, 187); border-color: rgb(170, 170, =
+170);
+}
+textarea {
+	border-width: 1px; border-style: solid; border-color: rgb(153, 153, =
+153) rgb(204, 204, 204) rgb(204, 204, 204);
+}
+td td {
+	font-size: 100%;
+}
+th th {
+	font-size: 100%;
+}
+th td {
+	font-size: 100%;
+}
+td th {
+	font-size: 100%;
+}
+pre {
+	font-size: 110%;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+.gtb {
+	background: rgb(235, 239, 249); padding: 5px 10px 0px 5px; =
+border-bottom-color: rgb(107, 144, 218); border-bottom-width: 1px; =
+border-bottom-style: solid; white-space: nowrap;
+}
+.gtb .tab {
+	margin: 5px 15px 6px 10px; color: rgb(0, 0, 204); float: left; cursor: =
+pointer;
+}
+.gtb .active {
+	background: rgb(255, 255, 255); border-width: 1px 1px 0px; =
+border-style: solid solid none; border-color: rgb(107, 144, 218) =
+rgb(107, 144, 218) currentColor; margin: 0px 5px -1px 0px; padding: 5px =
+9px 6px; border-image: none; color: rgb(0, 0, 0); font-weight: bold; =
+text-decoration: none; cursor: default;
+}
+.gtb .gtbc {
+	clear: left;
+}
+.subt {
+	background: rgb(255, 255, 255); padding: 0px 0px 0px 14px; height: =
+33px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+table {
+	border-collapse: separate;
+}
+.box-inner {
+	margin: 0px; padding: 0px 13px;
+}
+.round1 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, =
+255, 255); border-right-width: 1px; border-left-width: 1px; =
+border-right-style: solid; border-left-style: solid;
+}
+.round2 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, =
+255, 255); border-right-width: 2px; border-left-width: 2px; =
+border-right-style: solid; border-left-style: solid;
+}
+.round4 {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, =
+255, 255); border-right-width: 4px; border-left-width: 4px; =
+border-right-style: solid; border-left-style: solid;
+}
+.round1 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.round2 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.round4 {
+	margin: 0px; padding: 0px; height: 1px; font-size: 0px;
+}
+.bevel-left {
+	padding: 0px;
+}
+.bevel-right {
+	padding: 0px;
+}
+.bevel-right .round4 {
+	border-left-color: currentColor; border-left-width: medium; =
+border-left-style: none;
+}
+.bevel-right .round2 {
+	border-left-color: currentColor; border-left-width: medium; =
+border-left-style: none;
+}
+.bevel-right .round1 {
+	border-left-color: currentColor; border-left-width: medium; =
+border-left-style: none;
+}
+.bevel-left .round4 {
+	border-right-color: currentColor; border-right-width: medium; =
+border-right-style: none;
+}
+.bevel-left .round2 {
+	border-right-color: currentColor; border-right-width: medium; =
+border-right-style: none;
+}
+.bevel-left .round1 {
+	border-right-color: currentColor; border-right-width: medium; =
+border-right-style: none;
+}
+.bevel-left .box-inner {
+	padding: 0px;
+}
+.bevel-right .box-inner {
+	padding: 0px;
+}
+.bubble_bg {
+	background: rgb(195, 217, 255); margin-bottom: 0.6em;
+}
+.bubble {
+	padding: 4px;
+}
+#bub {
+	padding: 0px 1px;
+}
+.bub-top {
+	margin: 0px 2px 2px;
+}
+.bub-bottom {
+	margin: 2px 2px 0px;
+}
+.drop-down-bub {
+	font-size: 80%; margin-top: -1px;
+}
+.t5 h4 {
+	margin: 4px 4px 0px; padding: 2px; border-top-color: rgb(51, 102, 204); =
+border-top-width: 1px; border-top-style: solid; background-color: =
+rgb(229, 236, 249);
+}
+.t5 .section {
+	margin: 0px 4px 1.6em; padding: 4px;
+}
+.t5 .section .submit {
+	margin: 8px;
+}
+#maincol {
+	background: rgb(255, 255, 255); padding: 3px;
+}
+.isf a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.at a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.isf a:visited {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.at a:visited {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+.isf a:hover {
+	color: rgb(0, 0, 204); text-decoration: underline;
+}
+.at a:hover {
+	color: rgb(0, 0, 204); text-decoration: underline;
+}
+.st1 .inst1 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st2 .inst2 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st3 .inst3 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st4 .inst4 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st5 .inst5 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st6 .inst6 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st7 .inst7 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st8 .inst8 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.st9 .inst9 a {
+	height: 20px; color: rgb(0, 0, 0); font-weight: bold; text-decoration: =
+none;
+}
+.notice {
+	background: rgb(255, 241, 168); font-weight: bold;
+}
+.error {
+	background: rgb(255, 241, 168); font-weight: bold;
+}
+.adminonly {
+	color: rgb(170, 0, 0); font-style: italic;
+}
+.fieldhelp {
+	color: grey;
+}
+.fielderror {
+	padding: 4px; color: rgb(170, 0, 0); font-weight: bold;
+}
+.tip {
+	background: rgb(229, 236, 249); margin: 5px; width: 14em; font-size: =
+92%;
+}
+.tip .box-inner {
+	padding: 6px;
+}
+.gbh {
+	top: 24px; width: 100%; height: 0px; font-size: 1px; border-top-color: =
+rgb(201, 215, 241); border-top-width: 1px; border-top-style: solid; =
+position: absolute;
+}
+#plogo {
+	width: 55px; text-align: center; vertical-align: bottom;
+}
+#pname {
+	margin: 0px; padding: 0px; font-size: 300%;
+}
+#pname a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#pname a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#project_summary_link {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+.vt {
+	vertical-align: top;
+}
+.indicator {
+	color: rgb(0, 0, 204); font-size: x-small;
+}
+div.h4 {
+	padding: 2px; font-weight: bold; margin-top: 2px; margin-bottom: 2px; =
+border-top-color: rgb(51, 102, 204); border-top-width: 1px; =
+border-top-style: solid; position: relative; background-color: rgb(229, =
+236, 249);
+}
+table.h4 {
+	padding: 2px; font-weight: bold; margin-top: 2px; margin-bottom: 2px; =
+border-top-color: rgb(51, 102, 204); border-top-width: 1px; =
+border-top-style: solid; position: relative; background-color: rgb(229, =
+236, 249);
+}
+.mainhdr {
+	padding: 2px; font-size: 133%; font-weight: bold; border-bottom-color: =
+rgb(107, 144, 218); border-bottom-width: 1px; border-bottom-style: =
+solid; background-color: rgb(235, 239, 249);
+}
+.secondaryhdr {
+	padding: 10px; border-right-color: rgb(221, 221, 221); =
+border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(221, =
+221, 221); border-right-width: 1px; border-bottom-width: 1px; =
+border-left-width: 1px; border-right-style: solid; border-bottom-style: =
+solid; border-left-style: solid; background-color: rgb(238, 238, 238);
+}
+.messagebox {
+	padding: 10px; border: 1px solid rgb(221, 221, 221); border-image: =
+none; background-color: rgb(238, 238, 238);
+}
+h1 {
+	font-size: x-large; margin-top: 0px;
+}
+h2 {
+	font-size: large;
+}
+h3 {
+	background: rgb(229, 236, 249); padding: 0.5ex 0.5em; font-size: =
+medium; margin-right: 2em; border-top-color: rgb(51, 102, 204); =
+border-top-width: 1px; border-top-style: solid;
+}
+h4 {
+	font-size: small;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+#gaia {
+	text-align: right; margin-bottom: 10px;
+}
+#gaia a {
+	color: rgb(0, 0, 204); text-decoration: none;
+}
+#header {
+	height: 55px; padding-top: 6px; margin-bottom: -9px; position: =
+relative;
+}
+#logo {
+	left: 0px; top: 0px; padding-right: 18px; position: absolute;
+}
+#logo img {
+	width: 153px; height: 55px;
+}
+#title {
+	padding-top: 1px; padding-bottom: 1px; padding-left: 3px; font-size: =
+large; font-weight: bold; margin-left: 171px; border-top-color: rgb(51, =
+102, 204); border-top-width: 1px; border-top-style: solid; =
+background-color: rgb(229, 236, 249);
+}
+#footer {
+	background-position: left; height: 53px; text-align: center; clear: =
+both; margin-top: 3.5em; margin-bottom: 1em; background-repeat: =
+no-repeat;
+}
+#footer .text {
+	padding-top: 20px;
+}
+.label {
+	color: green !important; text-decoration: none;
+}
+.label:hover {
+	text-decoration: underline;
+}
+.results {
+	border-right-color: rgb(187, 187, 187); border-left-color: rgb(187, =
+187, 187); border-right-width: 1px; border-left-width: 1px; =
+border-right-style: solid; border-left-style: solid;
+}
+#colcontrol {
+	padding: 5px;
+}
+.cuetip {
+	background: rgb(229, 236, 249); border-bottom-color: white; =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+.results th {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.results th {
+	border-left-color: currentColor; border-left-width: 0px; =
+border-left-style: none;
+}
+.results th:last-child {
+	border-right-color: currentColor; border-right-width: 0px; =
+border-right-style: none;
+}
+.results tr td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+.results tr:last-child {
+	border-bottom-color: currentColor; border-bottom-width: 0px; =
+border-bottom-style: none;
+}
+.results th {
+	background: rgb(238, 238, 238); text-align: left; padding-right: 1px; =
+border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, =
+204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+.results_lite th {
+	background: rgb(238, 238, 238); text-align: left; padding-right: 1px; =
+border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, =
+204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: =
+solid; border-bottom-style: solid;
+}
+.results th a {
+	color: rgb(0, 0, 204); padding-right: 4px; margin-right: 4px;
+}
+.results th a:visited {
+	color: rgb(0, 0, 204); padding-right: 4px; margin-right: 4px;
+}
+.results td {
+	background: rgb(255, 255, 255);
+}
+.results td {
+	cursor: pointer;
+}
+.results td {
+	padding: 4px;
+}
+.results td a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.results td.id a {
+	color: rgb(0, 0, 204); text-decoration: underline; white-space: nowrap;
+}
+.results td.id a:visited {
+	color: purple; text-decoration: underline;
+}
+.results td.id a:hover {
+	color: red; text-decoration: underline;
+}
+table.results tr.hover td {
+	color: rgb(0, 0, 153); background-color: rgb(244, 244, 255);
+}
+table.results tr.hover td a {
+	color: rgb(0, 0, 153);
+}
+.results .label {
+	font-size: 80%;
+}
+.results .selected td {
+	background: rgb(255, 255, 204);
+}
+.results td tt {
+	color: rgb(153, 153, 153); font-style: italic; font-weight: bold;
+}
+.results .displayproperties {
+	color: rgb(102, 102, 102); font-size: 80%;
+}
+.grid td {
+	border-right-color: rgb(204, 204, 204); border-right-width: 1px; =
+border-right-style: solid;
+}
+.grid td {
+	border-left-color: currentColor; border-left-width: 0px; =
+border-left-style: none;
+}
+.grid td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; =
+border-right-style: none;
+}
+.flipper {
+	font-family: monospace; font-size: 120%;
+}
+.flipper ul {
+	margin: 0em 0.3em; padding: 0px; list-style-type: none;
+}
+.flipper b {
+	margin: 0em 0.3em;
+}
+.closed .ifOpened {
+	display: none;
+}
+.closed .opened span.ifOpened {
+	display: inline;
+}
+.opened .ifClosed {
+	display: none;
+}
+.opened .closed span.ifClosed {
+	display: inline;
+}
+.h3 {
+	font-size: 130%; font-weight: bolder;
+}
+input {
+	padding-right: 1px; padding-left: 1px;
+}
+textarea {
+	padding-right: 1px; padding-left: 1px;
+}
+.pagination {
+	font-size: 100%; float: right; white-space: nowrap;
+}
+.pagination a {
+	margin-right: 0.3em; margin-left: 0.3em;
+}
+.author {
+	margin-bottom: 1em;
+}
+#searchtips {
+	padding-left: 2em;
+}
+#searchtips p {
+	margin-left: 2em;
+}
+.issueList .inIssueList span {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueAdvSearch .inIssueAdvSearch a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueSubscriptions .inIssueSubscriptions a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+.issueSearchTips .inIssueSearchTips a {
+	color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;
+}
+iframe[frameborder=3D'1'] {
+	border: 1px solid rgb(153, 153, 153); border-image: none;
+}
+.menuDiv {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; =
+border-color: rgb(201, 215, 241) rgb(51, 102, 204) rgb(51, 102, 204) =
+rgb(162, 186, 231); padding: 0px; width: 175px; overflow: hidden; =
+margin-top: 5px; z-index: 1001;
+}
+.menuDiv .menuText {
+	background: rgb(255, 255, 255); padding: 3px; text-decoration: none;
+}
+.menuDiv .menuItem {
+	background: rgb(255, 255, 255); padding: 3px; color: rgb(0, 0, 204); =
+text-decoration: none;
+}
+.menuDiv .menuItem:hover {
+	background: rgb(51, 102, 204); color: rgb(255, 255, 255);
+}
+.menuDiv .categoryTitle {
+	padding-left: 1px;
+}
+.menuDiv .menuCategory {
+	margin-top: 4px;
+}
+.menuDiv .categoryTitle {
+	margin-top: 4px;
+}
+.menuDiv .menuSeparator {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: =
+rgb(201, 215, 241) currentColor currentColor; margin: 0px 0.5em; =
+border-image: none;
+}
+.hostedBy {
+	text-align: center;
+}
+.fullscreen-popup {
+	background: rgb(0, 0, 0); padding: 1em; border-radius: 10px; left: 4%; =
+top: 5%; right: 4%; color: white; position: fixed; z-index: 10; =
+-ms-overflow-x: hidden; -ms-overflow-y: hidden; max-height: 90%; =
+opacity: 0.85; text-shadow: 1px 1px 7px #000; -moz-opacity: 0.85;
+}
+.fullscreen-popup a {
+	color: rgb(221, 221, 0);
+}
+div#keys_help th {
+	text-align: left; color: yellow;
+}
+div#keys_help td {
+	color: white; font-weight: normal;
+}
+td.shortcut {
+	text-align: right;
+}
+span.letter {
+	color: rgb(136, 221, 0); font-family: monospace; font-size: medium;
+}
+#ac-list {
+	background: rgb(255, 255, 255); padding: 2px; border: 1px solid =
+rgb(187, 187, 187); border-image: none; color: rgb(0, 0, 204); z-index: =
+10; -ms-overflow-x: hidden; -ms-overflow-y: auto; max-height: 18em;
+}
+#ac-list {
+	font-size: 95%;
+}
+#ac-list tr {
+	margin: 1px; padding: 0px 10px; cursor: pointer;
+}
+#ac-list th {
+	text-align: left; color: rgb(51, 51, 51);
+}
+#ac-list .selected {
+	background: rgb(195, 217, 255);
+}
+#ac-list .selected td {
+	background: rgb(195, 217, 255);
+}
+#ac-list td {
+	padding-right: 22px; white-space: nowrap;
+}
+#ac-list th {
+	padding-right: 22px; white-space: nowrap;
+}
+.list {
+	padding: 5px; border-top-color: rgb(187, 187, 187); border-right-color: =
+rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); =
+border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; =
+border-top-style: solid; border-right-style: solid; border-left-style: =
+solid; background-color: rgb(235, 239, 249);
+}
+.list-foot {
+	padding: 5px; height: 20px; border-right-color: rgb(187, 187, 187); =
+border-bottom-color: rgb(187, 187, 187); border-left-color: rgb(187, =
+187, 187); border-right-width: 1px; border-bottom-width: 1px; =
+border-left-width: 1px; border-right-style: solid; border-bottom-style: =
+solid; border-left-style: solid; background-color: rgb(235, 239, 249);
+}
+.graytext {
+	color: rgb(102, 102, 102);
+}
+.vspacer {
+	margin-top: 1em;
+}
+.hspacer {
+	margin-right: 1em;
+}
+.emphasis {
+	font-weight: bold;
+}
+.formrow {
+	overflow: hidden; padding-top: 0.2em; padding-bottom: 0.56em; =
+vertical-align: top; white-space: nowrap;
+}
+.forminline {
+	vertical-align: top; display: inline-block;
+}
+.formlabelgutter {
+	width: 13em; text-align: right; margin-top: 0.3em; vertical-align: top; =
+white-space: normal;
+}
+.formlabel {
+	text-align: right; font-weight: bold;
+}
+.forminputgutter {
+	width: 36em; text-align: left; margin-top: 0.3em; vertical-align: top; =
+white-space: normal;
+}
+.forminputgutter input[type=3D'checkbox'] {
+	float: left;
+}
+.forminput {
+	width: 100%;
+}
+.formshortinput {
+	width: 11em;
+}
+.formselectgutter {
+	width: 18em; text-align: left; margin-top: 0.3em; vertical-align: top; =
+white-space: normal;
+}
+.formselect {
+	width: 18em;
+}
+.formqm {
+	margin-right: 0.25em; margin-left: 0.25em;
+}
+.formerror {
+	text-align: left; color: rgb(170, 0, 0); display: block;
+}
+.tablerow {
+	overflow: hidden; padding-top: 0.2em; padding-bottom: 0.56em; =
+vertical-align: top; white-space: nowrap;
+}
+.tablelabelgutter {
+	width: 10em; text-align: left; margin-top: 0.3em; vertical-align: top; =
+white-space: normal;
+}
+.tablelabel {
+	text-align: left; font-weight: bold;
+}
+.userlink {
+	white-space: nowrap;
+}
+.ph-visibility-icon {
+	margin: 10px; vertical-align: bottom;
+}
+dl.displaychoicelist dd {
+	margin-bottom: 1em;
+}
+dl.displaychoicelist input {
+	vertical-align: top;
+}
+html > body .goog-inline-block {
+	display: inline-block;
+}
+.goog-inline-block {
+	display: inline-block; position: relative;
+}
+* html .goog-inline-block {
+	display: inline;
+}
+*:first-child + html .goog-inline-block {
+	display: inline;
+}
+.downloads-deprecation-notice {
+	padding: 5px; text-align: center; margin-left: 9em; display: =
+inline-block; background-color: rgb(255, 241, 168);
+}
+.SPRITE_close_icon {
+	background: url("sprite.png") no-repeat -79px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_comments {
+	background: url("sprite.png") no-repeat -95px 0px; width: 14px; height: =
+12px;
+}
+.SPRITE_dl_arrow {
+	background: url("sprite.png") no-repeat -119px 0px; width: 25px; =
+height: 16px;
+}
+.SPRITE_downarrow {
+	background: url("sprite.png") no-repeat -30px 0px; width: 10px; height: =
+12px;
+}
+.SPRITE_filedownload-g16 {
+	background: url("sprite.png") no-repeat -14px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_lock_grey {
+	background: url("sprite.png") no-repeat -15px 0px; width: 15px; height: =
+16px;
+}
+.SPRITE_minus {
+	background: url("sprite.png") no-repeat -30px -12px; width: 9px; =
+height: 9px;
+}
+.SPRITE_new-24 {
+	background: url("sprite.png") no-repeat -55px 0px; width: 24px; height: =
+24px;
+}
+.SPRITE_pagination-first {
+	background: url("sprite.png") no-repeat -111px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_pagination-last {
+	background: url("sprite.png") no-repeat -127px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_pagination-next {
+	background: url("sprite.png") no-repeat -144px 0px; width: 16px; =
+height: 16px;
+}
+.SPRITE_pagination-prev {
+	background: url("sprite.png") no-repeat -164px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_paper_pencil-y16 {
+	background: url("sprite.png") no-repeat -164px 0px; width: 16px; =
+height: 16px;
+}
+.SPRITE_paperclip {
+	background: url("sprite.png") no-repeat 0px 0px; width: 15px; height: =
+15px;
+}
+.SPRITE_pencil-y14 {
+	background: url("sprite.png") no-repeat 0px -16px; width: 14px; height: =
+14px;
+}
+.SPRITE_people-y16 {
+	background: url("sprite.png") no-repeat -79px 0px; width: 16px; height: =
+16px;
+}
+.SPRITE_plus {
+	background: url("sprite.png") no-repeat -30px -21px; width: 9px; =
+height: 9px;
+}
+.SPRITE_question-16 {
+	background: url("sprite.png") no-repeat -95px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_show-arrow {
+	background: url("sprite.png") no-repeat -160px 0px; width: 4px; height: =
+12px;
+}
+.SPRITE_star_off {
+	background: url("sprite.png") no-repeat -40px -15px; width: 15px; =
+height: 15px;
+}
+.SPRITE_star_on {
+	background: url("sprite.png") no-repeat -40px 0px; width: 15px; height: =
+15px;
+}
+.SPRITE_tearoff_icon {
+	background: url("sprite.png") no-repeat -144px -16px; width: 16px; =
+height: 16px;
+}
+.SPRITE_triangle {
+	background: url("sprite.png") no-repeat -109px 0px; width: 10px; =
+height: 12px;
+}
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ssl.gstatic.com/codesite/ph/11512667522589661435/css/ph_detail.css
+
+.pmeta_bubble_bg {
+	background: rgb(229, 236, 249); margin-bottom: 0.6em;
+}
+.pmeta {
+	text-align: left;
+}
+.pmeta th {
+	vertical-align: top;
+}
+.pmeta td {
+	vertical-align: top;
+}
+.pmeta ul {
+	margin: 0px; padding: 0px;
+}
+.pmeta li {
+	padding: 0px 0px 2px; list-style-type: none;
+}
+#wikipage {
+	background: rgb(248, 248, 248); padding-bottom: 10px;
+}
+#wikipage #wikimaincol {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+#wikimaincol {
+	padding: 5px 25px 10px 10px; min-width: 64em; background-color: =
+rgb(255, 255, 255);
+}
+#wikiheader {
+	padding-top: 10px; margin-bottom: 12px;
+}
+#wikicontent h1 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikicontent h2 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikicontent h3 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikipreview h1 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikipreview h2 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikipreview h3 {
+	background: none; border: 0px currentColor; border-image: none; =
+padding-left: 0px; max-width: 700px;
+}
+#wikicontent h3 {
+	margin: 0px;
+}
+#wikipreview h3 {
+	margin: 0px;
+}
+#wikicontent ul {
+	padding-left: 25px; max-width: 62em;
+}
+#wikipreview ul {
+	padding-left: 25px; max-width: 62em;
+}
+#wikicontent ol {
+	padding-left: 25px; max-width: 62em;
+}
+#wikipreview ol {
+	padding-left: 25px; max-width: 62em;
+}
+#wikicontent li {
+	margin-bottom: 0.3em;
+}
+#wikipreview li {
+	margin-bottom: 0.3em;
+}
+#wikicontent p {
+	line-height: 1.25em; max-width: 64em;
+}
+#wikipreview p {
+	line-height: 1.25em; max-width: 64em;
+}
+#wikicontent hr {
+	width: 100%; color: rgb(204, 204, 204); background-color: rgb(204, 204, =
+204);
+}
+#wikipreview hr {
+	width: 100%; color: rgb(204, 204, 204); background-color: rgb(204, 204, =
+204);
+}
+#wikicontent img {
+	max-width: 100%;
+}
+#wikipreview img {
+	max-width: 100%;
+}
+#wikiauthor {
+	text-align: right; clear: both; font-size: x-small;
+}
+.wikitable {
+	border: 1px solid rgb(204, 204, 204); border-image: none; =
+border-spacing: 0;
+}
+.gadget-title {
+	margin-bottom: 2px;
+}
+a.section_anchor::before {
+	content: "\00B6";
+}
+a.section_anchor {
+	font-size: 85%; font-weight: lighter; text-decoration: none; =
+margin-left: 0.7em; display: none;
+}
+h1:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h2:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h3:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h4:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h5:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h6:hover a.section_anchor {
+	color: rgb(187, 187, 187); display: inline;
+}
+h1 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h2 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h3 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h4 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h5 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+h6 a.section_anchor:hover {
+	color: rgb(51, 51, 204);
+}
+#wikicontent code {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+tt {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikicontent pre {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikipreview code {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+tt {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+#wikipreview pre {
+	font-family: Monaco, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", =
+"Lucida Console", monospace; font-size: 93%; max-width: 66em;
+}
+pre.prettyprint {
+	padding: 0.5em; overflow: auto; font-family: Monaco, "DejaVu Sans =
+Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace; =
+font-size: 93%;
+}
+#wikicontent pre.prettyprint {
+	max-width: 70em; background-color: rgb(238, 238, 238);
+}
+#wikipreview pre.prettyprint {
+	max-width: 70em; background-color: rgb(238, 238, 238);
+}
+#wikicontent blockquote {
+	max-width: 60em;
+}
+#wikipreview blockquote {
+	max-width: 60em;
+}
+blockquote {
+	margin: 20px;
+}
+.issuedescription pre {
+	white-space: pre-wrap;
+}
+.issuecomment pre {
+	white-space: pre-wrap;
+}
+.prettyprint .str {
+	color: rgb(0, 136, 0);
+}
+.prettyprint .kwd {
+	color: rgb(0, 0, 136);
+}
+.prettyprint .com {
+	color: rgb(136, 0, 0);
+}
+.prettyprint .typ {
+	color: rgb(102, 0, 102);
+}
+.prettyprint .lit {
+	color: rgb(0, 102, 102);
+}
+.prettyprint .pun {
+	color: rgb(102, 102, 0);
+}
+.prettyprint .pln {
+	color: rgb(0, 0, 0);
+}
+.prettyprint .tag {
+	color: rgb(0, 0, 136);
+}
+.prettyprint .atn {
+	color: rgb(102, 0, 102);
+}
+.prettyprint .atv {
+	color: rgb(0, 136, 0);
+}
+.prettyprint .dec {
+	color: rgb(102, 0, 102);
+}
+@media print
+{
+.prettyprint .str {
+	color: rgb(0, 102, 0);
+}
+.prettyprint .kwd {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.prettyprint .com {
+	color: rgb(102, 0, 0); font-style: italic;
+}
+.prettyprint .typ {
+	color: rgb(68, 0, 68); font-weight: bold;
+}
+.prettyprint .lit {
+	color: rgb(0, 68, 68);
+}
+.prettyprint .pun {
+	color: rgb(68, 68, 0);
+}
+.prettyprint .pln {
+	color: rgb(0, 0, 0);
+}
+.prettyprint .tag {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.prettyprint .atn {
+	color: rgb(68, 0, 68);
+}
+.prettyprint .atv {
+	color: rgb(0, 102, 0);
+}
+}
+.closed_ref {
+	text-decoration: line-through;
+}
+.notes {
+	background: rgb(255, 255, 204); border-width: 0px 1px 1px 0px; =
+border-style: solid; border-color: rgb(153, 153, 153); padding: 2px; =
+border-image: none; width: 818px;
+}
+.rowmajor {
+	width: 700px;
+}
+.rowmajor th {
+	text-align: right;
+}
+.labelediting input {
+	margin: 0px 3px 4px 0px;
+}
+.labelediting input {
+	color: rgb(0, 102, 0);
+}
+.collapse .ifExpand {
+	display: none;
+}
+.expand .ifCollapse {
+	display: none;
+}
+.inplace input {
+	width: 100%;
+}
+.inplace td {
+	border: 0px currentColor; border-image: none;
+}
+#issueheader {
+	background: rgb(229, 236, 249); margin: 0.5em 0px 0em; border: 3px =
+solid rgb(229, 236, 249); border-image: none;
+}
+#issueheader td {
+	background: rgb(229, 236, 249);
+}
+.closed_colors #issueheader {
+	background: rgb(221, 221, 221); border-color: rgb(221, 221, 221);
+}
+.closed_colors #issueheader td {
+	background: rgb(221, 221, 221);
+}
+.issuepage {
+	margin-top: 0px;
+}
+.issuepage td {
+	padding: 0.5em 0.5em 0.5em 0px;
+}
+.issuecomment {
+	padding-top: 0.5em; border-top-color: rgb(229, 236, 249); =
+border-top-width: 3px; border-top-style: solid;
+}
+.closed_colors .issuecomment {
+	border-color: rgb(221, 221, 221);
+}
+.role_label {
+	padding: 2px 4px; border-radius: 3px; color: white; line-height: 14px; =
+font-size: 75%; font-weight: bold; display: inline-block; =
+background-color: rgb(136, 170, 238);
+}
+.issuedescription pre {
+	padding-left: 0.7em; max-width: 80em;
+}
+.issuecomment pre {
+	padding-left: 0.7em; max-width: 80em;
+}
+.issuedescription pre b {
+	padding: 3px 0px; font-size: 110%; font-weight: bolder;
+}
+.issuecomment pre b {
+	padding: 3px 0px; font-size: 110%; font-weight: bolder;
+}
+.author {
+	padding-left: 0.7em;
+}
+#issuemeta {
+	width: 12em; font-size: 95%; vertical-align: top; border-right-color: =
+rgb(229, 236, 249); border-right-width: 3px; border-right-style: solid;
+}
+.closed_colors #issuemeta {
+	border-color: rgb(221, 221, 221);
+}
+#issuemeta table tr.hover a {
+	text-decoration: underline;
+}
+#issuemeta table td {
+	margin: 0px; padding: 5px 0px 0px;
+}
+#issuemeta table th {
+	margin: 0px; padding: 5px 0px 0px;
+}
+.rel_issues a {
+	white-space: nowrap;
+}
+.issue_restrictions {
+	padding: 2px 4px; border: 1px solid rgb(204, 204, 204); border-image: =
+none; min-width: 14em; background-color: rgb(249, 237, 190);
+}
+.issue_restrictions .restrictions_header {
+	padding: 0px 0px 2px; text-align: center; font-weight: bold;
+}
+.issue_restrictions ul {
+	margin: 0px; padding: 0px 2px; list-style-position: inside;
+}
+.issue_restrictions .other_restriction {
+	white-space: nowrap;
+}
+.oldvalue {
+	color: rgb(102, 102, 102); font-style: italic; left-margin: 1em;
+}
+.updates {
+	background: rgb(229, 236, 249); margin: 1em 0px 0.5em 0.7em; width: =
+80%; font-size: 90%;
+}
+.closed_colors .updates {
+	background: rgb(200, 200, 200);
+}
+.fakelink {
+	color: rgb(0, 0, 204); text-decoration: underline; white-space: nowrap; =
+cursor: pointer;
+}
+.undef {
+	color: rgb(102, 102, 102);
+}
+table.advquery {
+	border: 3px solid rgb(229, 236, 249); border-image: none;
+}
+table.issueimport {
+	border: 3px solid rgb(229, 236, 249); border-image: none;
+}
+table.advquery td {
+	padding: 2px; white-space: nowrap;
+}
+table.issueimport td {
+	padding: 2px; white-space: nowrap;
+}
+.focus td {
+	background: rgb(229, 236, 249);
+}
+.eg {
+	color: rgb(102, 102, 102); font-size: 90%;
+}
+#submit {
+	font-weight: bold;
+}
+div td .novel {
+	color: rgb(68, 51, 0);
+}
+div td .blockingsubmit {
+	color: rgb(170, 0, 51);
+}
+div td .exclconflict {
+	color: rgb(170, 0, 51);
+}
+div td .questionmark {
+	color: rgb(170, 0, 51);
+}
+.delcom {
+	background: rgb(232, 232, 232);
+}
+.numberentry {
+	text-align: right;
+}
+.pscolumnl {
+	border-right-color: rgb(233, 233, 233); border-right-width: 2px; =
+border-right-style: solid; min-width: 15em;
+}
+.pscontent {
+	width: 100%; vertical-align: top;
+}
+.psicon {
+	padding-top: 5px; padding-left: 5px;
+}
+.psdescription {
+	padding: 0px 10px !important; width: 100%;
+}
+.pslist {
+	margin: 0px; padding-left: 34px; list-style-type: none;
+}
+.phead {
+	margin: 5px 5px 4px; padding: 3px 6px; height: 15px; font-weight: bold; =
+white-space: nowrap; background-color: rgb(229, 237, 249);
+}
+.pfeatured {
+	background-color: rgb(221, 248, 204);
+}
+.psmeta {
+	margin: 0px 5px 0px 0px; padding: 0px;
+}
+.psline {
+	margin: 5px 5px 10px 10px; border: 0px currentColor; border-image: =
+none; height: 1px; background-color: rgb(233, 233, 233);
+}
+.psgap {
+	height: 1em;
+}
+.nowrap {
+	white-space: nowrap;
+}
+#derived_labels_target .label {
+	font-weight: bold;
+}
+#derived_labels_target .label:hover {
+	text-decoration: none;
+}
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ssl.gstatic.com/codesite/ph/11512667522589661435/js/prettify/prettify_core_compiled.js
+
+(function() {=0A=
+/*=0A=
+ Copyright (C) 2006 Google Inc.=0A=
+=0A=
+ Licensed under the Apache License, Version 2.0 (the "License");=0A=
+ you may not use this file except in compliance with the License.=0A=
+ You may obtain a copy of the License at=0A=
+=0A=
+      http://www.apache.org/licenses/LICENSE-2.0=0A=
+=0A=
+ Unless required by applicable law or agreed to in writing, software=0A=
+ distributed under the License is distributed on an "AS IS" BASIS,=0A=
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.=0A=
+ See the License for the specific language governing permissions and=0A=
+ limitations under the License.=0A=
+*/=0A=
+window.PR_SHOULD_USE_CONTINUATION=3D!0;window.PR_TAB_WIDTH=3D8;window.PR_=
+normalizedHtml=3Dvoid 0;window.PR=3Dvoid 0;window.prettyPrintOne=3Dvoid =
+0;window.prettyPrint=3Dvoid 0;window._pr_isIE6=3Dfunction(){var =
+y=3Dnavigator&&navigator.userAgent&&navigator.userAgent.match(/\bMSIE =
+([678])\./),y=3Dy?+y[1]:!1;window._pr_isIE6=3Dfunction(){return =
+y};return y};=0A=
+(function(){function y(a){return =
+a.replace(F,"&amp;").replace(G,"&lt;").replace(H,"&gt;")}function =
+C(a,b,m){switch(a.nodeType){case 1:var =
+n=3Da.tagName.toLowerCase();b.push("<",n);var =
+h=3Da.attributes,r=3Dh.length;if(r){if(m){for(var =
+v=3D[],f=3Dr;0<=3D--f;)v[f]=3Dh[f];v.sort(function(a,b){return =
+a.name<b.name?-1:a.name=3D=3D=3Db.name?0:1});h=3Dv}for(f=3D0;f<r;++f)v=3D=
+h[f],v.specified&&b.push(" =
+",v.name.toLowerCase(),'=3D"',v.value.replace(F,"&amp;").replace(G,"&lt;"=
+).replace(H,"&gt;").replace(N,"&quot;"),'"')}b.push(">");for(h=3D=0A=
+a.firstChild;h;h=3Dh.nextSibling)C(h,b,m);!a.firstChild&&/^(?:br|link|img=
+)$/.test(n)||b.push("</",n,">");break;case 3:case =
+4:b.push(y(a.nodeValue))}}function I(a){function =
+b(a){if("\\"!=3D=3Da.charAt(0))return =
+a.charCodeAt(0);switch(a.charAt(1)){case "b":return 8;case "t":return =
+9;case "n":return 10;case "v":return 11;case "f":return 12;case =
+"r":return 13;case "u":case "x":return =
+parseInt(a.substring(2),16)||a.charCodeAt(1);case "0":case "1":case =
+"2":case "3":case "4":case "5":case "6":case "7":return =
+parseInt(a.substring(1),=0A=
+8);default:return a.charCodeAt(1)}}function =
+m(a){if(32>a)return(16>a?"\\x0":"\\x")+a.toString(16);a=3DString.fromChar=
+Code(a);if("\\"=3D=3D=3Da||"-"=3D=3D=3Da||"["=3D=3D=3Da||"]"=3D=3D=3Da)a=3D=
+"\\"+a;return a}function n(a){var =
+l=3Da.substring(1,a.length-1).match(RegExp("\\\\u[0-9A-Fa-f]{4}|\\\\x[0-9=
+A-Fa-f]{2}|\\\\[0-3][0-7]{0,2}|\\\\[0-7]{1,2}|\\\\[\\s\\S]|-|[^-\\\\]","g=
+"));a=3D[];for(var =
+c=3D[],f=3D"^"=3D=3D=3Dl[0],e=3Df?1:0,p=3Dl.length;e<p;++e){var =
+k=3Dl[e];switch(k){case "\\B":case "\\b":case "\\D":case "\\d":case =
+"\\S":case "\\s":case "\\W":case "\\w":a.push(k);=0A=
+continue}var =
+k=3Db(k),d;e+2<p&&"-"=3D=3D=3Dl[e+1]?(d=3Db(l[e+2]),e+=3D2):d=3Dk;c.push(=
+[k,d]);65>d||122<k||(65>d||90<k||c.push([Math.max(65,k)|32,Math.min(d,90)=
+|32]),97>d||122<k||c.push([Math.max(97,k)&-33,Math.min(d,122)&-33]))}c.so=
+rt(function(a,c){return =
+a[0]-c[0]||c[1]-a[1]});l=3D[];k=3D[NaN,NaN];for(e=3D0;e<c.length;++e)p=3D=
+c[e],p[0]<=3Dk[1]+1?k[1]=3DMath.max(k[1],p[1]):l.push(k=3Dp);c=3D["["];f&=
+&c.push("^");c.push.apply(c,a);for(e=3D0;e<l.length;++e)p=3Dl[e],c.push(m=
+(p[0])),p[1]>p[0]&&(p[1]+1>p[0]&&c.push("-"),c.push(m(p[1])));=0A=
+c.push("]");return c.join("")}function h(a){for(var =
+b=3Da.source.match(RegExp("(?:\\[(?:[^\\x5C\\x5D]|\\\\[\\s\\S])*\\]|\\\\u=
+[A-Fa-f0-9]{4}|\\\\x[A-Fa-f0-9]{2}|\\\\[0-9]+|\\\\[^ux0-9]|\\(\\?[:!=3D]|=
+[\\(\\)\\^]|[^\\x5B\\x5C\\(\\)\\^]+)","g")),c=3Db.length,d=3D[],e=3D0,f=3D=
+0;e<c;++e){var =
+k=3Db[e];"("=3D=3D=3Dk?++f:"\\"=3D=3D=3Dk.charAt(0)&&(k=3D+k.substring(1)=
+)&&k<=3Df&&(d[k]=3D-1)}for(e=3D1;e<d.length;++e)-1=3D=3D=3Dd[e]&&(d[e]=3D=
+++r);for(f=3De=3D0;e<c;++e)k=3Db[e],"("=3D=3D=3Dk?(++f,void =
+0=3D=3D=3Dd[f]&&(b[e]=3D"(?:")):"\\"=3D=3D=3Dk.charAt(0)&&(k=3D+k.substri=
+ng(1))&&=0A=
+k<=3Df&&(b[e]=3D"\\"+d[f]);for(f=3De=3D0;e<c;++e)"^"=3D=3D=3Db[e]&&"^"!=3D=
+=3Db[e+1]&&(b[e]=3D"");if(a.ignoreCase&&v)for(e=3D0;e<c;++e)k=3Db[e],a=3D=
+k.charAt(0),2<=3Dk.length&&"["=3D=3D=3Da?b[e]=3Dn(k):"\\"!=3D=3Da&&(b[e]=3D=
+k.replace(/[a-zA-Z]/g,function(a){a=3Da.charCodeAt(0);return"["+String.fr=
+omCharCode(a&-33,a|32)+"]"}));return b.join("")}for(var =
+r=3D0,v=3D!1,f=3D!1,t=3D0,d=3Da.length;t<d;++t){var =
+w=3Da[t];if(w.ignoreCase)f=3D!0;else =
+if(/[a-z]/i.test(w.source.replace(/\\u[0-9a-f]{4}|\\x[0-9a-f]{2}|\\[^ux]/=
+gi,""))){v=3D!0;f=3D!1;break}}for(var s=3D[],t=3D0,d=3Da.length;t<=0A=
+d;++t){w=3Da[t];if(w.global||w.multiline)throw =
+Error(""+w);s.push("(?:"+h(w)+")")}return =
+RegExp(s.join("|"),f?"gi":"g")}function O(a){var b=3D0;return =
+function(m){for(var n=3Dnull,h=3D0,r=3D0,v=3Dm.length;r<v;++r){var =
+f=3Dm.charAt(r);switch(f){case =
+"\t":n||(n=3D[]);n.push(m.substring(h,r));h=3Da-b%a;for(b+=3Dh;0<=3Dh;h-=3D=
+16)n.push("                ".substring(0,h));h=3Dr+1;break;case =
+"\n":b=3D0;break;default:++b}}if(!n)return =
+m;n.push(m.substring(h));return n.join("")}}function =
+D(a,b,m,n){b&&(a=3D{source:b,basePos:a},m(a),n.push.apply(n,=0A=
+a.decorations))}function z(a,b){var m=3D{},n;(function(){for(var =
+h=3Da.concat(b),f=3D[],r=3D{},d=3D0,w=3Dh.length;d<w;++d){var =
+s=3Dh[d],u=3Ds[3];if(u)for(var =
+l=3Du.length;0<=3D--l;)m[u.charAt(l)]=3Ds;s=3Ds[1];u=3D""+s;r.hasOwnPrope=
+rty(u)||(f.push(s),r[u]=3Dnull)}f.push(/[\0-\uffff]/);n=3DI(f)})();var =
+h=3Db.length,r=3Dfunction(a){for(var =
+f=3Da.source,t=3Da.basePos,d=3D[t,"pln"],w=3D0,f=3Df.match(n)||[],s=3D{},=
+u=3D0,l=3Df.length;u<l;++u){var c=3Df[u],q=3Ds[c],e=3Dvoid =
+0,p;if("string"=3D=3D=3Dtypeof q)p=3D!1;else{var =
+k=3Dm[c.charAt(0)];if(k)e=3Dc.match(k[1]),q=3Dk[0];=0A=
+else{for(p=3D0;p<h;++p)if(k=3Db[p],e=3Dc.match(k[1])){q=3Dk[0];break}e||(=
+q=3D"pln")}!(p=3D5<=3Dq.length&&"lang-"=3D=3D=3Dq.substring(0,5))||e&&"st=
+ring"=3D=3D=3Dtypeof =
+e[1]||(p=3D!1,q=3D"src");p||(s[c]=3Dq)}k=3Dw;w+=3Dc.length;if(p){p=3De[1]=
+;var =
+A=3Dc.indexOf(p),g=3DA+p.length;e[2]&&(g=3Dc.length-e[2].length,A=3Dg-p.l=
+ength);q=3Dq.substring(5);D(t+k,c.substring(0,A),r,d);D(t+k+A,p,K(q,p),d)=
+;D(t+k+g,c.substring(g),r,d)}else =
+d.push(t+k,q)}a.decorations=3Dd};return r}function x(a){var =
+b=3D[],m=3D[];a.tripleQuotedStrings?b.push(["str",/^(?:\'\'\'(?:[^\'\\]|\=
+\[\s\S]|\'{1,2}(?=3D[^\']))*(?:\'\'\'|$)|\"\"\"(?:[^\"\\]|\\[\s\S]|\"{1,2=
+}(?=3D[^\"]))*(?:\"\"\"|$)|\'(?:[^\\\']|\\[\s\S])*(?:\'|$)|\"(?:[^\\\"]|\=
+\[\s\S])*(?:\"|$))/,=0A=
+null,"'\""]):a.multiLineStrings?b.push(["str",/^(?:\'(?:[^\\\']|\\[\s\S])=
+*(?:\'|$)|\"(?:[^\\\"]|\\[\s\S])*(?:\"|$)|\`(?:[^\\\`]|\\[\s\S])*(?:\`|$)=
+)/,null,"'\"`"]):b.push(["str",/^(?:\'(?:[^\\\'\r\n]|\\.)*(?:\'|$)|\"(?:[=
+^\\\"\r\n]|\\.)*(?:\"|$))/,null,"\"'"]);a.verbatimStrings&&m.push(["str",=
+/^@\"(?:[^\"]|\"\")*(?:\"|$)/,null]);var =
+n=3Da.hashComments;n&&(a.cStyleComments?(1<n?b.push(["com",/^#(?:##(?:[^#=
+]|#(?!##))*(?:###|$)|.*)/,null,"#"]):b.push(["com",/^#(?:(?:define|elif|e=
+lse|endif|error|ifdef|include|ifndef|line|pragma|undef|warning)\b|[^\r\n]=
+*)/,=0A=
+null,"#"]),m.push(["str",/^<(?:(?:(?:\.\.\/)*|\/?)(?:[\w-]+(?:\/[\w-]+)+)=
+?[\w-]+\.h|[a-z]\w*)>/,null])):b.push(["com",/^#[^\r\n]*/,null,"#"]));a.c=
+StyleComments&&(m.push(["com",/^\/\/[^\r\n]*/,null]),m.push(["com",/^\/\*=
+[\s\S]*?(?:\*\/|$)/,null]));a.regexLiterals&&m.push(["lang-regex",RegExp(=
+"^"+P+"(/(?=3D[^/*])(?:[^/\\x5B\\x5C]|\\x5C[\\s\\S]|\\x5B(?:[^\\x5C\\x5D]=
+|\\x5C[\\s\\S])*(?:\\x5D|$))+/)")]);a=3Da.keywords.replace(/^\s+|\s+$/g,"=
+");a.length&&m.push(["kwd",RegExp("^(?:"+a.replace(/\s+/g,"|")+")\\b"),=0A=
+null]);b.push(["pln",/^\s+/,null," =
+\r\n\t\u00a0"]);m.push(["lit",/^@[a-z_$][a-z_$@0-9]*/i,null],["typ",/^@?[=
+A-Z]+[a-z][A-Za-z_$@0-9]*/,null],["pln",/^[a-z_$][a-z_$@0-9]*/i,null],["l=
+it",/^(?:0x[a-f0-9]+|(?:\d(?:_\d+)*\d*(?:\.\d*)?|\.\d\+)(?:e[+\-]?\d+)?)[=
+a-z]*/i,null,"0123456789"],["pun",/^.[^\s\w\.$@\'\"\`\/\#]*/,null]);retur=
+n z(b,m)}function Q(a){function =
+b(a){if(a>t){d&&d!=3D=3Dw&&(f.push("</span>"),d=3Dnull);!d&&w&&(d=3Dw,f.p=
+ush('<span class=3D"',d,'">'));var =
+b=3Dy(l(m.substring(t,a))).replace(k?q:c,"$1&#160;");=0A=
+k=3Dp.test(b);f.push(b.replace(e,x));t=3Da}}var =
+m=3Da.source,n=3Da.extractedTags,h=3Da.decorations,r=3Da.numberLines,v=3D=
+a.sourceNode,f=3D[],t=3D0,d=3Dnull,w=3Dnull,s=3D0,u=3D0,l=3DO(window.PR_T=
+AB_WIDTH),c=3D/([\r\n ]) /g,q=3D/(^| ) /gm,e=3D/\r\n?|\n/g,p=3D/[ =
+\r\n]$/,k=3D!0,g=3Dwindow._pr_isIE6(),v=3Dg?v&&"PRE"=3D=3D=3Dv.tagName?6=3D=
+=3D=3Dg?"&#160;\r\n":7=3D=3D=3Dg?"&#160;<br />\r":8=3D=3D=3Dg?"&#160;<br =
+/>":"&#160;\r":"&#160;<br />":"<br />",x;if(r){for(var =
+J=3D[],g=3D0;10>g;++g)J[g]=3Dv+'</li><li class=3D"L'+g+'">';var =
+z=3D"number"=3D=3D=3Dtypeof r?r-1:0;f.push('<ol class=3D"linenums"><li =
+class=3D"L',=0A=
+z%10,'"');z&&f.push(' value=3D"',z+1,'"');f.push(">");x=3Dfunction(){var =
+a=3DJ[++z%10];return d?"</span>"+a+'<span class=3D"'+d+'">':a}}else =
+x=3Dv;for(;;)if(v=3Ds<n.length?u<h.length?n[s]<=3Dh[u]:!0:!1)b(n[s]),d&&(=
+f.push("</span>"),d=3Dnull),f.push(n[s+1]),s+=3D2;else =
+if(u<h.length)b(h[u]),w=3Dh[u+1],u+=3D2;else =
+break;b(m.length);d&&f.push("</span>");r&&f.push("</li></ol>");a.prettyPr=
+intedHtml=3Df.join("")}function g(a,b){for(var =
+m=3Db.length;0<=3D--m;){var n=3Db[m];B.hasOwnProperty(n)?"console"in =
+window&&console.warn("cannot override language handler %s",=0A=
+n):B[n]=3Da}}function =
+K(a,b){a&&B.hasOwnProperty(a)||(a=3D/^\s*</.test(b)?"default-markup":"def=
+ault-code");return B[a]}function L(a){var =
+b=3Da.sourceCodeHtml,m=3Da.langExtension;a.prettyPrintedHtml=3Db;try{var =
+n,h=3Db.match(R),b=3D[],r=3D0,g=3D[];if(h)for(var =
+f=3D0,t=3Dh.length;f<t;++f){var =
+d=3Dh[f];if(1<d.length&&"<"=3D=3D=3Dd.charAt(0)){if(!S.test(d))if(T.test(=
+d))b.push(d.substring(9,d.length-3)),r+=3Dd.length-12;else =
+if(U.test(d))b.push("\n"),++r;else =
+if(0<=3Dd.indexOf("nocode")&&d.replace(/\s(\w+)\s*=3D\s*(?:\"([^\"]*)\"|'=
+([^\']*)'|(\S+))/g,=0A=
+' =
+$1=3D"$2$3$4"').match(/[cC][lL][aA][sS][sS]=3D\"[^\"]*\bnocode\b/)){var =
+w=3Dd.match(M)[2],s=3D1,u;u=3Df+1;e:for(;u<t;++u){var =
+l=3Dh[u].match(M);if(l&&l[2]=3D=3D=3Dw)if("/"=3D=3D=3Dl[1]){if(0=3D=3D=3D=
+--s)break =
+e}else++s}u<t?(g.push(r,h.slice(f,u+1).join("")),f=3Du):g.push(r,d)}else =
+g.push(r,d)}else{var c;var =
+s=3Dd,q=3Ds.indexOf("&");if(0>q)c=3Ds;else{for(--q;0<=3D(q=3Ds.indexOf("&=
+#",q+1));){var e=3Ds.indexOf(";",q);if(0<=3De){var =
+p=3Ds.substring(q+3,e),k=3D10;p&&"x"=3D=3D=3Dp.charAt(0)&&(p=3Dp.substrin=
+g(1),k=3D16);var x=3DparseInt(p,k);isNaN(x)||(s=3Ds.substring(0,=0A=
+q)+String.fromCharCode(x)+s.substring(e+1))}}c=3Ds.replace(V,"<").replace=
+(W,">").replace(X,"'").replace(Y,'"').replace(Z," =
+").replace($,"&")}b.push(c);r+=3Dc.length}}n=3D{source:b.join(""),tags:g}=
+;var =
+z=3Dn.source;a.source=3Dz;a.basePos=3D0;a.extractedTags=3Dn.tags;K(m,z)(a=
+);Q(a)}catch(y){"console"in =
+window&&console.log(y&&y.stack?y.stack:y)}}function =
+aa(a,b,m){a=3D{sourceCodeHtml:a,langExtension:b,numberLines:m};L(a);retur=
+n a.prettyPrintedHtml}function ba(a){function b(){for(var =
+m=3Dwindow.PR_SHOULD_USE_CONTINUATION?=0A=
+f.now()+250:Infinity;t<n.length&&f.now()<m;t++){var =
+h=3Dn[t];if(h.className&&0<=3Dh.className.indexOf("prettyprint")){var =
+g=3Dh.className.match(/\blang-(\w+)\b/);g&&(g=3Dg[1]);for(var =
+l=3D!1,c=3Dh.parentNode;c;c=3Dc.parentNode)if(("pre"=3D=3D=3Dc.tagName||"=
+code"=3D=3D=3Dc.tagName||"xmp"=3D=3D=3Dc.tagName)&&c.className&&0<=3Dc.cl=
+assName.indexOf("prettyprint")){l=3D!0;break}if(!l){c=3Dh;null=3D=3D=3DE&=
+&(l=3Ddocument.createElement("PRE"),l.appendChild(document.createTextNode=
+('<!DOCTYPE foo PUBLIC "foo bar">\n<foo =
+/>')),E=3D!/</.test(l.innerHTML));=0A=
+if(E)if(l=3Dc.innerHTML,"XMP"=3D=3D=3Dc.tagName)l=3Dy(l);else{if("PRE"!=3D=
+=3Dc.tagName&&ca.test(l)){var =
+q=3D"";c.currentStyle?q=3Dc.currentStyle.whiteSpace:window.getComputedSty=
+le&&(q=3Dwindow.getComputedStyle(c,null).whiteSpace);c=3D!q||"pre"=3D=3D=3D=
+q}else =
+c=3D!0;c||(l=3Dl.replace(/(<br\s*\/?>)[\r\n]+/g,"$1").replace(/(?:[\r\n]+=
+[ \t]*)+/g," =
+"))}else{l=3D[];for(c=3Dc.firstChild;c;c=3Dc.nextSibling)C(c,l);l=3Dl.joi=
+n("")}l=3Dl.replace(/(?:\r\n?|\n)$/,"");c=3Dh.className.match(/\blinenums=
+\b(?::(\d+))?/);d=3D{sourceCodeHtml:l,langExtension:g,sourceNode:h,=0A=
+numberLines:c?c[1]&&c[1].length?+c[1]:!0:!1};L(d);if(h=3Dd.prettyPrintedH=
+tml)if(g=3Dd.sourceNode,"XMP"=3D=3D=3Dg.tagName){l=3Ddocument.createEleme=
+nt("PRE");for(c=3D0;c<g.attributes.length;++c)if(q=3Dg.attributes[c],q.sp=
+ecified){var =
+e=3Dq.name.toLowerCase();"class"=3D=3D=3De?l.className=3Dq.value:l.setAtt=
+ribute(q.name,q.value)}l.innerHTML=3Dh;g.parentNode.replaceChild(l,g)}els=
+e g.innerHTML=3Dh}}}t<n.length?setTimeout(b,250):a&&a()}for(var =
+m=3D[document.getElementsByTagName("pre"),document.getElementsByTagName("=
+code"),document.getElementsByTagName("xmp")],=0A=
+n=3D[],h=3D0;h<m.length;++h)for(var =
+g=3D0,v=3Dm[h].length;g<v;++g)n.push(m[h][g]);var =
+m=3Dnull,f=3DDate;f.now||(f=3D{now:function(){return(new =
+Date).getTime()}});var t=3D0,d;b()}var P=3Dfunction(){for(var a=3D"! =
+!=3D !=3D=3D # % %=3D & && &&=3D &=3D ( * *=3D +=3D , -=3D -> / /=3D : =
+:: ; < << <<=3D <=3D =3D =3D=3D =3D=3D=3D > >=3D >> >>=3D >>> >>>=3D ? @ =
+[ ^ ^=3D ^^ ^^=3D { | |=3D || ||=3D ~ break case continue delete do else =
+finally instanceof return throw try typeof".split(" =
+"),b=3D"(?:^^|[+-]",g=3D0;g<a.length;++g)b+=3D"|"+a[g].replace(/([^=3D<>:=
+&a-z])/g,"\\$1");return b+=3D=0A=
+")\\s*"}(),F=3D/&/g,G=3D/</g,H=3D/>/g,N=3D/\"/g,V=3D/&lt;/g,W=3D/&gt;/g,X=
+=3D/&apos;/g,Y=3D/&quot;/g,$=3D/&amp;/g,Z=3D/&nbsp;/g,ca=3D/[\r\n]/g,E=3D=
+null,R=3DRegExp("[^<]+|\x3c!--[\\s\\S]*?--\x3e|<!\\[CDATA\\[[\\s\\S]*?\\]=
+\\]>|</?[a-zA-Z](?:[^>\"']|'[^']*'|\"[^\"]*\")*>|<","g"),S=3D/^<\!--/,T=3D=
+/^<!\[CDATA\[/,U=3D/^<br\b/i,M=3D/^<(\/?)([a-zA-Z][a-zA-Z0-9]*)/,da=3Dx({=
+keywords:"break continue do else for if return while auto case char =
+const default double enum extern float goto int long register short =
+signed sizeof static struct switch typedef union unsigned void volatile =
+catch class delete false import new operator private protected public =
+this throw true try typeof alignof align_union asm axiom bool concept =
+concept_map const_cast constexpr decltype dynamic_cast explicit export =
+friend inline late_check mutable namespace nullptr reinterpret_cast =
+static_assert static_cast template typeid typename using virtual wchar_t =
+where break continue do else for if return while auto case char const =
+default double enum extern float goto int long register short signed =
+sizeof static struct switch typedef union unsigned void volatile catch =
+class delete false import new operator private protected public this =
+throw true try typeof abstract boolean byte extends final finally =
+implements import instanceof null native package strictfp super =
+synchronized throws transient as base by checked decimal delegate =
+descending dynamic event fixed foreach from group implicit in interface =
+internal into is lock object out override orderby params partial =
+readonly ref sbyte sealed stackalloc string select uint ulong unchecked =
+unsafe ushort var break continue do else for if return while auto case =
+char const default double enum extern float goto int long register short =
+signed sizeof static struct switch typedef union unsigned void volatile =
+catch class delete false import new operator private protected public =
+this throw true try typeof debugger eval export function get null set =
+undefined var with Infinity NaN caller delete die do dump elsif eval =
+exit foreach for goto if import last local my next no our print package =
+redo require sub undef unless until use wantarray while BEGIN END break =
+continue do else for if return while and as assert class def del elif =
+except exec finally from global import in is lambda nonlocal not or pass =
+print raise try with yield False True None break continue do else for if =
+return while alias and begin case class def defined elsif end ensure =
+false in module next nil not or redo rescue retry self super then true =
+undef unless until when yield BEGIN END break continue do else for if =
+return while case done elif esac eval fi function in local set then =
+until ",=0A=
+hashComments:!0,cStyleComments:!0,multiLineStrings:!0,regexLiterals:!0}),=
+B=3D{};g(da,["default-code"]);g(z([],[["pln",/^[^<?]+/],["dec",/^<!\w[^>]=
+*(?:>|$)/],["com",/^<\!--[\s\S]*?(?:-\->|$)/],["lang-",/^<\?([\s\S]+?)(?:=
+\?>|$)/],["lang-",/^<%([\s\S]+?)(?:%>|$)/],["pun",/^(?:<[%?]|[%?]>)/],["l=
+ang-",/^<xmp\b[^>]*>([\s\S]+?)<\/xmp\b[^>]*>/i],["lang-js",/^<script\b[^>=
+]*>([\s\S]*?)(<\/script\b[^>]*>)/i],["lang-css",/^<style\b[^>]*>([\s\S]*?=
+)(<\/style\b[^>]*>)/i],["lang-in.tag",/^(<\/?[a-z][^<>]*>)/i]]),"default-=
+markup htm html mxml xhtml xml xsl".split(" "));=0A=
+g(z([["pln",/^[\s]+/,null," =
+\t\r\n"],["atv",/^(?:\"[^\"]*\"?|\'[^\']*\'?)/,null,"\"'"]],[["tag",/^^<\=
+/?[a-z](?:[\w.:-]*\w)?|\/?>$/i],["atn",/^(?!style[\s=3D]|on)[a-z](?:[\w:-=
+]*\w)?/i],["lang-uq.val",/^=3D\s*([^>\'\"\s]*(?:[^>\'\"\s\/]|\/(?=3D\s)))=
+/],["pun",/^[=3D<>\/]+/],["lang-js",/^on\w+\s*=3D\s*\"([^\"]+)\"/i],["lan=
+g-js",/^on\w+\s*=3D\s*\'([^\']+)\'/i],["lang-js",/^on\w+\s*=3D\s*([^\"\'>=
+\s]+)/i],["lang-css",/^style\s*=3D\s*\"([^\"]+)\"/i],["lang-css",/^style\=
+s*=3D\s*\'([^\']+)\'/i],["lang-css",/^style\s*=3D\s*([^\"\'>\s]+)/i]]),=0A=
+["in.tag"]);g(z([],[["atv",/^[\s\S]+/]]),["uq.val"]);g(x({keywords:"break=
+ continue do else for if return while auto case char const default =
+double enum extern float goto int long register short signed sizeof =
+static struct switch typedef union unsigned void volatile catch class =
+delete false import new operator private protected public this throw =
+true try typeof alignof align_union asm axiom bool concept concept_map =
+const_cast constexpr decltype dynamic_cast explicit export friend inline =
+late_check mutable namespace nullptr reinterpret_cast static_assert =
+static_cast template typeid typename using virtual wchar_t where ",=0A=
+hashComments:!0,cStyleComments:!0}),"c cc cpp cxx cyc m".split(" =
+"));g(x({keywords:"null true false"}),["json"]);g(x({keywords:"break =
+continue do else for if return while auto case char const default double =
+enum extern float goto int long register short signed sizeof static =
+struct switch typedef union unsigned void volatile catch class delete =
+false import new operator private protected public this throw true try =
+typeof abstract boolean byte extends final finally implements import =
+instanceof null native package strictfp super synchronized throws =
+transient as base by checked decimal delegate descending dynamic event =
+fixed foreach from group implicit in interface internal into is lock =
+object out override orderby params partial readonly ref sbyte sealed =
+stackalloc string select uint ulong unchecked unsafe ushort var ",=0A=
+hashComments:!0,cStyleComments:!0,verbatimStrings:!0}),["cs"]);g(x({keywo=
+rds:"break continue do else for if return while auto case char const =
+default double enum extern float goto int long register short signed =
+sizeof static struct switch typedef union unsigned void volatile catch =
+class delete false import new operator private protected public this =
+throw true try typeof abstract boolean byte extends final finally =
+implements import instanceof null native package strictfp super =
+synchronized throws transient ",=0A=
+cStyleComments:!0}),["java"]);g(x({keywords:"break continue do else for =
+if return while case done elif esac eval fi function in local set then =
+until =
+",hashComments:!0,multiLineStrings:!0}),["bsh","csh","sh"]);g(x({keywords=
+:"break continue do else for if return while and as assert class def del =
+elif except exec finally from global import in is lambda nonlocal not or =
+pass print raise try with yield False True None =
+",hashComments:!0,multiLineStrings:!0,tripleQuotedStrings:!0}),["cv","py"=
+]);g(x({keywords:"caller delete die do dump elsif eval exit foreach for =
+goto if import last local my next no our print package redo require sub =
+undef unless until use wantarray while BEGIN END ",=0A=
+hashComments:!0,multiLineStrings:!0,regexLiterals:!0}),["perl","pl","pm"]=
+);g(x({keywords:"break continue do else for if return while alias and =
+begin case class def defined elsif end ensure false in module next nil =
+not or redo rescue retry self super then true undef unless until when =
+yield BEGIN END =
+",hashComments:!0,multiLineStrings:!0,regexLiterals:!0}),["rb"]);g(x({key=
+words:"break continue do else for if return while auto case char const =
+default double enum extern float goto int long register short signed =
+sizeof static struct switch typedef union unsigned void volatile catch =
+class delete false import new operator private protected public this =
+throw true try typeof debugger eval export function get null set =
+undefined var with Infinity NaN ",=0A=
+cStyleComments:!0,regexLiterals:!0}),["js"]);g(x({keywords:"all and by =
+catch class else extends false finally for if in is isnt loop new no not =
+null of off on or return super then true try unless until when while yes =
+",hashComments:3,cStyleComments:!0,multilineStrings:!0,tripleQuotedString=
+s:!0,regexLiterals:!0}),["coffee"]);g(z([],[["str",/^[\s\S]+/]]),["regex"=
+]);window.PR_normalizedHtml=3DC;window.prettyPrintOne=3Daa;window.prettyP=
+rint=3Dba;window.PR=3D{combinePrefixPatterns:I,createSimpleLexer:z,regist=
+erLangHandler:g,=0A=
+sourceDecorator:x,PR_ATTRIB_NAME:"atn",PR_ATTRIB_VALUE:"atv",PR_COMMENT:"=
+com",PR_DECLARATION:"dec",PR_KEYWORD:"kwd",PR_LITERAL:"lit",PR_NOCODE:"no=
+code",PR_PLAIN:"pln",PR_PUNCTUATION:"pun",PR_SOURCE:"src",PR_STRING:"str"=
+,PR_TAG:"tag",PR_TYPE:"typ"}})();=0A=
+})();=0A=
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0
+Content-Type: application/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ssl.gstatic.com/codesite/ph/11512667522589661435/js/ph_core.js
+
+var Z,Zaa=3DZaa||{},Za=3Dthis,Zba=3Dfunction(a){a=3Da.split(".");for(var =
+b=3DZa,c;c=3Da.shift();)if(null!=3Db[c])b=3Db[c];else return null;return =
+b},Zca=3Dfunction(){},Zb=3Dfunction(a){var b=3Dtypeof =
+a;if("object"=3D=3Db)if(a){if(a instanceof Array)return"array";if(a =
+instanceof Object)return b;var =
+c=3DObject.prototype.toString.call(a);if("[object =
+Window]"=3D=3Dc)return"object";if("[object =
+Array]"=3D=3Dc||"number"=3D=3Dtypeof a.length&&"undefined"!=3Dtypeof =
+a.splice&&"undefined"!=3Dtypeof =
+a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";=0A=
+if("[object Function]"=3D=3Dc||"undefined"!=3Dtypeof =
+a.call&&"undefined"!=3Dtypeof =
+a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}=
+else return"null";else if("function"=3D=3Db&&"undefined"=3D=3Dtypeof =
+a.call)return"object";return b},Zda=3Dfunction(a){var =
+b=3DZb(a);return"array"=3D=3Db||"object"=3D=3Db&&"number"=3D=3Dtypeof =
+a.length},Zc=3Dfunction(a){return"string"=3D=3Dtypeof =
+a},Zea=3Dfunction(a){return"function"=3D=3DZb(a)},Zfa=3Dfunction(a){var =
+b=3Dtypeof =
+a;return"object"=3D=3Db&&null!=3Da||"function"=3D=3Db},Zga=3Dfunction(a,b=
+,c){return a.call.apply(a.bind,=0A=
+arguments)},Zha=3Dfunction(a,b,c){if(!a)throw =
+Error();if(2<arguments.length){var =
+d=3DArray.prototype.slice.call(arguments,2);return function(){var =
+c=3DArray.prototype.slice.call(arguments);Array.prototype.unshift.apply(c=
+,d);return a.apply(b,c)}}return function(){return =
+a.apply(b,arguments)}},Zd=3Dfunction(a,b,c){Zd=3DFunction.prototype.bind&=
+&-1!=3DFunction.prototype.bind.toString().indexOf("native =
+code")?Zga:Zha;return Zd.apply(null,arguments)},Zia=3Dfunction(a,b){var =
+c=3DArray.prototype.slice.call(arguments,1);=0A=
+return function(){var b=3Dc.slice();b.push.apply(b,arguments);return =
+a.apply(this,b)}},Zja=3DDate.now||function(){return+new =
+Date},Ze=3Dfunction(a,b){var c=3Da.split("."),d=3DZa;c[0]in =
+d||!d.execScript||d.execScript("var "+c[0]);for(var =
+e;c.length&&(e=3Dc.shift());)c.length||void =
+0=3D=3D=3Db?d=3Dd[e]?d[e]:d[e]=3D{}:d[e]=3Db},Zf=3Dfunction(a,b){function=
+ c(){}c.prototype=3Db.prototype;a.G=3Db.prototype;a.prototype=3Dnew =
+c;a.jd=3Dfunction(a,c,f){return =
+b.prototype[c].apply(a,Array.prototype.slice.call(arguments,2))}};=0A=
+Function.prototype.bind=3DFunction.prototype.bind||function(a,b){if(1<arg=
+uments.length){var =
+c=3DArray.prototype.slice.call(arguments,1);c.unshift(this,a);return =
+Zd.apply(null,c)}return Zd(this,a)};var =
+Zg=3Dfunction(a){if(Error.captureStackTrace)Error.captureStackTrace(this,=
+Zg);else{var =
+b=3DError().stack;b&&(this.stack=3Db)}a&&(this.message=3DString(a))};Zf(Z=
+g,Error);Zg.prototype.name=3D"CustomError";var =
+Zh=3Dfunction(a,b){for(var =
+c=3Da.split("%s"),d=3D"",e=3DArray.prototype.slice.call(arguments,1);e.le=
+ngth&&1<c.length;)d+=3Dc.shift()+e.shift();return =
+d+c.join("%s")},Zi=3Dfunction(a){if(!Zka.test(a))return =
+a;-1!=3Da.indexOf("&")&&(a=3Da.replace(Zla,"&amp;"));-1!=3Da.indexOf("<")=
+&&(a=3Da.replace(Zma,"&lt;"));-1!=3Da.indexOf(">")&&(a=3Da.replace(Zna,"&=
+gt;"));-1!=3Da.indexOf('"')&&(a=3Da.replace(Zoa,"&quot;"));-1!=3Da.indexO=
+f("'")&&(a=3Da.replace(Zpa,"&#39;"));return =
+a},Zla=3D/&/g,Zma=3D/</g,Zna=3D/>/g,Zoa=3D/"/g,Zpa=3D/'/g,Zka=3D/[&<>"']/=
+,=0A=
+Zqa=3Dfunction(a,b){return a<b?-1:a>b?1:0};var =
+Zra=3Dfunction(a,b){b.unshift(a);Zg.call(this,Zh.apply(null,b));b.shift()=
+};Zf(Zra,Zg);Zra.prototype.name=3D"AssertionError";var =
+Zj=3Dfunction(a,b,c){if(!a){var d=3D"Assertion failed";if(b)var =
+d=3Dd+(": "+b),e=3DArray.prototype.slice.call(arguments,2);throw new =
+Zra(""+d,e||[]);}},Zsa=3Dfunction(a,b){throw new Zra("Failure"+(a?": =
+"+a:""),Array.prototype.slice.call(arguments,1));};var =
+Zk=3DArray.prototype,Zta=3DZk.indexOf?function(a,b,c){Zj(null!=3Da.length=
+);return =
+Zk.indexOf.call(a,b,c)}:function(a,b,c){c=3Dnull=3D=3Dc?0:0>c?Math.max(0,=
+a.length+c):c;if(Zc(a))return =
+Zc(b)&&1=3D=3Db.length?a.indexOf(b,c):-1;for(;c<a.length;c++)if(c in =
+a&&a[c]=3D=3D=3Db)return =
+c;return-1},Zua=3DZk.forEach?function(a,b,c){Zj(null!=3Da.length);Zk.forE=
+ach.call(a,b,c)}:function(a,b,c){for(var =
+d=3Da.length,e=3DZc(a)?a.split(""):a,f=3D0;f<d;f++)f in =
+e&&b.call(c,e[f],f,a)},Zva=3DZk.filter?function(a,b,c){Zj(null!=3Da.lengt=
+h);return Zk.filter.call(a,=0A=
+b,c)}:function(a,b,c){for(var =
+d=3Da.length,e=3D[],f=3D0,g=3DZc(a)?a.split(""):a,h=3D0;h<d;h++)if(h in =
+g){var k=3Dg[h];b.call(c,k,h,a)&&(e[f++]=3Dk)}return =
+e},Zxa=3Dfunction(a){var b;t:{b=3DZwa;for(var =
+c=3Da.length,d=3DZc(a)?a.split(""):a,e=3D0;e<c;e++)if(e in =
+d&&b.call(void 0,d[e],e,a)){b=3De;break t}b=3D-1}return =
+0>b?null:Zc(a)?a.charAt(b):a[b]},Zl=3Dfunction(a,b){return =
+0<=3DZta(a,b)},Zya=3Dfunction(a,b){var =
+c=3DZta(a,b),d;if(d=3D0<=3Dc)Zj(null!=3Da.length),Zk.splice.call(a,c,1);r=
+eturn d},Zza=3Dfunction(a){return Zk.concat.apply(Zk,arguments)},=0A=
+ZAa=3Dfunction(a){var b=3Da.length;if(0<b){for(var =
+c=3DArray(b),d=3D0;d<b;d++)c[d]=3Da[d];return =
+c}return[]},ZCa=3Dfunction(a,b,c,d){Zj(null!=3Da.length);Zk.splice.apply(=
+a,ZBa(arguments,1))},ZBa=3Dfunction(a,b,c){Zj(null!=3Da.length);return =
+2>=3Darguments.length?Zk.slice.call(a,b):Zk.slice.call(a,b,c)};var =
+Zm=3Dfunction(a,b){this.width=3Da;this.height=3Db};Zm.prototype.ma=3Dfunc=
+tion(){return new =
+Zm(this.width,this.height)};Zm.prototype.toString=3Dfunction(){return"("+=
+this.width+" x =
+"+this.height+")"};Zm.prototype.round=3Dfunction(){this.width=3DMath.roun=
+d(this.width);this.height=3DMath.round(this.height);return this};var =
+ZDa=3Dfunction(a,b){for(var c in a)b.call(void =
+0,a[c],c,a)},ZEa=3Dfunction(a){var b=3D[],c=3D0,d;for(d in =
+a)b[c++]=3Da[d];return b},ZFa=3Dfunction(a){var b=3D[],c=3D0,d;for(d in =
+a)b[c++]=3Dd;return b},ZGa=3D"constructor hasOwnProperty isPrototypeOf =
+propertyIsEnumerable toLocaleString toString valueOf".split(" =
+"),ZHa=3Dfunction(a,b){for(var =
+c,d,e=3D1;e<arguments.length;e++){d=3Darguments[e];for(c in =
+d)a[c]=3Dd[c];for(var =
+f=3D0;f<ZGa.length;f++)c=3DZGa[f],Object.prototype.hasOwnProperty.call(d,=
+c)&&(a[c]=3Dd[c])}};var Zn,ZIa,ZJa,ZKa,ZLa=3Dfunction(){return =
+Za.navigator?Za.navigator.userAgent:null};ZKa=3DZJa=3DZIa=3DZn=3D!1;var =
+Zo;if(Zo=3DZLa()){var =
+ZMa=3DZa.navigator;Zn=3D0=3D=3DZo.lastIndexOf("Opera",0);ZIa=3D!Zn&&(-1!=3D=
+Zo.indexOf("MSIE")||-1!=3DZo.indexOf("Trident"));ZJa=3D!Zn&&-1!=3DZo.inde=
+xOf("WebKit");ZKa=3D!Zn&&!ZJa&&!ZIa&&"Gecko"=3D=3DZMa.product}var =
+ZNa=3DZn,Zp=3DZIa,Zq=3DZKa,Zr=3DZJa,ZOa=3Dfunction(){var =
+a=3DZa.document;return a?a.documentMode:void 0},ZPa;=0A=
+t:{var ZQa=3D"",Zs;if(ZNa&&Za.opera)var =
+ZRa=3DZa.opera.version,ZQa=3D"function"=3D=3Dtypeof ZRa?ZRa():ZRa;else =
+if(Zq?Zs=3D/rv\:([^\);]+)(\)|;)/:Zp?Zs=3D/\b(?:MSIE|rv)[: =
+]([^\);]+)(\)|;)/:Zr&&(Zs=3D/WebKit\/(\S+)/),Zs)var =
+ZSa=3DZs.exec(ZLa()),ZQa=3DZSa?ZSa[1]:"";if(Zp){var =
+ZTa=3DZOa();if(ZTa>parseFloat(ZQa)){ZPa=3DString(ZTa);break t}}ZPa=3DZQa}=0A=
+var ZUa=3DZPa,ZVa=3D{},Zt=3Dfunction(a){var =
+b;if(!(b=3DZVa[a])){b=3D0;for(var =
+c=3DString(ZUa).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),d=3DStrin=
+g(a).replace(/^[\s\xa0]+|[\s\xa0]+$/g,"").split("."),e=3DMath.max(c.lengt=
+h,d.length),f=3D0;0=3D=3Db&&f<e;f++){var =
+g=3Dc[f]||"",h=3Dd[f]||"",k=3DRegExp("(\\d*)(\\D*)","g"),l=3DRegExp("(\\d=
+*)(\\D*)","g");do{var =
+m=3Dk.exec(g)||["","",""],n=3Dl.exec(h)||["","",""];if(0=3D=3Dm[0].length=
+&&0=3D=3Dn[0].length)break;b=3DZqa(0=3D=3Dm[1].length?0:parseInt(m[1],10)=
+,0=3D=3Dn[1].length?0:parseInt(n[1],10))||Zqa(0=3D=3D=0A=
+m[2].length,0=3D=3Dn[2].length)||Zqa(m[2],n[2])}while(0=3D=3Db)}b=3DZVa[a=
+]=3D0<=3Db}return =
+b},ZWa=3DZa.document,ZXa=3DZWa&&Zp?ZOa()||("CSS1Compat"=3D=3DZWa.compatMo=
+de?parseInt(ZUa,10):5):void 0;var =
+ZYa=3D!Zp||Zp&&9<=3DZXa,ZZa=3D!Zq&&!Zp||Zp&&Zp&&9<=3DZXa||Zq&&Zt("1.9.1")=
+,Z_a=3DZp&&!Zt("9");var Zu=3Dfunction(a){a=3Da.className;return =
+Zc(a)&&a.match(/\S+/g)||[]},Z0a=3Dfunction(a,b){for(var =
+c=3DZu(a),d=3DZBa(arguments,1),e=3Dc.length+d.length,f=3Dc,g=3D0;g<d.leng=
+th;g++)Zl(f,d[g])||f.push(d[g]);a.className=3Dc.join(" ");return =
+c.length=3D=3De},Z1a=3Dfunction(a,b,c){for(var =
+d=3DZu(a),e=3D!1,f=3D0;f<d.length;f++)d[f]=3D=3Db&&(ZCa(d,f--,1),e=3D!0);=
+e&&(d.push(c),a.className=3Dd.join(" "))};var Zv=3Dfunction(a){var =
+b=3Ddocument;return =
+Zc(a)?b.getElementById(a):a},Z2a=3Dfunction(a,b,c){var =
+d=3Ddocument;c=3Dc||d;a=3Da&&"*"!=3Da?a.toUpperCase():"";if(c.querySelect=
+orAll&&c.querySelector&&(a||b))return =
+c.querySelectorAll(a+(b?"."+b:""));if(b&&c.getElementsByClassName){c=3Dc.=
+getElementsByClassName(b);if(a){for(var =
+d=3D{},e=3D0,f=3D0,g;g=3Dc[f];f++)a=3D=3Dg.nodeName&&(d[e++]=3Dg);d.lengt=
+h=3De;return d}return =
+c}c=3Dc.getElementsByTagName(a||"*");if(b){d=3D{};for(f=3De=3D0;g=3Dc[f];=
+f++)a=3Dg.className,"function"=3D=3Dtypeof a.split&&Zl(a.split(/\s+/),=0A=
+b)&&(d[e++]=3Dg);d.length=3De;return d}return =
+c},Z4a=3Dfunction(a,b){ZDa(b,function(b,d){"style"=3D=3Dd?a.style.cssText=
+=3Db:"class"=3D=3Dd?a.className=3Db:"for"=3D=3Dd?a.htmlFor=3Db:d in =
+Z3a?a.setAttribute(Z3a[d],b):0=3D=3Dd.lastIndexOf("aria-",0)||0=3D=3Dd.la=
+stIndexOf("data-",0)?a.setAttribute(d,b):a[d]=3Db})},Z3a=3D{cellpadding:"=
+cellPadding",cellspacing:"cellSpacing",colspan:"colSpan",frameborder:"fra=
+meBorder",height:"height",maxlength:"maxLength",role:"role",rowspan:"rowS=
+pan",type:"type",usemap:"useMap",valign:"vAlign",width:"width"},=0A=
+Z5a=3Dfunction(a){a=3Da.document;a=3D"CSS1Compat"=3D=3Da.compatMode?a.doc=
+umentElement:a.body;return new =
+Zm(a.clientWidth,a.clientHeight)},Zw=3Dfunction(a,b,c){return =
+Z6a(document,arguments)},Z6a=3Dfunction(a,b){var =
+c=3Db[0],d=3Db[1];if(!ZYa&&d&&(d.name||d.type)){c=3D["<",c];d.name&&c.pus=
+h(' name=3D"',Zi(d.name),'"');if(d.type){c.push(' =
+type=3D"',Zi(d.type),'"');var e=3D{};ZHa(e,d);delete =
+e.type;d=3De}c.push(">");c=3Dc.join("")}c=3Da.createElement(c);d&&(Zc(d)?=
+c.className=3Dd:"array"=3D=3DZb(d)?Z0a.apply(null,[c].concat(d)):Z4a(c,d)=
+);=0A=
+2<b.length&&Z7a(a,c,b,2);return c},Z7a=3Dfunction(a,b,c,d){function =
+e(c){c&&b.appendChild(Zc(c)?a.createTextNode(c):c)}for(;d<c.length;d++){v=
+ar =
+f=3Dc[d];!Zda(f)||Zfa(f)&&0<f.nodeType?e(f):Zua(Z8a(f)?ZAa(f):f,e)}},Z9a=3D=
+function(a,b){Z7a(9=3D=3Da.nodeType?a:a.ownerDocument||a.document,a,argum=
+ents,1)},Z$a=3Dfunction(a,b){b.parentNode&&b.parentNode.insertBefore(a,b.=
+nextSibling)},Zab=3D{SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Zbb=3D{IM=
+G:" ",BR:"\n"},Zdb=3Dfunction(a){if(Z_a&&"innerText"in =
+a)a=3Da.innerText.replace(/(\r\n|\r|\n)/g,=0A=
+"\n");else{var b=3D[];Zcb(a,b,!0);a=3Db.join("")}a=3Da.replace(/ \xAD =
+/g," =
+").replace(/\xAD/g,"");a=3Da.replace(/\u200B/g,"");Z_a||(a=3Da.replace(/ =
++/g," "));" "!=3Da&&(a=3Da.replace(/^\s*/,""));return =
+a},Zcb=3Dfunction(a,b,c){if(!(a.nodeName in =
+Zab))if(3=3D=3Da.nodeType)c?b.push(String(a.nodeValue).replace(/(\r\n|\r|=
+\n)/g,"")):b.push(a.nodeValue);else if(a.nodeName in =
+Zbb)b.push(Zbb[a.nodeName]);else =
+for(a=3Da.firstChild;a;)Zcb(a,b,c),a=3Da.nextSibling},Z8a=3Dfunction(a){i=
+f(a&&"number"=3D=3Dtypeof a.length){if(Zfa(a))return"function"=3D=3D=0A=
+typeof a.item||"string"=3D=3Dtypeof =
+a.item;if(Zea(a))return"function"=3D=3Dtypeof =
+a.item}return!1},Zeb=3Dfunction(a,b){for(var c=3D0;a;){if(b(a))return =
+a;a=3Da.parentNode;c++}return =
+null},Zfb=3Dfunction(a){this.Na=3Da||Za.document||document};Z=3DZfb.proto=
+type;Z.Nc=3Dfunction(a,b,c){return =
+Z6a(this.Na,arguments)};Z.createElement=3Dfunction(a){return =
+this.Na.createElement(a)};Z.createTextNode=3Dfunction(a){return =
+this.Na.createTextNode(String(a))};Z.appendChild=3Dfunction(a,b){a.append=
+Child(b)};=0A=
+Z.Wb=3Dfunction(a){return ZZa&&void =
+0!=3Da.children?a.children:Zva(a.childNodes,function(a){return =
+1=3D=3Da.nodeType})};var Zgb=3Dfunction(a){Zgb[" "](a);return a};Zgb[" =
+"]=3DZca;var =
+Zhb=3D!Zp||Zp&&9<=3DZXa,Zib=3DZp&&!Zt("9");!Zr||Zt("528");Zq&&Zt("1.9b")|=
+|Zp&&Zt("8")||ZNa&&Zt("9.5")||Zr&&Zt("528");Zq&&!Zt("8")||Zp&&Zt("9");var=
+ =
+Zjb=3Dfunction(){};Zjb.prototype.ib=3D!1;Zjb.prototype.ac=3Dfunction(){th=
+is.ib||(this.ib=3D!0,this.D())};Zjb.prototype.D=3Dfunction(){if(this.dc)f=
+or(;this.dc.length;)this.dc.shift()()};var =
+Zx=3Dfunction(a,b){this.type=3Da;this.currentTarget=3Dthis.target=3Db;thi=
+s.defaultPrevented=3Dthis.P=3D!1;this.yb=3D!0};Zx.prototype.D=3Dfunction(=
+){};Zx.prototype.ac=3Dfunction(){};Zx.prototype.stopPropagation=3Dfunctio=
+n(){this.P=3D!0};Zx.prototype.preventDefault=3Dfunction(){this.defaultPre=
+vented=3D!0;this.yb=3D!1};var =
+Zy=3Dfunction(a,b){Zx.call(this,a?a.type:"");this.relatedTarget=3Dthis.cu=
+rrentTarget=3Dthis.target=3Dnull;this.charCode=3Dthis.keyCode=3Dthis.butt=
+on=3Dthis.screenY=3Dthis.screenX=3Dthis.clientY=3Dthis.clientX=3Dthis.off=
+setY=3Dthis.offsetX=3D0;this.metaKey=3Dthis.shiftKey=3Dthis.altKey=3Dthis=
+.ctrlKey=3D!1;this.la=3Dthis.state=3Dnull;if(a){var =
+c=3Dthis.type=3Da.type;this.target=3Da.target||a.srcElement;this.currentT=
+arget=3Db;var d=3Da.relatedTarget;if(d){if(Zq){var =
+e;t:{try{Zgb(d.nodeName);e=3D!0;break =
+t}catch(f){}e=3D!1}e||(d=3Dnull)}}else"mouseover"=3D=3D=0A=
+c?d=3Da.fromElement:"mouseout"=3D=3Dc&&(d=3Da.toElement);this.relatedTarg=
+et=3Dd;this.offsetX=3DZr||void =
+0!=3D=3Da.offsetX?a.offsetX:a.layerX;this.offsetY=3DZr||void =
+0!=3D=3Da.offsetY?a.offsetY:a.layerY;this.clientX=3Dvoid =
+0!=3D=3Da.clientX?a.clientX:a.pageX;this.clientY=3Dvoid =
+0!=3D=3Da.clientY?a.clientY:a.pageY;this.screenX=3Da.screenX||0;this.scre=
+enY=3Da.screenY||0;this.button=3Da.button;this.keyCode=3Da.keyCode||0;thi=
+s.charCode=3Da.charCode||("keypress"=3D=3Dc?a.keyCode:0);this.ctrlKey=3Da=
+.ctrlKey;this.altKey=3Da.altKey;this.shiftKey=3Da.shiftKey;=0A=
+this.metaKey=3Da.metaKey;this.state=3Da.state;this.la=3Da;a.defaultPreven=
+ted&&this.preventDefault()}};Zf(Zy,Zx);Zy.prototype.stopPropagation=3Dfun=
+ction(){Zy.G.stopPropagation.call(this);this.la.stopPropagation?this.la.s=
+topPropagation():this.la.cancelBubble=3D!0};Zy.prototype.preventDefault=3D=
+function(){Zy.G.preventDefault.call(this);var =
+a=3Dthis.la;if(a.preventDefault)a.preventDefault();else =
+if(a.returnValue=3D!1,Zib)try{if(a.ctrlKey||112<=3Da.keyCode&&123>=3Da.ke=
+yCode)a.keyCode=3D-1}catch(b){}};Zy.prototype.D=3Dfunction(){};var =
+Zkb=3D"closure_listenable_"+(1E6*Math.random()|0),Zlb=3Dfunction(a){try{r=
+eturn!(!a||!a[Zkb])}catch(b){return!1}},Zmb=3D0;var =
+Znb=3Dfunction(a,b,c,d,e){this.O=3Da;this.Ca=3Dnull;this.src=3Db;this.typ=
+e=3Dc;this.ya=3D!!d;this.Aa=3De;this.key=3D++Zmb;this.U=3Dthis.za=3D!1},Z=
+ob=3Dfunction(a){a.U=3D!0;a.O=3Dnull;a.Ca=3Dnull;a.src=3Dnull;a.Aa=3Dnull=
+};var =
+Zz=3Dfunction(a){this.src=3Da;this.o=3D{};this.fa=3D0};Zz.prototype.add=3D=
+function(a,b,c,d,e){var =
+f=3Da.toString();a=3Dthis.o[f];a||(a=3Dthis.o[f]=3D[],this.fa++);var =
+g=3DZpb(a,b,d,e);-1<g?(b=3Da[g],c||(b.za=3D!1)):(b=3Dnew =
+Znb(b,this.src,f,!!d,e),b.za=3Dc,a.push(b));return =
+b};Zz.prototype.remove=3Dfunction(a,b,c,d){a=3Da.toString();if(!(a in =
+this.o))return!1;var =
+e=3Dthis.o[a];b=3DZpb(e,b,c,d);return-1<b?(Zob(e[b]),Zj(null!=3De.length)=
+,Zk.splice.call(e,b,1),0=3D=3De.length&&(delete =
+this.o[a],this.fa--),!0):!1};=0A=
+var Zqb=3Dfunction(a,b){var c=3Db.type;c in =
+a.o&&Zya(a.o[c],b)&&(Zob(b),0=3D=3Da.o[c].length&&(delete =
+a.o[c],a.fa--))};Zz.prototype.lb=3Dfunction(a,b,c,d){a=3Dthis.o[a.toStrin=
+g()];var e=3D-1;a&&(e=3DZpb(a,b,c,d));return-1<e?a[e]:null};var =
+Zpb=3Dfunction(a,b,c,d){for(var e=3D0;e<a.length;++e){var =
+f=3Da[e];if(!f.U&&f.O=3D=3Db&&f.ya=3D=3D!!c&&f.Aa=3D=3Dd)return =
+e}return-1};var =
+Zrb=3D"closure_lm_"+(1E6*Math.random()|0),Zsb=3D{},Ztb=3D0,ZA=3Dfunction(=
+a,b,c,d,e){if("array"=3D=3DZb(b)){for(var =
+f=3D0;f<b.length;f++)ZA(a,b[f],c,d,e);return =
+null}c=3DZub(c);if(Zlb(a))f=3Dc,Zvb(a),a=3Da.B.add(String(b),f,!1,d,e);el=
+se{if(!b)throw Error("Invalid event type");var =
+f=3D!!d,g=3DZwb(a);g||(a[Zrb]=3Dg=3Dnew =
+Zz(a));d=3Dg.add(b,c,!1,d,e);d.Ca||(e=3DZxb(),d.Ca=3De,e.src=3Da,e.O=3Dd,=
+a.addEventListener?a.addEventListener(b.toString(),e,f):a.attachEvent(Zyb=
+(b.toString()),e),Ztb++);a=3Dd}return a},Zxb=3Dfunction(){var =
+a=3DZzb,b=3DZhb?=0A=
+function(c){return =
+a.call(b.src,b.O,c)}:function(c){c=3Da.call(b.src,b.O,c);if(!c)return =
+c};return b},ZAb=3Dfunction(a,b,c,d,e){if("array"=3D=3DZb(b))for(var =
+f=3D0;f<b.length;f++)ZAb(a,b[f],c,d,e);else =
+c=3DZub(c),Zlb(a)?a.B.remove(String(b),c,d,e):a&&(a=3DZwb(a))&&(b=3Da.lb(=
+b,c,!!d,e))&&ZBb(b)},ZBb=3Dfunction(a){if("number"!=3Dtypeof =
+a&&a&&!a.U){var b=3Da.src;if(Zlb(b))Zqb(b.B,a);else{var =
+c=3Da.type,d=3Da.Ca;b.removeEventListener?b.removeEventListener(c,d,a.ya)=
+:b.detachEvent&&b.detachEvent(Zyb(c),d);Ztb--;(c=3DZwb(b))?(Zqb(c,=0A=
+a),0=3D=3Dc.fa&&(c.src=3Dnull,b[Zrb]=3Dnull)):Zob(a)}}},Zyb=3Dfunction(a)=
+{return a in Zsb?Zsb[a]:Zsb[a]=3D"on"+a},ZDb=3Dfunction(a,b,c,d){var =
+e=3D1;if(a=3DZwb(a))if(b=3Da.o[b.toString()])for(b=3DZAa(b),a=3D0;a<b.len=
+gth;a++){var =
+f=3Db[a];f&&f.ya=3D=3Dc&&!f.U&&(e&=3D!1!=3D=3DZCb(f,d))}return =
+Boolean(e)},ZCb=3Dfunction(a,b){var =
+c=3Da.O,d=3Da.Aa||a.src;a.za&&ZBb(a);return =
+c.call(d,b)},Zzb=3Dfunction(a,b){if(a.U)return!0;if(!Zhb){var =
+c=3Db||Zba("window.event"),d=3Dnew =
+Zy(c,this),e=3D!0;if(!(0>c.keyCode||void 0!=3Dc.returnValue)){t:{var =
+f=3D!1;if(0=3D=3Dc.keyCode)try{c.keyCode=3D=0A=
+-1;break t}catch(g){f=3D!0}if(f||void =
+0=3D=3Dc.returnValue)c.returnValue=3D!0}c=3D[];for(f=3Dd.currentTarget;f;=
+f=3Df.parentNode)c.push(f);for(var =
+f=3Da.type,h=3Dc.length-1;!d.P&&0<=3Dh;h--)d.currentTarget=3Dc[h],e&=3DZD=
+b(c[h],f,!0,d);for(h=3D0;!d.P&&h<c.length;h++)d.currentTarget=3Dc[h],e&=3D=
+ZDb(c[h],f,!1,d)}return e}return ZCb(a,new =
+Zy(b,this))},Zwb=3Dfunction(a){a=3Da[Zrb];return a instanceof =
+Zz?a:null},ZEb=3D"__closure_events_fn_"+(1E9*Math.random()>>>0),Zub=3Dfun=
+ction(a){Zj(a,"Listener can not be null.");if(Zea(a))return =
+a;Zj(a.handleEvent,=0A=
+"An object listener must have handleEvent method.");return =
+a[ZEb]||(a[ZEb]=3Dfunction(b){return a.handleEvent(b)})};var =
+ZB=3Dfunction(){this.B=3Dnew =
+Zz(this);this.Jc=3Dthis};Zf(ZB,Zjb);ZB.prototype[Zkb]=3D!0;Z=3DZB.prototy=
+pe;Z.Za=3Dnull;Z.addEventListener=3Dfunction(a,b,c,d){ZA(this,a,b,c,d)};Z=
+.removeEventListener=3Dfunction(a,b,c,d){ZAb(this,a,b,c,d)};=0A=
+Z.dispatchEvent=3Dfunction(a){Zvb(this);var =
+b,c=3Dthis.Za;if(c){b=3D[];for(var =
+d=3D1;c;c=3Dc.Za)b.push(c),Zj(1E3>++d,"infinite =
+loop")}c=3Dthis.Jc;d=3Da.type||a;if(Zc(a))a=3Dnew Zx(a,c);else if(a =
+instanceof Zx)a.target=3Da.target||c;else{var e=3Da;a=3Dnew =
+Zx(d,c);ZHa(a,e)}var e=3D!0,f;if(b)for(var =
+g=3Db.length-1;!a.P&&0<=3Dg;g--)f=3Da.currentTarget=3Db[g],e=3DZFb(f,d,!0=
+,a)&&e;a.P||(f=3Da.currentTarget=3Dc,e=3DZFb(f,d,!0,a)&&e,a.P||(e=3DZFb(f=
+,d,!1,a)&&e));if(b)for(g=3D0;!a.P&&g<b.length;g++)f=3Da.currentTarget=3Db=
+[g],e=3DZFb(f,d,!1,a)&&e;return e};=0A=
+Z.D=3Dfunction(){ZB.G.D.call(this);if(this.B){var =
+a=3Dthis.B,b=3D0,c;for(c in a.o){for(var =
+d=3Da.o[c],e=3D0;e<d.length;e++)++b,Zob(d[e]);delete =
+a.o[c];a.fa--}}this.Za=3Dnull};var =
+ZFb=3Dfunction(a,b,c,d){b=3Da.B.o[String(b)];if(!b)return!0;b=3DZAa(b);fo=
+r(var e=3D!0,f=3D0;f<b.length;++f){var =
+g=3Db[f];if(g&&!g.U&&g.ya=3D=3Dc){var =
+h=3Dg.O,k=3Dg.Aa||g.src;g.za&&Zqb(a.B,g);e=3D!1!=3D=3Dh.call(k,d)&&e}}ret=
+urn e&&!1!=3Dd.yb};ZB.prototype.lb=3Dfunction(a,b,c,d){return =
+this.B.lb(String(a),b,c,d)};var Zvb=3Dfunction(a){Zj(a.B,"Event target =
+is not initialized. Did you call the superclass =
+(goog.events.EventTarget) constructor?")};var =
+ZGb=3Dfunction(a){a=3DString(a);if(/^\s*$/.test(a)?0:/^[\],:{}\s\u2028\u2=
+029]*$/.test(a.replace(/\\["\\\/bfnrtu]/g,"@").replace(/"[^"\\\n\r\u2028\=
+u2029\x00-\x08\x0a-\x1f]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d=
++)?/g,"]").replace(/(?:^|:|,)(?:[\s\u2028\u2029]*\[)+/g,"")))try{return =
+eval("("+a+")")}catch(b){}throw Error("Invalid JSON string: =
+"+a);},ZHb=3Dfunction(a){return eval("("+a+")")};var =
+ZIb=3D"StopIteration"in =
+Za?Za.StopIteration:Error("StopIteration"),ZJb=3Dfunction(){};ZJb.prototy=
+pe.next=3Dfunction(){throw ZIb;};ZJb.prototype.Yc=3Dfunction(){return =
+this};var =
+ZC=3Dfunction(a,b){this.C=3D{};this.k=3D[];this.ga=3Dthis.h=3D0;var =
+c=3Darguments.length;if(1<c){if(c%2)throw Error("Uneven number of =
+arguments");for(var =
+d=3D0;d<c;d+=3D2)this.set(arguments[d],arguments[d+1])}else if(a){a =
+instanceof ZC?(c=3Da.F(),d=3Da.H()):(c=3DZFa(a),d=3DZEa(a));for(var =
+e=3D0;e<c.length;e++)this.set(c[e],d[e])}};Z=3DZC.prototype;Z.H=3Dfunctio=
+n(){ZKb(this);for(var =
+a=3D[],b=3D0;b<this.k.length;b++)a.push(this.C[this.k[b]]);return =
+a};Z.F=3Dfunction(){ZKb(this);return this.k.concat()};=0A=
+Z.ha=3Dfunction(a){return =
+ZD(this.C,a)};Z.clear=3Dfunction(){this.C=3D{};this.ga=3Dthis.h=3Dthis.k.=
+length=3D0};Z.remove=3Dfunction(a){return ZD(this.C,a)?(delete =
+this.C[a],this.h--,this.ga++,this.k.length>2*this.h&&ZKb(this),!0):!1};va=
+r ZKb=3Dfunction(a){if(a.h!=3Da.k.length){for(var =
+b=3D0,c=3D0;b<a.k.length;){var =
+d=3Da.k[b];ZD(a.C,d)&&(a.k[c++]=3Dd);b++}a.k.length=3Dc}if(a.h!=3Da.k.len=
+gth){for(var =
+e=3D{},c=3Db=3D0;b<a.k.length;)d=3Da.k[b],ZD(e,d)||(a.k[c++]=3Dd,e[d]=3D1=
+),b++;a.k.length=3Dc}};Z=3DZC.prototype;=0A=
+Z.get=3Dfunction(a,b){return =
+ZD(this.C,a)?this.C[a]:b};Z.set=3Dfunction(a,b){ZD(this.C,a)||(this.h++,t=
+his.k.push(a),this.ga++);this.C[a]=3Db};Z.forEach=3Dfunction(a,b){for(var=
+ c=3Dthis.F(),d=3D0;d<c.length;d++){var =
+e=3Dc[d],f=3Dthis.get(e);a.call(b,f,e,this)}};Z.ma=3Dfunction(){return =
+new ZC(this)};=0A=
+Z.Yc=3Dfunction(a){ZKb(this);var =
+b=3D0,c=3Dthis.k,d=3Dthis.C,e=3Dthis.ga,f=3Dthis,g=3Dnew =
+ZJb;g.next=3Dfunction(){for(;;){if(e!=3Df.ga)throw Error("The map has =
+changed since the iterator was created");if(b>=3Dc.length)throw ZIb;var =
+g=3Dc[b++];return a?g:d[g]}};return g};var ZD=3Dfunction(a,b){return =
+Object.prototype.hasOwnProperty.call(a,b)};var =
+ZLb=3Dfunction(a){if("function"=3D=3Dtypeof a.H)return =
+a.H();if(Zc(a))return a.split("");if(Zda(a)){for(var =
+b=3D[],c=3Da.length,d=3D0;d<c;d++)b.push(a[d]);return b}return =
+ZEa(a)},ZMb=3Dfunction(a){if("function"=3D=3Dtypeof a.F)return =
+a.F();if("function"!=3Dtypeof a.H){if(Zda(a)||Zc(a)){var =
+b=3D[];a=3Da.length;for(var c=3D0;c<a;c++)b.push(c);return b}return =
+ZFa(a)}},ZNb=3Dfunction(a,b,c){if("function"=3D=3Dtypeof =
+a.forEach)a.forEach(b,c);else if(Zda(a)||Zc(a))Zua(a,b,c);else for(var =
+d=3DZMb(a),e=3DZLb(a),f=3De.length,g=3D0;g<f;g++)b.call(c,=0A=
+e[g],d&&d[g],a)};var ZPb=3Dfunction(a){return =
+ZOb(a||arguments.callee.caller,[])},ZOb=3Dfunction(a,b){var =
+c=3D[];if(Zl(b,a))c.push("[...circular reference...]");else =
+if(a&&50>b.length){c.push(ZQb(a)+"(");for(var =
+d=3Da.arguments,e=3D0;d&&e<d.length;e++){0<e&&c.push(", ");var =
+f;f=3Dd[e];switch(typeof f){case =
+"object":f=3Df?"object":"null";break;case "string":break;case =
+"number":f=3DString(f);break;case =
+"boolean":f=3Df?"true":"false";break;case =
+"function":f=3D(f=3DZQb(f))?f:"[fn]";break;default:f=3Dtypeof =
+f}40<f.length&&(f=3Df.substr(0,40)+"...");=0A=
+c.push(f)}b.push(a);c.push(")\n");try{c.push(ZOb(a.caller,b))}catch(g){c.=
+push("[exception trying to get caller]\n")}}else a?c.push("[...long =
+stack...]"):c.push("[end]");return =
+c.join("")},ZQb=3Dfunction(a){if(ZRb[a])return =
+ZRb[a];a=3DString(a);if(!ZRb[a]){var b=3D/function =
+([^\(]+)/.exec(a);ZRb[a]=3Db?b[1]:"[Anonymous]"}return =
+ZRb[a]},ZRb=3D{};var =
+ZSb=3Dfunction(a,b,c,d,e){this.reset(a,b,c,d,e)};ZSb.prototype.Tb=3Dnull;=
+ZSb.prototype.Sb=3Dnull;var =
+ZTb=3D0;ZSb.prototype.reset=3Dfunction(a,b,c,d,e){"number"=3D=3Dtypeof =
+e||ZTb++;d||Zja();this.ka=3Da;this.Lc=3Db;delete this.Tb;delete =
+this.Sb};ZSb.prototype.Xb=3Dfunction(a){this.ka=3Da};var =
+ZE=3Dfunction(a){this.Ec=3Da;this.Qb=3Dthis.kb=3Dthis.ka=3Dthis.La=3Dnull=
+},ZUb=3Dfunction(a,b){this.name=3Da;this.value=3Db};ZUb.prototype.toStrin=
+g=3Dfunction(){return this.name};var ZVb=3Dnew =
+ZUb("SEVERE",1E3),ZWb=3Dnew ZUb("CONFIG",700),ZXb=3Dnew =
+ZUb("FINE",500);ZE.prototype.getParent=3Dfunction(){return =
+this.La};ZE.prototype.Wb=3Dfunction(){this.kb||(this.kb=3D{});return =
+this.kb};ZE.prototype.Xb=3Dfunction(a){this.ka=3Da};var =
+ZYb=3Dfunction(a){if(a.ka)return a.ka;if(a.La)return ZYb(a.La);Zsa("Root =
+logger has no level set.");return null};=0A=
+ZE.prototype.log=3Dfunction(a,b,c){if(a.value>=3DZYb(this).value)for(Zea(=
+b)&&(b=3Db()),a=3Dthis.Wc(a,b,c),b=3D"log:"+a.Lc,Za.console&&(Za.console.=
+timeStamp?Za.console.timeStamp(b):Za.console.markTimeline&&Za.console.mar=
+kTimeline(b)),Za.msWriteProfilerMark&&Za.msWriteProfilerMark(b),b=3Dthis;=
+b;){c=3Db;var d=3Da;if(c.Qb)for(var e=3D0,f=3Dvoid =
+0;f=3Dc.Qb[e];e++)f(d);b=3Db.getParent()}};=0A=
+ZE.prototype.Wc=3Dfunction(a,b,c){var d=3Dnew =
+ZSb(a,String(b),this.Ec);if(c){d.Tb=3Dc;var e;var =
+f=3Darguments.callee.caller;try{var g;var =
+h=3DZba("window.location.href");if(Zc(c))g=3D{message:c,name:"Unknown =
+error",lineNumber:"Not available",fileName:h,stack:"Not =
+available"};else{var k,l,m=3D!1;try{k=3Dc.lineNumber||c.kd||"Not =
+available"}catch(n){k=3D"Not =
+available",m=3D!0}try{l=3Dc.fileName||c.filename||c.sourceURL||Za.$googDe=
+bugFname||h}catch(q){l=3D"Not =
+available",m=3D!0}g=3D!m&&c.lineNumber&&c.fileName&&c.stack&&c.message&&=0A=
+c.name?c:{message:c.message||"Not =
+available",name:c.name||"UnknownError",lineNumber:k,fileName:l,stack:c.st=
+ack||"Not available"}}e=3D"Message: "+Zi(g.message)+'\nUrl: <a =
+href=3D"view-source:'+g.fileName+'" =
+target=3D"_new">'+g.fileName+"</a>\nLine: "+g.lineNumber+"\n\nBrowser =
+stack:\n"+Zi(g.stack+"-> ")+"[end]\n\nJS stack =
+traversal:\n"+Zi(ZPb(f)+"-> ")}catch(p){e=3D"Exception trying to expose =
+exception! You win, we lose. "+p}d.Sb=3De}return d};=0A=
+var ZZb=3D{},Z_b=3Dnull,Z0b=3Dfunction(a){Z_b||(Z_b=3Dnew =
+ZE(""),ZZb[""]=3DZ_b,Z_b.Xb(ZWb));var b;if(!(b=3DZZb[a])){b=3Dnew =
+ZE(a);var =
+c=3Da.lastIndexOf("."),d=3Da.substr(c+1),c=3DZ0b(a.substr(0,c));c.Wb()[d]=
+=3Db;b.La=3Dc;ZZb[a]=3Db}return b};var =
+ZF=3Dfunction(a,b){a&&a.log(ZXb,b,void 0)};var =
+Z1b=3Dfunction(a,b,c){if(Zea(a))c&&(a=3DZd(a,c));else =
+if(a&&"function"=3D=3Dtypeof a.handleEvent)a=3DZd(a.handleEvent,a);else =
+throw Error("Invalid listener argument");return =
+2147483647<b?-1:Za.setTimeout(a,b||0)};var =
+Z2b=3DRegExp("^(?:([^:/?#.]+):)?(?://(?:([^/?#]*)@)?([^/#?]*?)(?::([0-9]+=
+))?(?=3D[/#?]|$))?([^?#]+)?(?:\\?([^#]*))?(?:#(.*))?$"),Z3b=3DZr,Z4b=3Dfu=
+nction(a,b){if(Z3b){Z3b=3D!1;var c=3DZa.location;if(c){var =
+d=3Dc.href;if(d&&(d=3D(d=3DZ4b(3,d))&&decodeURIComponent(d))&&d!=3Dc.host=
+name)throw Z3b=3D!0,Error();}}return b.match(Z2b)[a]||null};var =
+Z5b=3Dfunction(){};Z5b.prototype.$b=3Dnull;var Z7b=3Dfunction(a){var =
+b;(b=3Da.$b)||(b=3D{},Z6b(a)&&(b[0]=3D!0,b[1]=3D!0),b=3Da.$b=3Db);return =
+b};var Z8b,Z9b=3Dfunction(){};Zf(Z9b,Z5b);var =
+Z$b=3Dfunction(a){return(a=3DZ6b(a))?new ActiveXObject(a):new =
+XMLHttpRequest},Z6b=3Dfunction(a){if(!a.cc&&"undefined"=3D=3Dtypeof =
+XMLHttpRequest&&"undefined"!=3Dtypeof ActiveXObject){for(var =
+b=3D["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsof=
+t.XMLHTTP"],c=3D0;c<b.length;c++){var d=3Db[c];try{return new =
+ActiveXObject(d),a.cc=3Dd}catch(e){}}throw Error("Could not create =
+ActiveXObject. ActiveX might be disabled, or MSXML might not be =
+installed");}return a.cc};=0A=
+Z8b=3Dnew Z9b;var ZG=3Dfunction(a){ZB.call(this);this.headers=3Dnew =
+ZC;this.ta=3Da||null;this.J=3D!1;this.oa=3Dthis.a=3Dnull;this.K=3Dthis.mb=
+=3Dthis.ra=3D"";this.N=3Dthis.Oa=3Dthis.na=3Dthis.Pa=3D!1;this.Q=3D0;this=
+.pa=3Dnull;this.nb=3D"";this.qa=3Dthis.ec=3D!1};Zf(ZG,ZB);var =
+Zac=3DZG.prototype,Zbc=3DZ0b("goog.net.XhrIo");Zac.q=3DZbc;=0A=
+var =
+Zcc=3D/^https?$/i,Zdc=3D["POST","PUT"],Zec=3D[],ZH=3Dfunction(a,b,c,d,e,f=
+){var g=3Dnew ZG;Zec.push(g);b&&(Zvb(g),g.B.add("complete",b,!1,void =
+0,void 0));g.B.add("ready",g.Mc,!0,void 0,void =
+0);f&&(g.Q=3DMath.max(0,f));g.send(a,c,d,e)};ZG.prototype.Mc=3Dfunction()=
+{this.ac();Zya(Zec,this)};=0A=
+ZG.prototype.send=3Dfunction(a,b,c,d){if(this.a)throw =
+Error("[goog.net.XhrIo] Object is active with another =
+request=3D"+this.ra+"; =
+newUri=3D"+a);b=3Db?b.toUpperCase():"GET";this.ra=3Da;this.K=3D"";this.mb=
+=3Db;this.Pa=3D!1;this.J=3D!0;this.a=3Dthis.ta?Z$b(this.ta):Z$b(Z8b);this=
+.oa=3Dthis.ta?Z7b(this.ta):Z7b(Z8b);this.a.onreadystatechange=3DZd(this.o=
+b,this);try{ZF(this.q,ZI(this,"Opening =
+Xhr")),this.Oa=3D!0,this.a.open(b,String(a),!0),this.Oa=3D!1}catch(e){ZF(=
+this.q,ZI(this,"Error opening Xhr: "+e.message));Zfc(this,e);return}a=3D=0A=
+c||"";var =
+f=3Dthis.headers.ma();d&&ZNb(d,function(a,b){f.set(b,a)});d=3DZxa(f.F());=
+c=3DZa.FormData&&a instanceof =
+Za.FormData;!Zl(Zdc,b)||d||c||f.set("Content-Type","application/x-www-for=
+m-urlencoded;charset=3Dutf-8");f.forEach(function(a,b){this.a.setRequestH=
+eader(b,a)},this);this.nb&&(this.a.responseType=3Dthis.nb);"withCredentia=
+ls"in =
+this.a&&(this.a.withCredentials=3Dthis.ec);try{Zgc(this),0<this.Q&&(this.=
+qa=3DZhc(this.a),ZF(this.q,ZI(this,"Will abort after "+this.Q+"ms if =
+incomplete, xhr2 "+this.qa)),this.qa?=0A=
+(this.a.timeout=3Dthis.Q,this.a.ontimeout=3DZd(this.pb,this)):this.pa=3DZ=
+1b(this.pb,this.Q,this)),ZF(this.q,ZI(this,"Sending =
+request")),this.na=3D!0,this.a.send(a),this.na=3D!1}catch(g){ZF(this.q,ZI=
+(this,"Send error: "+g.message)),Zfc(this,g)}};var =
+Zhc=3Dfunction(a){return Zp&&Zt(9)&&"number"=3D=3Dtypeof a.timeout&&void =
+0!=3D=3Da.ontimeout},Zwa=3Dfunction(a){return"content-type"=3D=3Da.toLowe=
+rCase()};=0A=
+ZG.prototype.pb=3Dfunction(){"undefined"!=3Dtypeof =
+Zaa&&this.a&&(this.K=3D"Timed out after "+this.Q+"ms, =
+aborting",ZF(this.q,ZI(this,this.K)),this.dispatchEvent("timeout"),this.a=
+bort(8))};var =
+Zfc=3Dfunction(a,b){a.J=3D!1;a.a&&(a.N=3D!0,a.a.abort(),a.N=3D!1);a.K=3Db=
+;Zic(a);Zjc(a)},Zic=3Dfunction(a){a.Pa||(a.Pa=3D!0,a.dispatchEvent("compl=
+ete"),a.dispatchEvent("error"))};=0A=
+ZG.prototype.abort=3Dfunction(){this.a&&this.J&&(ZF(this.q,ZI(this,"Abort=
+ing")),this.J=3D!1,this.N=3D!0,this.a.abort(),this.N=3D!1,this.dispatchEv=
+ent("complete"),this.dispatchEvent("abort"),Zjc(this))};ZG.prototype.D=3D=
+function(){this.a&&(this.J&&(this.J=3D!1,this.N=3D!0,this.a.abort(),this.=
+N=3D!1),Zjc(this,!0));ZG.G.D.call(this)};ZG.prototype.ob=3Dfunction(){thi=
+s.ib||(this.Oa||this.na||this.N?Zkc(this):this.Kc())};ZG.prototype.Kc=3Df=
+unction(){Zkc(this)};=0A=
+var Zkc=3Dfunction(a){if(a.J&&"undefined"!=3Dtypeof =
+Zaa)if(a.oa[1]&&4=3D=3DZlc(a)&&2=3D=3DZmc(a))ZF(a.q,ZI(a,"Local request =
+error detected and ignored"));else =
+if(a.na&&4=3D=3DZlc(a))Z1b(a.ob,0,a);else =
+if(a.dispatchEvent("readystatechange"),4=3D=3DZlc(a)){ZF(a.q,ZI(a,"Reques=
+t =
+complete"));a.J=3D!1;try{if(ZJ(a))a.dispatchEvent("complete"),a.dispatchE=
+vent("success");else{var =
+b;try{b=3D2<Zlc(a)?a.a.statusText:""}catch(c){ZF(a.q,"Can not get =
+status: "+c.message),b=3D""}a.K=3Db+" =
+["+Zmc(a)+"]";Zic(a)}}finally{Zjc(a)}}},Zjc=3Dfunction(a,=0A=
+b){if(a.a){Zgc(a);var =
+c=3Da.a,d=3Da.oa[0]?Zca:null;a.a=3Dnull;a.oa=3Dnull;b||a.dispatchEvent("r=
+eady");try{c.onreadystatechange=3Dd}catch(e){(c=3Da.q)&&c.log(ZVb,"Proble=
+m encountered resetting onreadystatechange: "+e.message,void =
+0)}}},Zgc=3Dfunction(a){a.a&&a.qa&&(a.a.ontimeout=3Dnull);"number"=3D=3Dt=
+ypeof a.pa&&(Za.clearTimeout(a.pa),a.pa=3Dnull)},ZJ=3Dfunction(a){var =
+b=3DZmc(a),c;t:switch(b){case 200:case 201:case 202:case 204:case =
+206:case 304:case 1223:c=3D!0;break =
+t;default:c=3D!1}if(!c){if(b=3D0=3D=3D=3Db)a=3DZ4b(1,String(a.ra)),=0A=
+!a&&self.location&&(a=3Dself.location.protocol,a=3Da.substr(0,a.length-1)=
+),b=3D!Zcc.test(a?a.toLowerCase():"");c=3Db}return =
+c},Zlc=3Dfunction(a){return =
+a.a?a.a.readyState:0},Zmc=3Dfunction(a){try{return =
+2<Zlc(a)?a.a.status:-1}catch(b){return-1}},Znc=3Dfunction(a){try{return =
+a.a?a.a.responseText:""}catch(b){return ZF(a.q,"Can not get =
+responseText: "+b.message),""}},ZK=3Dfunction(a){if(a.a)return =
+ZGb(a.a.responseText)},Zoc=3Dfunction(a){return =
+Zc(a.K)?a.K:String(a.K)},ZI=3Dfunction(a,b){return b+" ["+a.mb+" =
+"+a.ra+" "+=0A=
+Zmc(a)+"]"};var Zqc=3Dfunction(a,b){var c=3D1,d;if(c instanceof =
+Zm)d=3Dc.height,c=3Dc.width;else{if(void 0=3D=3Db)throw Error("missing =
+height =
+argument");d=3Db}a.style.width=3DZpc(c);a.style.height=3DZpc(d)},Zpc=3Dfu=
+nction(a){"number"=3D=3Dtypeof a&&(a=3DMath.round(a)+"px");return =
+a},Zsc=3Dfunction(a){var =
+b=3DZrc,c;t:{c=3D9=3D=3Da.nodeType?a:a.ownerDocument||a.document;if(c.def=
+aultView&&c.defaultView.getComputedStyle&&(c=3Dc.defaultView.getComputedS=
+tyle(a,null))){c=3Dc.display||c.getPropertyValue("display")||"";break =
+t}c=3D""}if("none"!=3D(c||(a.currentStyle?=0A=
+a.currentStyle.display:null)||a.style&&a.style.display))return =
+b(a);c=3Da.style;var =
+d=3Dc.display,e=3Dc.visibility,f=3Dc.position;c.visibility=3D"hidden";c.p=
+osition=3D"absolute";c.display=3D"inline";a=3Db(a);c.display=3Dd;c.positi=
+on=3Df;c.visibility=3De;return a},Zrc=3Dfunction(a){var =
+b=3Da.offsetWidth,c=3Da.offsetHeight,d=3DZr&&!b&&!c;if((void =
+0=3D=3D=3Db||d)&&a.getBoundingClientRect){var =
+e;t:{try{e=3Da.getBoundingClientRect()}catch(f){e=3D{left:0,top:0,right:0=
+,bottom:0};break =
+t}Zp&&a.ownerDocument.body&&(a=3Da.ownerDocument,e.left-=3Da.documentElem=
+ent.clientLeft+=0A=
+a.body.clientLeft,e.top-=3Da.documentElement.clientTop+a.body.clientTop)}=
+return new Zm(e.right-e.left,e.bottom-e.top)}return new =
+Zm(b,c)},ZL=3Dfunction(a,b){a.style.display=3Db?"":"none"};var =
+ZM=3Dfunction(a,b,c){this.w=3Da||null;this.Uc=3D!!c},ZO=3Dfunction(a){if(=
+!a.g&&(a.g=3Dnew ZC,a.h=3D0,a.w))for(var =
+b=3Da.w.split("&"),c=3D0;c<b.length;c++){var =
+d=3Db[c].indexOf("=3D"),e=3Dnull,f=3Dnull;0<=3Dd?(e=3Db[c].substring(0,d)=
+,f=3Db[c].substring(d+1)):e=3Db[c];e=3DdecodeURIComponent(e.replace(/\+/g=
+," "));e=3DZN(a,e);a.add(e,f?decodeURIComponent(f.replace(/\+/g," =
+")):"")}},Ztc=3Dfunction(a){var b=3DZMb(a);if("undefined"=3D=3Dtypeof =
+b)throw Error("Keys are undefined");var c=3Dnew ZM(null,0,void =
+0);a=3DZLb(a);for(var d=3D0;d<b.length;d++){var e=3D=0A=
+b[d],f=3Da[d];if("array"=3D=3DZb(f)){var =
+g=3Dc;g.remove(e);0<f.length&&(g.w=3Dnull,g.g.set(ZN(g,e),ZAa(f)),g.h+=3D=
+f.length)}else c.add(e,f)}return =
+c};Z=3DZM.prototype;Z.g=3Dnull;Z.h=3Dnull;Z.add=3Dfunction(a,b){ZO(this);=
+this.w=3Dnull;a=3DZN(this,a);var =
+c=3Dthis.g.get(a);c||this.g.set(a,c=3D[]);c.push(b);this.h++;return =
+this};Z.remove=3Dfunction(a){ZO(this);a=3DZN(this,a);return =
+this.g.ha(a)?(this.w=3Dnull,this.h-=3Dthis.g.get(a).length,this.g.remove(=
+a)):!1};Z.clear=3Dfunction(){this.g=3Dthis.w=3Dnull;this.h=3D0};=0A=
+Z.ha=3Dfunction(a){ZO(this);a=3DZN(this,a);return =
+this.g.ha(a)};Z.F=3Dfunction(){ZO(this);for(var =
+a=3Dthis.g.H(),b=3Dthis.g.F(),c=3D[],d=3D0;d<b.length;d++)for(var =
+e=3Da[d],f=3D0;f<e.length;f++)c.push(b[d]);return =
+c};Z.H=3Dfunction(a){ZO(this);var =
+b=3D[];if(Zc(a))this.ha(a)&&(b=3DZza(b,this.g.get(ZN(this,a))));else{a=3D=
+this.g.H();for(var c=3D0;c<a.length;c++)b=3DZza(b,a[c])}return =
+b};Z.set=3Dfunction(a,b){ZO(this);this.w=3Dnull;a=3DZN(this,a);this.ha(a)=
+&&(this.h-=3Dthis.g.get(a).length);this.g.set(a,[b]);this.h++;return =
+this};=0A=
+Z.get=3Dfunction(a,b){var c=3Da?this.H(a):[];return =
+0<c.length?String(c[0]):b};Z.toString=3Dfunction(){if(this.w)return =
+this.w;if(!this.g)return"";for(var =
+a=3D[],b=3Dthis.g.F(),c=3D0;c<b.length;c++)for(var =
+d=3Db[c],e=3DencodeURIComponent(String(d)),d=3Dthis.H(d),f=3D0;f<d.length=
+;f++){var =
+g=3De;""!=3D=3Dd[f]&&(g+=3D"=3D"+encodeURIComponent(String(d[f])));a.push=
+(g)}return this.w=3Da.join("&")};Z.ma=3Dfunction(){var a=3Dnew =
+ZM;a.w=3Dthis.w;this.g&&(a.g=3Dthis.g.ma(),a.h=3Dthis.h);return a};=0A=
+var ZN=3Dfunction(a,b){var =
+c=3DString(b);a.Uc&&(c=3Dc.toLowerCase());return =
+c};ZM.prototype.extend=3Dfunction(a){for(var =
+b=3D0;b<arguments.length;b++)ZNb(arguments[b],function(a,b){this.add(b,a)=
+},this)};if(window.jstiming){window.jstiming.Yb=3D{};window.jstiming.Xc=3D=
+1;var Zuc=3Dfunction(a,b,c){var =
+d=3D"";window.jstiming.srt&&(d+=3D"&srt=3D"+window.jstiming.srt,delete =
+window.jstiming.srt);window.jstiming.pt&&(d+=3D"&tbsrt=3D"+window.jstimin=
+g.pt,delete =
+window.jstiming.pt);try{window.external&&window.external.tran?d+=3D"&tran=
+=3D"+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?d+=3D=
+"&tran=3D"+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(d=
++=3D"&tran=3D"+window.chrome.csi().tran)}catch(e){}var f=3D=0A=
+window.chrome;if(f&&(f=3Df.loadTimes)){f().wasFetchedViaSpdy&&(d+=3D"&p=3D=
+s");if(f().wasNpnNegotiated){var =
+d=3Dd+"&npn=3D1",g=3Df().npnNegotiatedProtocol;g&&(d+=3D"&npnv=3D"+(encod=
+eURIComponent||escape)(g))}f().wasAlternateProtocolAvailable&&(d+=3D"&apa=
+=3D1")}var g=3Da.t,h=3Dg.start,f=3D[],k;for(k in =
+g)if("start"!=3Dk&&h){var l;l=3Da.t[k];var =
+m=3Da.t.start;l=3Dl&&m?l-m:void 0;f.push(k+"."+l)}delete =
+g.start;if(b)for(var n in =
+b)d+=3D"&"+n+"=3D"+b[n];(b=3Dc)||(b=3D"https:"=3D=3Ddocument.location.pro=
+tocol?"https://csi.gstatic.com/csi":"http://csi.gstatic.com/csi");=0A=
+return[b,"?v=3D3","&s=3D"+(window.jstiming.sn||"codesite")+"&action=3D",a=
+.name,"",d,"&rt=3D",f.join(",")].join("")},Zvc=3Dfunction(a,b,c){a=3DZuc(=
+a,b,c);if(!a)return"";b=3Dnew Image;var =
+d=3Dwindow.jstiming.Xc++;window.jstiming.Yb[d]=3Db;b.onload=3Db.onerror=3D=
+function(){window.jstiming&&delete =
+window.jstiming.Yb[d]};b.src=3Da;b=3Dnull;return =
+a};window.jstiming.report=3Dfunction(a,b,c){if("prerender"=3D=3Ddocument.=
+webkitVisibilityState){var =
+d=3D!1,e=3Dfunction(){if(!d){b?b.prerender=3D"1":b=3D{prerender:"1"};var =
+f;"prerender"=3D=3Ddocument.webkitVisibilityState?=0A=
+f=3D!1:(Zvc(a,b,c),f=3D!0);f&&(d=3D!0,document.removeEventListener("webki=
+tvisibilitychange",e,!1))}};document.addEventListener("webkitvisibilitych=
+ange",e,!1);return""}return Zvc(a,b,c)}};function Zwc(a,b){var =
+c=3Da?Ztc(a):new ZM;!1!=3D=3Db&&c.set("token",CS_env.token);return =
+c.toString()}function =
+ZP(a,b,c){ZH(a,function(a){a=3Da.target;ZJ(a)&&b(a)},"POST",Zwc(c))};func=
+tion =
+Zxc(a,b){ZP(CS_env.relativeBaseUrl+"/hosting/stars.do",Zia(Zyc,a),b)}func=
+tion Zyc(a,b){var =
+c=3DZK(b).starred;a.Oc.src=3DCS_env.assetHostPath+(c?"/images/star_on.gif=
+":"/images/star_off.gif");a.Ub&&(a.Ub.innerHTML=3Dc?a.Qc:a.Pc);a.Rc&&Zzc(=
+)}_CS_setStar=3DZxc;=0A=
+_CS_toggleStar=3Dfunction(a,b,c,d,e,f,g,h){var =
+k=3D-1!=3Da.src.indexOf("/images/star_off.gif")?1:0;a.src=3DCS_env.assetH=
+ostPath+(k?"/images/star_on.gif":"/images/star_off.gif");if(d){var =
+l=3Ddocument.getElementById(d);l&&(l.innerHTML=3Dk?e:f)}g&&(d=3Ddocument.=
+getElementById(g))&&(g=3DparseInt(d.innerHTML,10),g=3Dk?g+1:g-1,d.innerHT=
+ML=3Dg,h&&(h=3Ddocument.getElementById(h)))&&(h.innerHTML=3D1=3D=3Dg?"":"=
+s");a=3D{Qc:e,Pc:f,Oc:a,Ub:l,Rc:c};b.starred=3Dk;Zxc(a,b)};_CS_dismissCue=
+=3Dfunction(a){ZL(Zv("cue"),!1);CS_env.token&&ZH(CS_env.relativeBaseUrl+"=
+/hosting/cues.do",null,"POST",Zwc({cue_id:a}));return!1};function =
+ZAc(a){for(;a;){if(Zl(Zu(a),"collapse"))return =
+Z1a(a,"collapse","expand"),!0;if(Zl(Zu(a),"expand"))return =
+Z1a(a,"expand","collapse"),!1;a=3Da.parentNode}}_hideID=3Dfunction(a){ZL(=
+Zv(a),!1);return!1};_showID=3Dfunction(a){ZL(Zv(a),!0);return!1};_hideEl=3D=
+function(a){ZL(a,!1);return!1};_showEl=3Dfunction(a){ZL(a,!0);return!1};_=
+showInstead=3Dfunction(a,b){ZL(Zv(a),!0);ZL(b,!1);return!1};=0A=
+_toggleHidden=3Dfunction(a){for(;a;){if(Zl(Zu(a),"closed"))return =
+Z1a(a,"closed","opened"),!1;if(Zl(Zu(a),"opened"))return =
+Z1a(a,"opened","closed"),!1;a=3Da.parentNode}};_toggleCollapse=3DZAc;func=
+tion ZBc(){var =
+a=3D/http:\/\/[^\/]*\/(u|hosting|r|p)\/([^\?\/]*)\/?([^\?\/]*)\/?([^\?\/]=
+*)?/.exec(window.location.href);if("hosting"=3D=3Da[1])return =
+a[2]?"hosting_"+a[2]:"hosting_home";if("u"=3D=3Da[1])return"updates"=3D=3D=
+a[3]?a[4]?"user_updates_"+a[4]:"user_updates_user":"user_profile";if("p"=3D=
+=3Da[1]||"r"=3D=3Da[1]){if(!a[3]&&!a[4])return"summary";if("wiki"=3D=3Da[=
+3]||a[3]&&!a[4])return =
+a[3];if(a[3]&&a[4])return("w"=3D=3Da[3]?"wiki":a[3])+"_"+a[4]}return"othe=
+r"}=0A=
+function ZCc(){var =
+a=3D["codesite","ph"],b=3D"project_"+ZBc();a.push(b);return =
+a.join(",")}function ZDc(){var =
+a=3Dwindow.jstiming.load;a.tick("plt");a.name=3DZCc();window.setTimeout(f=
+unction(){window.jstiming.report(a)},500)}_CS_reportToCsi=3Dfunction(){ZA=
+(window,"load",ZDc)};function =
+ZEc(a){window.setTimeout(function(){_gaq.push("siteTracker._trackPageview=
+",a)},0)}_CS_click=3DZEc;var =
+ZQ=3Dfunction(a,b){this.Ga=3DZFc.length;ZFc[this.Ga]=3Dthis;this.target=3D=
+a;this.$a=3Db||null;this.Z=3Da;this.items=3D[];this.ja=3D[];this.j=3Dthis=
+.createElement("div","menuDiv =
+instance"+this.Ga);this.cb=3Dthis.target.getAttribute("id");this.j.setAtt=
+ribute("id",null!=3Dthis.cb?"menuDiv-"+this.cb:"menuDiv-instance"+this.Ga=
+);this.Da();ZGc(this,"default");ZA(this.Z,"click",Zd(this.toggle,this));Z=
+A(window,"resize",Zd(this.Db,this));ZA(document,"click",Zd(this.Da,this))=
+;ZA(this.j,"click",function(a){a.stopPropagation()});=0A=
+ZA(this.Z,"click",function(a){a.stopPropagation()})};Z=3DZQ.prototype;Z.t=
+arget=3Dnull;Z.cb=3Dnull;Z.Z=3Dnull;Z.$a=3Dnull;Z.d=3Dnull;Z.Ga=3D-1;Z.it=
+ems=3Dnull;Z.ja=3Dnull;Z.createElement=3Dfunction(a,b,c){return =
+Zw(a,{className:b},c)};var ZGc=3Dfunction(a,b,c){a.d=3Da.d||[];var =
+d=3Da.createElement("div","menuCategory =
+"+b);d.Bb=3Db;c&&(c=3Da.createElement("b","categoryTitle =
+"+b,c),c.style.display=3D"block",Z9a(a.j,c),d.ab=3Dc);Z9a(a.j,d);return =
+a.d[a.d.length]=3Da.d[b]=3Dd};=0A=
+ZQ.prototype.clear=3Dfunction(){for(var =
+a=3D0;a<this.d.length;a++)this.d[this.d[a].Bb]=3Dnull;this.items.splice(0=
+,this.items.length);this.d.splice(0,this.d.length);this.d=3D[];this.items=
+=3D[];this.j.innerHTML=3D"";ZGc(this,"default")};ZQ.prototype.removeItem=3D=
+function(a){for(var =
+b=3Dnull,c=3D0;c<this.items.length;c++)this.items[c]=3D=3Da&&(b=3Dthis.it=
+ems[c],this.items.splice(c,1)),this.items[c].item.fb=3Dc;return b};=0A=
+var ZHc=3Dfunction(a){var =
+b=3DZR;if((a=3Db.d[a])&&a.parentNode){a.ab&&a.ab.parentNode.removeChild(a=
+.ab);a.parentNode.removeChild(a);for(var =
+c=3D0;c<b.d.length;c++)if(b.d[c]=3D=3D=3Da){b.d[b.d[c].Bb]=3Dnull;b.d.spl=
+ice(c,1);return}for(c=3D0;c<a.childNodes.length;c++)a.childNodes[c].fb?b.=
+items.splice(a.childNodes[c].fb,1):b.removeItem(a.childNodes[c])}},ZS=3Df=
+unction(a,b,c,d,e){d=3Dd?a.d[d]||ZGc(a,d,e):a.d["default"];c=3Dvoid =
+0=3D=3Dc?"#":c;e=3Dvoid =
+0;e=3Dc?a.createElement("a","menuItem",b):a.createElement("span","menuTex=
+t",b);b=3D"string"=3D=3D=0A=
+typeof =
+b?b:b.innerText||"ERROR";e.style.display=3D"block";c&&e.setAttribute("hre=
+f",c);e.fb=3Da.items.length;Z9a(d,e);a.items[a.items.length]=3D{item:e,te=
+xt:b}},ZIc=3Dfunction(a){var =
+b=3Da.d.controls||ZGc(a,"controls","");a=3Da.createElement("hr","menuSepa=
+rator");Z9a(b,a)};Z=3DZQ.prototype;=0A=
+Z.Db=3Dfunction(){var a=3Dthis.j.style;a.position=3D"absolute";for(var =
+b=3Dnull,c=3D0;c<this.d.length;c++)this.d[c].className=3Dthis.d[c].classN=
+ame.replace(/ =
+first/,""),0=3D=3Dthis.d[c].childNodes.length?this.d[c].style.display=3D"=
+none":(this.d[c].style.display=3D"",b||(b=3Dthis.d[c],b.className+=3D" =
+first"));var =
+d=3D"none"!=3Da.display&&"hidden"!=3Da.visibility,b=3Ddocument.documentEl=
+ement.clientWidth,c=3Ddocument.documentElement.clientHeight,b=3D(window.i=
+nnerWidth||b&&0<b?b:document.body.clientWidth)||1,c=3D(window.innerHeight=
+||c&&=0A=
+0<c?c:document.body.clientHeight)||1,e=3Dthis.find(this.target),f=3Dthis.=
+target.offsetWidth,g=3Dthis.target.offsetHeight,h=3Dthis.j.offsetWidth,k=3D=
+this.j.offsetHeight;d||(d=3Da.visibility,k=3Da.display,a.visibility=3D"hi=
+dden",a.display=3D"",a.height=3D"",a.width=3D"",h=3Dthis.j.offsetWidth,a.=
+display=3Dk,a.visibility=3Dd);(d=3D0.8<this.j.offsetHeight/c)?(k=3DparseI=
+nt(0.8*c,10),a.height=3Dk+"px",a.overflowX=3D"hidden",a.overflowY=3D"auto=
+"):a.height=3Da.overflowY=3Da.overflowX=3D"";a.top=3De.y+g+"px";a.left=3D=
+e.x+"px";175>h&&(a.width=3D"175px");d&&=0A=
+(a.width=3DparseInt(a.width,10)+13+"px");e.x+h>b&&(a.left=3De.x-(h-f)+"px=
+")};Z.toggle=3Dfunction(){"none"=3D=3Dthis.j.style.display?this.show():th=
+is.Da()};Z.show=3Dfunction(){if(""!=3Dthis.j.style.display){for(var =
+a=3D0;a<this.ja.length;a++)this.ja[a].call(null,this);this.j.style.visibi=
+lity=3D"hidden";this.j.style.display=3D"";this.Db();this.Z.nodeName&&"A"=3D=
+=3Dthis.Z.nodeName&&this.Z.blur();this.j.style.visibility=3D"visible";for=
+(a=3D0;a<ZFc.length;a++){var =
+b=3DZFc[a];b!=3Dthis&&b.Da()}this.$a&&this.$a()}};=0A=
+Z.Da=3Dfunction(){this.j.style.display=3D"none"};Z.find=3Dfunction(a){var=
+ b=3D0,c=3D0;if(a.offsetParent){do =
+b+=3Da.offsetLeft,c+=3Da.offsetTop;while((a=3Da.offsetParent)&&a.style&&"=
+relative"!=3Da.style.position&&"absolute"!=3Da.style.position)}return{x:b=
+,y:c}};var ZFc=3D[];var ZR;(function(){var =
+a=3Ddocument.getElementById("projects-dropdown");a&&(ZR=3Dnew =
+ZQ(a,function(){ZEc("/gb/ph/myprojects")}),ZR.ja.push(Zzc),ZA(window,"loa=
+d",function(){Zzc();document.body.appendChild(ZR.j)}))})();function =
+Zzc(){CS_env.token?ZP(CS_env.relativeBaseUrl+"/hosting/projects",ZJc,{}):=
+ZJc(null)}=0A=
+function ZJc(a){if(a){var b=3D[],c=3D[],d=3D[],e=3DZK(a),f;for(f in =
+e)switch(f){case =
+"personal_projects":for(a=3D0;a<e[f].length;a++)b.push(e[f][a]);break;cas=
+e "contributorto":case "memberof":case =
+"ownerof":for(a=3D0;a<e[f].length;a++)c.push(e[f][a]);break;case =
+"starred_projects":for(a=3D0;a<e[f].length;a++)d.push(e[f][a]);break;case=
+ "playground_token":ZKc(e[f]);break;case =
+"error":return}ZR.clear();b.sort();for(a=3D0;a<b.length;a++)f=3DCS_env.pr=
+ofileUrl+"p/"+b[a]+"/",ZS(ZR,b[a],f,"personal_projects","Personal =
+projects");=0A=
+c.sort();for(a=3D0;a<c.length;a++)f=3DCS_env.relativeBaseUrl+"/p/"+c[a]+"=
+/",ZS(ZR,c[a],f,"projects","Projects");d.sort();for(a=3D0;a<d.length;a++)=
+f=3DCS_env.relativeBaseUrl+"/p/"+d[a]+"/",ZS(ZR,d[a],f,"starred_projects"=
+,"Starred projects");ZLc(ZMc)}else =
+b=3DencodeURIComponent(window.location.href),ZR.clear(),ZS(ZR,"Sign in =
+to see your =
+favorites","http://www.google.com/accounts/ServiceLogin?service=3Dcode&lt=
+mpl=3Dphosting&continue=3D"+b+"&amp;followup=3D"+b,"controls"),ZNc()}=0A=
+function ZNc(){ZIc(ZR);var =
+a=3DCS_env.relativeBaseUrl+"/hosting/";ZS(ZR,CS_env.relativeBaseUrl?"Find=
+ projects...":"Find open source projects...",a,"controls");ZS(ZR,"Create =
+a project...",a+"createProject","controls")}var ZMc=3Dnull;function =
+ZKc(a){ZH("/apis/ajax/playground/get_projects",function(a){a=3Da.target;Z=
+J(a)&&(a=3DZK(a),a!=3DZMc&&(ZLc(a),ZMc=3Da))},"POST",Zwc({token:a,u:CS_en=
+v.loggedInUserEmail},!1))}=0A=
+function =
+ZLc(a){ZHc("playground_projects");ZHc("controls");if(a&&"200"=3D=3Da.resp=
+onseStatus&&0<a.numSamples)for(var b=3D0;b<a.samples.length;b++){var =
+c=3Da.samples[b];ZS(ZR,c.sampleName,c.sampleLoc,"playground_projects","Pl=
+ayground Projects")}ZNc()};var ZT;(function(){var =
+a=3Ddocument.getElementById("multilogin-dropdown");a&&(ZT=3Dnew =
+ZQ(a,function(){ZEc("/gb/ph/multilogin")}),ZT.ja.push(ZOc),ZA(window,"loa=
+d",function(){ZOc();document.body.appendChild(ZT.j)}))})();function =
+ZOc(){ZP("/hosting/multilogin",ZPc,{})}=0A=
+function ZPc(a){var b=3DZK(a);a=3Db.sessions;var =
+b=3Db.active,c=3DencodeURIComponent(window.location.href);ZT.clear();for(=
+var d=3Dwindow.location.href.replace(/#.*/,""),e=3D0;e<a.length;e++){var =
+f=3Da[e].addr,g=3Dd+(-1=3D=3Dd.indexOf("?")?"?":"&")+"authuser=3D"+a[e].a=
+cct+window.location.hash,h=3Da[e].disabled;b=3D=3De?(f=3DZw("b",{},f),g=3D=
+""):h&&(f=3DZw("span",{style:"color:gray",title:"This session has been =
+disabled"},f),g=3D"");ZS(ZT,f,g)}ZIc(ZT);ZS(ZT,Zw("nobr",{},"Sign in =
+with another =
+account..."),"http://www.google.com/accounts/AddSession?service=3Dcode&co=
+ntinue=3D"+=0A=
+c,"controls")};function =
+ZQc(a){ZP("/hosting/experiments.do",function(){window.location.reload()},=
+{exp:"issuenav redirect",add:a?1:0})}(function(){var =
+a=3DZv("ui_optin"),b=3DZv("ui_optout");a?ZA(a,"click",function(a){a.preve=
+ntDefault();ZQc(!0)}):b&&ZA(b,"click",function(a){a.preventDefault();ZQc(=
+!1)})})();=0A=
+
+------=_NextPart_000_0000_01CF3D40.054B5CA0--

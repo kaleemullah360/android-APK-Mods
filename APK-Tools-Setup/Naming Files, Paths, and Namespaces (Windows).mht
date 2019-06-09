@@ -1,0 +1,3608 @@
+From: "Saved by Internet Explorer 11"
+Subject: Naming Files, Paths, and Namespaces (Windows)
+Date: Wed, 12 Mar 2014 19:16:58 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF3E27.A3A68680"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.3.9600.16384
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF3E27.A3A68680
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(v=vs.85).aspx
+
+=EF=BB=BF<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "" ""><HTML lang=3D"en" dir=3D"ltr" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+<LINK =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx"=20
+rel=3D"canonical">        =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8"><TITLE>Naming=20
+Files, Paths, and Namespaces (Windows)</TITLE>=20
+<META name=3D"DCS.dcsuri" =
+content=3D"/en-us/library/windows/desktop/aa365247(d=3Ddefault,l=3Den-us,=
+v=3Dvs.85).aspx">=20
+<META name=3D"NormalizedUrl" =
+content=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa3652=
+47(d=3Ddefault,l=3Den-us,v=3Dvs.85).aspx">=20
+<META name=3D"ms.normalizedurl" =
+content=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa3652=
+47(d=3Ddefault,l=3Den-us,v=3Dvs.85).aspx">=20
+<META name=3D"VotingContextUrl" =
+content=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa3652=
+47(d=3Ddefault,l=3Den-us,v=3Dvs.85).aspx">=20
+<META name=3D"MN" content=3D"BF1CA93C-7:16:58 AM">=20
+<META name=3D"Search.ShortId" content=3D"aa365247">=20
+<META name=3D"ms.shortidmsdn" content=3D"aa365247">=20
+<META name=3D"Ms.Locale" content=3D"en-us">             <LINK =
+href=3D"/Areas/Epx/Themes/Windows/Content/Winlogo_favicon.ico"=20
+rel=3D"shortcut icon">     <LINK =
+href=3D"http://i3.msdn.microsoft.com/Combined.css?resources=3D0:Topic,0:C=
+odeSnippet,0:ExpandableCollapsibleArea,1:CommunityContent,0:TopicNotInSco=
+pe,0:FeedViewerBasic,0:ImageSprite,2:Header,2:sprite,1:Toc,1:LibraryMembe=
+rFilter,2:Footer,3:DetailedLinkList,3:LinkList,4:Windows;/Areas/Epx/Conte=
+nt/Css:0,/Areas/Library/Content:1,/Areas/Epx/Themes/Windows/Content:2,/Ar=
+eas/Epx/Themes/Base/Content:3,/Areas/Library/Themes/Windows/Content:4&amp=
+;amp;hashKey=3DE1AF301680B6D838738C2F52E9149624"=20
+rel=3D"stylesheet" type=3D"text/css">
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.16412"></HEAD>     =
+
+<BODY class=3D"library IE IE11">
+<DIV id=3D"page">
+<DIV class=3D"IE IE11 ltr" id=3D"ux-header">
+<DIV id=3D"headerContainer">
+<DIV id=3D"logoAndSearchBox">
+<DIV id=3D"logo"><A title=3D"Windows" =
+href=3D"http://msdn.microsoft.com/windows/"><IMG=20
+alt=3D"Windows" =
+src=3D"http://i.msdn.microsoft.com/Areas/Epx/Themes/Windows/Content/Windo=
+ws_logo.png"></A>=20
+                      </DIV>
+<DIV id=3D"selectedTab"><A class=3D"dropDownToggle" =
+href=3D"javascript:void(0);">Dev=20
+Center - Desktop</A>            </DIV>
+<DIV id=3D"toclevel1_menu" style=3D"display: none;">
+<UL>
+  <LI><A title=3D"Dev Center Home" =
+href=3D"http://msdn.microsoft.com/windows/">Dev=20
+  Center Home</A></LI>
+  <LI><A title=3D"Windows Store apps" =
+href=3D"http://msdn.microsoft.com/windows/apps/">Windows=20
+  Store apps</A></LI>
+  <LI><A title=3D"Internet Explorer" =
+href=3D"http://msdn.microsoft.com/ie/">Internet=20
+  Explorer</A></LI>
+  <LI><A title=3D"Desktop"=20
+  href=3D"http://msdn.microsoft.com/windows/desktop/">Desktop</A></LI>
+  <LI><A title=3D"Hardware"=20
+  =
+href=3D"http://msdn.microsoft.com/windows/hardware/">Hardware</A></LI></U=
+L>
+<DIV style=3D"clear: both;"></DIV></DIV>
+<DIV class=3D"SearchBox">
+<FORM name=3D"HeaderSearchForm" id=3D"HeaderSearchForm" =
+onsubmit=3D"return Epx.Controls.SearchBox.searchBoxOnSubmit(this);"=20
+method=3D"get"><INPUT name=3D"query" id=3D"HeaderSearchTextBox" =
+onfocus=3D"Epx.Controls.SearchBox.watermarkFocus()" =
+onblur=3D"Epx.Controls.SearchBox.watermarkBlur()" type=3D"text" =
+maxlength=3D"200">=20
+                       <BUTTON class=3D"header-search-button" =
+id=3D"HeaderSearchButton"=20
+type=3D"submit" value=3D""></BUTTON>         </FORM></DIV>
+<DIV class=3D"Clear"></DIV></DIV>
+<DIV class=3D"Clear"></DIV>
+<DIV class=3D"ux-internav">
+<DIV class=3D"toclevel2"><A title=3D"Dashboard" class=3D"normal" =
+href=3D"https://sysdev.microsoft.com/en-us/desktop/">Dashboard</A>=20
+            <A title=3D"Get Started" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/windows/desktop/bg161546.aspx">Get=20
+Started</A>             <A title=3D"Design" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/windows/desktop/aa511258.aspx">Design</=
+A>=20
+            <A title=3D"Develop" class=3D"active" =
+href=3D"http://msdn.microsoft.com/windows/desktop/aa904962.aspx">Develop<=
+/A>=20
+            <A title=3D"Test and deploy" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/windows/desktop/dn553326.aspx">Test=20
+and deploy</A>             <A title=3D"Certify" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/windows/desktop/dd535817.aspx">Certify<=
+/A>=20
+    </DIV>
+<DIV class=3D"clear"></DIV></DIV>
+<DIV id=3D"signIn"><A title=3D"Sign in" class=3D"scarabLink" =
+href=3D"https://login.live.com/login.srf?wa=3Dwsignin1.0&amp;rpsnv=3D12&a=
+mp;ct=3D1394633818&amp;rver=3D6.0.5276.0&amp;wp=3DMCLBI&amp;wlcxt=3DMSDN%=
+24MSDN%24MSDN&amp;wreply=3Dhttp%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibr=
+ary%2fwindows%2fdesktop%2faa365247%2528v%3dvs.85%2529.aspx&amp;lc=3D1033&=
+amp;id=3D254354&amp;mkt=3Den-US">Sign=20
+in</A></DIV></DIV>
+<DIV id=3D"blackBar">
+<DIV class=3D"toclevel3"><A title=3D"Desktop technologies" =
+class=3D"active" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/bg125389.=
+aspx">Desktop=20
+technologies</A>             <A title=3D"Server and system " =
+class=3D"normal" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/bg125390.=
+aspx">Server=20
+and system </A>             <A title=3D"API index" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/hh920508(=
+vs.85).aspx">API=20
+index</A>             <A title=3D"Samples" class=3D"normal" =
+href=3D"http://code.msdn.microsoft.com/windowsdesktop/">Samples</A>=20
+            <A title=3D"Community" class=3D"normal" =
+href=3D"http://msdn.microsoft.com/windows/desktop/aa904945.aspx">Communit=
+y</A>=20
+    </DIV>
+<DIV class=3D"clear"></DIV></DIV></DIV>
+<DIV id=3D"body">
+<DIV id=3D"leftNav">
+<DIV id=3D"tocnav">
+<DIV class=3D"toclevel0" data-toclevel=3D"0"><A title=3D"Data Access and =
+Storage" id=3D"bg126514_VS.85_en-us"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/ee663264(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"ee663264_VS.85_en-us" =
+mtpsassetid=3D"8097ee91-f9f9-4e49-a501-5c54153eced8_VS.85_en-us"=20
+mtpsaliasid=3D"" data-tochassubtree=3D"true">Data Access and =
+Storage</A></DIV>
+<DIV class=3D"toclevel0" data-toclevel=3D"0"><A title=3D"Local File =
+Systems" id=3D"ms758192_VS.85_en-us"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364407(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"aa364407_VS.85_en-us" =
+mtpsassetid=3D"a35dbd6e-1344-4694-9760-7bc3d33196e5_VS.85_en-us"=20
+mtpsaliasid=3D"" data-tochassubtree=3D"true">Local File =
+Systems</A></DIV>
+<DIV class=3D"toclevel0" data-toclevel=3D"0"><A title=3D"File =
+Management" id=3D"ms758214_VS.85_en-us"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364229(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"aa364229_VS.85_en-us" =
+mtpsassetid=3D"37ef2ae5-af02-441a-a4be-11dd6c8d4a0c_VS.85_en-us"=20
+mtpsaliasid=3D"" data-tochassubtree=3D"true">File Management</A></DIV>
+<DIV class=3D"toclevel0" data-toclevel=3D"0"><A title=3D"About File =
+Management" id=3D"bb540614_VS.85_en-us"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/bb540531(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"bb540531_VS.85_en-us" =
+mtpsassetid=3D"cf4e69b9-86dd-43a4-9011-6209fc65f550_VS.85_en-us"=20
+mtpsaliasid=3D"" data-tochassubtree=3D"true">About File =
+Management</A></DIV>
+<DIV class=3D"toclevel1" data-toclevel=3D"1"><A title=3D"Creating, =
+Deleting, and Maintaining Files"=20
+id=3D"bb540617_VS.85_en-us" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363879(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"aa363879_VS.85_en-us" =
+mtpsassetid=3D"b9cf0ddf-efda-4997-bcc3-3056026c1264_VS.85_en-us"=20
+mtpsaliasid=3D"" data-tochassubtree=3D"true">Creating, Deleting, and =
+Maintaining=20
+Files</A></DIV>
+<DIV class=3D"toclevel2 current" data-toclevel=3D"2"><A title=3D"Naming =
+Files, Paths, and Namespaces"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"" mtpsassetid=3D"" mtpsaliasid=3D"">Naming Files, Paths, =
+and=20
+Namespaces</A></DIV>
+<DIV class=3D"toclevel2" data-toclevel=3D"2"><A title=3D"Creating and =
+Opening Files"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363874(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"" mtpsassetid=3D"" mtpsaliasid=3D"">Creating and Opening=20
+Files</A></DIV>
+<DIV class=3D"toclevel2" data-toclevel=3D"2"><A title=3D"Moving and =
+Replacing Files"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365244(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"" mtpsassetid=3D"" mtpsaliasid=3D"">Moving and Replacing=20
+Files</A></DIV>
+<DIV class=3D"toclevel2" data-toclevel=3D"2"><A title=3D"Closing and =
+Deleting Files"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/bb540533(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"" mtpsassetid=3D"" mtpsaliasid=3D"">Closing and Deleting=20
+Files</A></DIV>
+<DIV class=3D"toclevel2" data-toclevel=3D"2"><A title=3D"Defragmenting =
+Files" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363911(=
+v=3Dvs.85).aspx"=20
+mtpsshortid=3D"" mtpsassetid=3D"" mtpsaliasid=3D"">Defragmenting =
+Files</A></DIV></DIV>
+<DIV class=3D"toc-resizable-ew" id=3D"toc-resizable-ew"></DIV></DIV>
+<DIV class=3D"content" id=3D"content">
+<DIV class=3D"topic" xmlns=3D"http://www.w3.org/1999/xhtml">
+<H1 class=3D"title">Naming Files, Paths, and Namespaces</H1>
+<DIV id=3D"mainSection">
+<DIV class=3D"clsServerSDKContent"></DIV>
+<P></P>
+<P>All file systems supported by Windows use the concept of files and=20
+directories to access data      stored on a disk or device. Windows =
+developers=20
+working with the Windows APIs for file      and device I/O should =
+understand the=20
+various rules, conventions, and limitations of names for files and     =20
+directories.</P>
+<P>Data can be accessed from disks, devices, and network shares using =
+file I/O=20
+APIs. Files and directories, along      with namespaces, are part of the =
+concept=20
+of a path, which is a string representation of where to get the data     =
+=20
+regardless if it's from a disk or a device or a network connection for a =
+
+specific operation.</P>
+<P>Some file systems, such as NTFS, support linked files and =
+directories, which=20
+also follow file naming conventions     and rules just as a regular file =
+or=20
+directory would. For additional information, see      <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365006(=
+v=3Dvs.85).aspx">Hard=20
+Links and Junctions</A> and      <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365505(=
+v=3Dvs.85).aspx">Reparse=20
+Points and File Operations</A>.</P>
+<P>For additional information, see the following subsections:</P>
+<P></P>
+<UL>
+  <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#file_and_directory_names">File=20
+  and Directory Names</A>
+  <UL>=20
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#naming_conventions">Naming=20
+    Conventions</A></LI>
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#short_vs._long_names">Short=20
+    vs. Long Names</A></LI></UL></LI>
+  <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#paths">Paths</A>
+  <UL>=20
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#fully_qualified_vs._relative_paths">Fully=20
+    Qualified vs. Relative Paths</A></LI>
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#maxpath">Maximum=20
+    Path Length Limitation</A></LI></UL></LI>
+  <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#namespaces">Namespaces</A>
+  <UL>=20
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#win32_file_namespaces">Win32=20
+    File Namespaces</A></LI>
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#win32_device_namespaces">Win32=20
+    Device Namespaces</A></LI>
+    <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#nt_namespaces">NT=20
+    Namespaces</A></LI></UL></LI>
+  <LI><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#related_topics">Related=20
+  topics</A></LI></UL>
+<H2><A id=3D"File_and_Directory_Names"></A><A =
+id=3D"file_and_directory_names"></A><A=20
+id=3D"FILE_AND_DIRECTORY_NAMES"></A>File and Directory Names</H2>
+<P>All file systems follow the same general naming conventions for an =
+individual=20
+file: a base file name and an      optional extension, separated by a =
+period.=20
+However, each file system, such as NTFS, CDFS, exFAT, UDFS, FAT, and     =
+ FAT32,=20
+can have specific and differing rules about the formation of the =
+individual=20
+components in the path to a      directory or file. Note that a=20
+<EM>directory</EM> is simply a file with a special      attribute =
+designating it=20
+as a directory, but otherwise must follow all the same naming rules as a =
+regular=20
+file.      Because the term <EM>directory</EM> simply refers to a =
+special type=20
+of file as far as the      file system is concerned, some reference =
+material=20
+will use the general term <EM>file</EM>      to encompass both concepts =
+of=20
+directories and data files as such. Because of this, unless otherwise =
+specified,=20
+     any naming or usage rules or examples for a file should also apply =
+to a=20
+directory. The term       <EM>path</EM> refers to one or more =
+directories,=20
+backslashes, and possibly a  volume      name. For more information, see =
+the <A=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#paths">Paths</A>=20
+section.</P>
+<P>Character count limitations can also be different and can vary =
+depending on=20
+the file system and path name      prefix format used. This is further=20
+complicated by support for backward compatibility mechanisms. For =
+example,     =20
+the older MS-DOS FAT file system supports a maximum of 8 characters for =
+the base=20
+file name and 3 characters for      the extension, for a total of 12 =
+characters=20
+including the dot separator. This is commonly known as an       <EM>8.3 =
+file=20
+name</EM>. The Windows FAT and NTFS file systems are not limited to 8.3 =
+file    =20
+ names, because they have <EM>long file name support</EM>, but they =
+still=20
+support the 8.3      version of long file names.</P>
+<H3><A id=3D"Naming_Conventions"></A><A id=3D"naming_conventions"></A><A =
+id=3D"NAMING_CONVENTIONS"></A>Naming=20
+Conventions</H3>
+<P>The following fundamental rules enable applications to create and =
+process=20
+valid names for files and        directories, regardless of the file =
+system:</P>
+<UL>
+  <LI>Use a period to separate the base file name from the extension in =
+the name=20
+  of a directory or file.</LI>
+  <LI>Use a backslash (\) to separate the <EM>components</EM> of a       =
+  =20
+  <EM>path</EM>. The backslash divides the file name from the path to =
+it, and=20
+  one         directory name from another directory name in a path. You =
+cannot=20
+  use a backslash in the name for the actual         file or directory =
+because=20
+  it is a reserved character that separates the names into =
+components.</LI>
+  <LI> Use a backslash as required as part of          <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365248(=
+v=3Dvs.85).aspx">volume=20
+  names</A>, for example, the         "C:\" in "C:\path\file" or the     =
+   =20
+  "\\server\share" in "\\server\share\path\file" for         Universal =
+Naming=20
+  Convention (UNC) names. For more information about UNC names, see the  =
+       =20
+  <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#maxpath">Maximum=20
+  Path Length Limitation</A> section.</LI>
+  <LI>Do not assume case sensitivity. For example, consider the names =
+OSCAR,=20
+  Oscar, and oscar to be the same,         even though some file systems =
+(such=20
+  as a POSIX-compliant file system) may consider them as different. Note =
+       =20
+  that NTFS supports POSIX semantics for case sensitivity but this is =
+not the=20
+  default behavior. For more         information, see <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363858(=
+v=3Dvs.85).aspx"><STRONG=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">CreateFile</STRONG></A>.</LI>
+  <LI>Volume designators (drive letters) are similarly case-insensitive. =
+For=20
+  example,         "D:\" and "d:\" refer to         the same =
+volume.</LI>
+  <LI>
+  <P>Use any character in the current code page for a name, including =
+Unicode=20
+  characters and characters in the          extended character set =
+(128=E2=80=93255),=20
+  except for the following:</P>
+  <UL>
+    <LI>
+    <P>The following reserved characters:</P>
+    <UL>
+      <LI>&lt; (less than)</LI>
+      <LI>&gt; (greater than)</LI>
+      <LI>: (colon)</LI>
+      <LI>" (double quote)</LI>
+      <LI>/ (forward slash)</LI>
+      <LI>\ (backslash)</LI>
+      <LI>| (vertical bar or pipe)</LI>
+      <LI>? (question mark)</LI>
+      <LI>* (asterisk)</LI></UL></LI>
+    <LI>Integer value zero, sometimes referred to as the ASCII =
+<EM>NUL</EM>     =20
+         character.</LI>
+    <LI>Characters whose integer representations are in the range from 1 =
+through=20
+    31, except for alternate           data streams where these =
+characters are=20
+    allowed. For more information about file streams, see            <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364404(=
+v=3Dvs.85).aspx">File=20
+    Streams</A>.</LI>
+    <LI>Any other character that the target file system does not=20
+  allow.</LI></UL></LI>
+  <LI>Use a period as a directory <EM>component</EM> in a path to =
+represent the=20
+  current         directory, for example ".\temp.txt".  For more =
+information,=20
+  see          <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#paths">Paths</A>.</LI>
+  <LI>Use two consecutive periods (..) as a directory         =20
+  <EM>component</EM> in a path to represent the parent of the current =
+directory,=20
+  for         example "..\temp.txt". For more information, see          =
+<A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#paths">Paths</A>.</LI>
+  <LI>
+  <P>Do not use the following reserved names for the name of a file:</P>
+  <P>CON, PRN, AUX,          NUL, COM1, COM2,          COM3, COM4, COM5, =
+       =20
+   COM6, COM7, COM8,          COM9, LPT1, LPT2,          LPT3, LPT4, =
+LPT5,      =20
+     LPT6, LPT7, LPT8, and          LPT9. Also avoid these names =
+followed=20
+  immediately by an extension; for example,          NUL.txt is not =
+recommended.=20
+  For more information, see           <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#namespaces">Namespaces</A>.</P></LI>
+  <LI>Do not end a file or directory name with a space or a period. =
+Although the=20
+  underlying file system may         support such names, the Windows =
+shell and=20
+  user interface does not. However, it is acceptable to specify a        =
+ period=20
+  as the first character of a name. For example, ".temp".</LI></UL>
+<H3><A id=3D"short_vs._long_names"></A><A =
+id=3D"SHORT_VS._LONG_NAMES"></A>Short vs.=20
+Long Names</H3>
+<P>A long file name is considered to be any file name that exceeds the =
+short=20
+MS-DOS (also called         <EM>8.3</EM>) style naming convention. =
+Typically,=20
+Windows stores long file names on        disk as special directory =
+entries,=20
+which can be disabled systemwide for performance reasons depending on =
+the       =20
+particular file system. When you create a long file name, Windows may =
+also=20
+create a short 8.3 form of the name,        called the <EM>8.3 =
+alias</EM>, and=20
+store it on disk also. This 8.3 aliasing can be        disabled for a =
+specified=20
+volume.</P>
+<P><STRONG>Windows Server&nbsp;2008, Windows&nbsp;Vista, Windows=20
+Server&nbsp;2003, and Windows&nbsp;XP:&nbsp;&nbsp;</STRONG>8.3 aliasing =
+cannot=20
+be disabled for specified volumes until Windows&nbsp;7 and         =
+Windows=20
+Server&nbsp;2008&nbsp;R2.</P>
+<P>On many file systems, a file name will contain a tilde (~) within =
+each=20
+component of the name that is too long        to comply with  8.3 naming =
+
+rules.</P>
+<P class=3D"note"><STRONG>Note</STRONG>&nbsp;&nbsp;Not all file systems =
+follow the=20
+tilde substitution convention, and systems can be configured to disable  =
+     =20
+8.3 alias generation even if they normally support it. Therefore, do not =
+make=20
+the assumption that the 8.3 alias        already exists on-disk.</P>
+<P>To request 8.3 file names, long file names, or the full path of a =
+file from=20
+the system, consider the        following options:</P>
+<UL>
+  <LI>To get the 8.3 form of a long file name, use the          <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364989(=
+v=3Dvs.85).aspx"><STRONG=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">GetShortPathName</STRONG></A>=20
+  function.</LI>
+  <LI>To get the long file name version of a short name, use the         =
+ <A=20
+  =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364980(=
+v=3Dvs.85).aspx"><STRONG=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">GetLongPathName</STRONG></A>=20
+  function.</LI>
+  <LI>To get the full path to a file, use the          <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364963(=
+v=3Dvs.85).aspx"><STRONG=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">GetFullPathName</STRONG></A>=20
+  function.</LI></UL>
+<P>On newer file systems, such as NTFS, exFAT, UDFS, and FAT32, Windows =
+stores=20
+the long file names on disk in        Unicode, which means that the =
+original=20
+long file name is always preserved. This is true even if a long file     =
+   name=20
+contains extended characters, regardless of the code page that is active =
+during=20
+a disk read or write        operation.</P>
+<P>Files using long file names can be copied between NTFS file system =
+partitions=20
+and Windows FAT file system        partitions without losing any file =
+name=20
+information. This may not be true for the older MS-DOS FAT and some      =
+  types=20
+of CDFS (CD-ROM) file systems, depending on the actual file name. In =
+this case,=20
+the short file name is        substituted if possible.</P>
+<H2><A id=3D"paths"></A><A id=3D"PATHS"></A>Paths</H2>
+<P>The <EM>path</EM> to a specified file consists of one or more      =20
+<EM>components</EM>, separated by a special character (a backslash), =
+with each=20
+component      usually being a directory name or file name, but with =
+some=20
+notable exceptions discussed below. It is often      critical to the =
+system's=20
+interpretation of a path what the beginning, or <EM>prefix</EM>,      of =
+the=20
+path looks like. This prefix determines the <EM>namespace</EM> the path =
+is=20
+using,      and additionally what special characters are used in which =
+position=20
+within the path, including the last      character.</P>
+<P>If a component of a path is a file name, it must be the last =
+component.</P>
+<P>Each component of a path will also be constrained by the maximum =
+length=20
+specified for a particular file system.      In general, these rules =
+fall into=20
+two categories: <EM>short</EM> and       <EM>long</EM>. Note that =
+directory=20
+names are stored by the file system as a special type      of file, but =
+naming=20
+rules for files also apply to directory names. To summarize, a path is =
+simply=20
+the string      representation of the hierarchy  between all of the =
+directories=20
+that exist for a particular file or directory      name.</P>
+<H3><A id=3D"Fully_Qualified_vs._Relative_Paths"></A><A =
+id=3D"fully_qualified_vs._relative_paths"></A><A=20
+id=3D"FULLY_QUALIFIED_VS._RELATIVE_PATHS"></A>Fully Qualified vs. =
+Relative=20
+Paths</H3>
+<P>For Windows API functions that manipulate files, file names can often =
+be=20
+relative to the current directory,        while some APIs require a =
+fully=20
+qualified path. A file name is relative to the current directory if it =
+does not =20
+      begin with one of the following:</P>
+<UL>
+  <LI>A UNC name of any format, which always start with two backslash =
+characters=20
+  ("\\"). For         more information, see the next section.</LI>
+  <LI>A disk designator with a backslash, for example "C:\" or        =20
+  "d:\".</LI>
+  <LI>A single backslash, for example, "\directory" or         =
+"\file.txt". This=20
+  is also referred to as an          <EM>absolute path</EM>.</LI></UL>
+<P>If a file name begins with only a disk designator but not the =
+backslash after=20
+the colon, it is interpreted as        a relative path to the current =
+directory=20
+on the drive with the specified letter. Note that the current        =
+directory=20
+may or may not be the root directory depending on what it was set to =
+during the=20
+most recent        "change directory" operation on that disk. Examples =
+of this=20
+format are as follows:</P>
+<UL>
+  <LI>"C:tmp.txt" refers to a file named         "tmp.txt" in the =
+current=20
+  directory on drive C.</LI>
+  <LI>"C:tempdir\tmp.txt" refers to a file in a subdirectory to the      =
+  =20
+  current directory on drive C.</LI></UL>
+<P>A path is also said to be relative if it contains "double-dots"; that =
+is, two=20
+periods        together in one component of the path. This special =
+specifier is=20
+used to denote the directory above the        current directory, =
+otherwise known=20
+as the "parent directory". Examples of this format are as        =
+follows:</P>
+<UL>
+  <LI>"..\tmp.txt" specifies a file named tmp.txt located in the         =
+parent=20
+  of the current directory.</LI>
+  <LI>"..\..\tmp.txt" specifies a file that is two directories above the =
+current=20
+          directory.</LI>
+  <LI>"..\tempdir\tmp.txt" specifies a file named tmp.txt located in     =
+    a=20
+  directory named tempdir that is a peer directory to the current=20
+directory.</LI></UL>
+<P>Relative paths can combine both example types, for example       =20
+"C:..\tmp.txt". This is useful because, although the system keeps        =
+track=20
+of the current drive along with the current directory of that drive, it =
+also=20
+keeps track of the current        directories in each of the different =
+drive=20
+letters (if your system has more than one), regardless of which        =
+drive=20
+designator is set as the current drive.</P>
+<H3><A id=3D"maxpath"></A><A id=3D"MAXPATH"></A>Maximum Path Length =
+Limitation</H3>
+<P>In the Windows API (with some exceptions discussed in the following=20
+paragraphs), the maximum length for a        path is =
+<STRONG>MAX_PATH</STRONG>,=20
+which is defined as 260 characters. A local path is structured in        =
+the=20
+following order: drive letter, colon, backslash, name components =
+separated by=20
+backslashes, and a        terminating null character. For example, the =
+maximum=20
+path on drive D is        "D:\<EM>some 256-character path=20
+string</EM>&lt;NUL&gt;"        where "&lt;NUL&gt;" represents the =
+invisible=20
+terminating null character for the current system        codepage. (The=20
+characters &lt; &gt; are used here for visual clarity and cannot be part =
+of a=20
+valid path        string.)</P>
+<P class=3D"note"><STRONG>Note</STRONG>&nbsp;&nbsp;File I/O functions in =
+the=20
+Windows API convert "/" to "\" as part of        converting the name to =
+an=20
+NT-style name, except when using the "\\?\" prefix as detailed in        =
+the=20
+following sections.</P>
+<P>The Windows API has many functions that also have Unicode versions to =
+permit=20
+an extended-length path for a        maximum total path length of 32,767 =
+
+characters. This type of path is composed of components separated by     =
+  =20
+backslashes, each up to the value returned in the=20
+<EM>lpMaximumComponentLength</EM> parameter        of the <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa364993(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">GetVolumeInformation</STRONG></A> =
+function =20
+      (this value is commonly 255 characters). To specify an =
+extended-length=20
+path, use the "\\?\"        prefix. For example,        "\\?\D:\<EM>very =
+long=20
+path</EM>".</P>
+<P class=3D"note"><STRONG>Note</STRONG>&nbsp;&nbsp;The maximum path of =
+32,767=20
+characters is approximate, because the "\\?\" prefix may be        =
+expanded to a=20
+longer string by the system at run time, and this expansion applies to =
+the total=20
+length.</P>
+<P>The "\\?\" prefix can also be used with paths constructed according =
+to the=20
+universal naming        convention (UNC). To specify such a path using =
+UNC, use=20
+the "\\?\UNC\" prefix. For example,        "\\?\UNC\server\share", where =
+
+"server" is the name of the computer and        "share" is the name of =
+the=20
+shared folder. These prefixes are not used as part of the path        =
+itself.=20
+They indicate that the path should be passed to the system with minimal=20
+modification, which means that        you cannot use forward slashes to=20
+represent path separators, or a period to represent the current =
+directory, or   =20
+    double dots to represent the parent directory. Because you cannot =
+use the=20
+"\\?\" prefix with a        relative path, relative paths are always =
+limited to=20
+a total of <STRONG>MAX_PATH</STRONG>        characters.</P>
+<P>There is no need to perform any Unicode normalization on path and =
+file name=20
+strings for use by the Windows        file I/O API functions because the =
+file=20
+system treats path and file names as an opaque sequence of        =20
+<STRONG>WCHAR</STRONG>s. Any normalization that your application =
+requires should=20
+be performed with        this in mind, external of any calls to related =
+Windows=20
+file I/O API functions.</P>
+<P>When using an API to create a directory, the specified path cannot be =
+so long=20
+that you cannot append an 8.3        file name (that is, the  directory =
+name=20
+cannot exceed <STRONG>MAX_PATH</STRONG> minus 12).</P>
+<P>The shell and the file system have different requirements. It is =
+possible to=20
+create a path with the Windows        API that the shell user interface =
+is not=20
+able to interpret properly.</P>
+<H2><A id=3D"namespaces"></A><A id=3D"NAMESPACES"></A>Namespaces</H2>
+<P>There are two main categories of namespace conventions used in the =
+Windows=20
+APIs, commonly referred to as       <EM>NT namespaces</EM> and the =
+<EM>Win32=20
+namespaces</EM>. The NT      namespace was designed to be the lowest =
+level=20
+namespace on which other subsystems and namespaces could exist,      =
+including=20
+the Win32 subsystem and, by extension, the Win32 namespaces. POSIX is =
+another=20
+example of a subsystem in      Windows that is built on top of the NT =
+namespace.=20
+Early versions of Windows also defined several predefined, or      =
+reserved,=20
+names for certain special devices such as communications (serial and =
+parallel)=20
+ports and the default      display console as part of what is now called =
+the NT=20
+device namespace, and are still supported in current      versions of =
+Windows=20
+for backward compatibility.</P>
+<H3><A id=3D"Win32_File_Namespaces"></A><A =
+id=3D"win32_file_namespaces"></A><A =
+id=3D"WIN32_FILE_NAMESPACES"></A>Win32=20
+File Namespaces</H3>
+<P>The Win32 namespace prefixing and conventions are summarized in this =
+section=20
+and the following section, with        descriptions of how they are =
+used. Note=20
+that these examples are intended for use with the Windows API functions  =
+     =20
+and do not all necessarily work with Windows shell applications such as =
+Windows=20
+Explorer. For this reason there        is a wider range of possible =
+paths than=20
+is usually available from Windows shell applications, and Windows        =
+
+applications that take advantage of this can be developed using these =
+namespace=20
+conventions.</P>
+<P>For file I/O, the "\\?\" prefix to a path string tells the Windows =
+APIs to=20
+disable all        string parsing and to send the string that follows it =
+
+straight to the file system. For example, if the file        system =
+supports=20
+large paths and file names, you can exceed the <STRONG>MAX_PATH</STRONG> =
+limits=20
+that        are otherwise enforced by the Windows APIs. For more =
+information=20
+about the normal maximum path limitation, see        the previous =
+section <A=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#maxpath">Maximum=20
+Path Length Limitation</A>.</P>
+<P>Because it turns off automatic expansion of the path string, the =
+"\\?\"=20
+prefix also allows        the use of ".." and "." in        the path =
+names,=20
+which can be useful if you are attempting to perform operations on a =
+file with=20
+these otherwise        reserved relative path specifiers as part of the =
+fully=20
+qualified path.</P>
+<P>Many but not all file I/O APIs support "\\?\"; you should look at the =
+
+reference topic for        each API to be sure.</P>
+<H3><A id=3D"Win32_Device_Namespaces"></A><A =
+id=3D"win32_device_namespaces"></A><A=20
+id=3D"WIN32_DEVICE_NAMESPACES"></A>Win32 Device Namespaces</H3>
+<P>The "\\.\" prefix will access the Win32 device namespace instead of =
+the Win32=20
+file        namespace. This is how access to physical disks and volumes =
+is=20
+accomplished directly, without going through the        file system, if =
+the API=20
+supports this type of access.  You can access many devices other than =
+disks this=20
+way        (using the <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363858(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">CreateFile</STRONG></A> and       =
+  <A=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363904(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">DefineDosDevice</STRONG></A> =
+functions, for=20
+       example).</P>
+<P>For example, if you want to open the system's serial communications =
+port 1,=20
+you can use        "COM1" in the call to the         <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363858(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">CreateFile</STRONG></A> function. =
+This=20
+works because        COM1=E2=80=93COM9 are part of the reserved names    =
+    in the NT=20
+namespace, although using the "\\.\" prefix will also work with these =
+device=20
+names.        By comparison, if you have a 100 port serial expansion =
+board=20
+installed and want to open        COM56, you cannot open it using =
+"COM56"       =20
+because there is no predefined NT namespace for COM56. You will need to =
+open it=20
+using        "\\.\COM56" because "\\.\" goes directly to the        =
+device=20
+namespace without attempting to locate a predefined alias.</P>
+<P>Another example of using the Win32 device namespace is using the      =
+   <A=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363858(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">CreateFile</STRONG></A> function =
+with      =20
+ "\\.\PhysicalDisk<EM>X</EM>" (where         <EM>X</EM> is a valid =
+integer=20
+value) or        "\\.\CdRom<EM>X</EM>". This allows you to access        =
+those=20
+devices directly, bypassing the file system. This works because these =
+device=20
+names are created by the        system as these devices are enumerated, =
+and some=20
+drivers will also create other aliases in the system. For        =
+example, the=20
+device driver that implements the name "C:\" has its own        =
+namespace that=20
+also happens to be the file system.</P>
+<P>APIs that go through the <A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa363858(=
+v=3Dvs.85).aspx"><STRONG=20
+xmlns=3D"http://www.w3.org/1999/xhtml">CreateFile</STRONG></A> function =
+generally =20
+      work with the "\\.\" prefix because         =
+<STRONG>CreateFile</STRONG> is=20
+the function used to open both files and        devices, depending on =
+the=20
+parameters you use.</P>
+<P>If you're working with Windows API functions, you should use the =
+"\\.\"=20
+prefix to access        devices only and not files.</P>
+<P>Most APIs won't support "\\.\"; only those that are designed to work =
+with the=20
+device        namespace will recognize it. Always check the reference =
+topic for=20
+each API to be sure.</P>
+<H3><A id=3D"NT_Namespaces"></A><A id=3D"nt_namespaces"></A><A=20
+id=3D"NT_NAMESPACES"></A>NT Namespaces</H3>
+<P>There are also APIs that allow the use of the NT namespace =
+convention, but=20
+the Windows Object Manager makes        that unnecessary in most cases. =
+To=20
+illustrate, it is useful to browse the Windows namespaces in the system  =
+     =20
+object browser using the Windows Sysinternals         <A =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D141211">WinObj</A>=20
+tool.        When you run this tool, what you see is the NT namespace =
+beginning=20
+at the root, or "\". The        subfolder called "Global??" is where the =
+Win32=20
+namespace resides. Named device objects reside        in the NT =
+namespace within=20
+the "Device" subdirectory. Here you may also find Serial0 and        =
+Serial1,=20
+the device objects representing the first two COM ports if present on =
+your=20
+system. A device object        representing a volume would be something =
+like=20
+"HarddiskVolume1", although the numeric suffix        may vary. The name =
+"DR0"=20
+under subdirectory "Harddisk0" is an example of the        device object =
+
+representing a disk, and so on.</P>
+<P>To make these device objects accessible by Windows applications, the =
+device=20
+drivers create a symbolic link        (symlink) in the Win32 namespace,=20
+"Global??", to their respective device objects. For example,        COM0 =
+and=20
+COM1 under the "Global??" subdirectory are simply symlinks to Serial0 =
+and=20
+Serial1,        "C:" is a symlink to HarddiskVolume1, "Physicaldrive0" =
+is a=20
+symlink to DR0,        and so on. Without a symlink, a specified device =
+"Xxx"=20
+will not be available to any Windows        application using Win32 =
+namespace=20
+conventions as described previously. However, a handle could be opened =
+to       =20
+that device using any APIs that support the NT namespace absolute path =
+of the=20
+format        "\Device\Xxx".</P>
+<P>With the addition of multi-user support via Terminal Services and =
+virtual=20
+machines, it has further become        necessary to virtualize the =
+system-wide=20
+root device within the Win32 namespace. This was accomplished by adding  =
+     =20
+the symlink named "GLOBALROOT" to the Win32 namespace, which you can see =
+in the =20
+      "Global??" subdirectory of the WinObj browser tool previously =
+discussed,=20
+and can access via        the path "\\?\GLOBALROOT". This prefix ensures =
+that=20
+the path following it looks in the true        root path of the system =
+object=20
+manager and not a session-dependent path.</P>
+<H2><A id=3D"related_topics"></A>Related topics</H2>
+<DL>
+  <DT><A =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/ee681827(=
+v=3Dvs.85).aspx">File=20
+  System Functionality Comparison</A> </DT></DL>
+<P>&nbsp;</P>
+<P>&nbsp;</P></DIV></DIV>
+<SCRIPT id=3D"CommentTemplate" type=3D"text/x-jquery-tmpl">=0A=
+    <div class=3D"communityContentAnnotation">=0A=
+        <a name=3D"${Index}"></a>=0A=
+        <h3>=0A=
+            ${Title}=0A=
+        </h3>=0A=
+        <div class=3D"communityContentAnnotationBody">=0A=
+            {{html Body}}=0A=
+        </div>=0A=
+        <div class=3D"communityContentAnnotationInfo">=0A=
+            <div class=3D"communityContentAnnotationAvatarContainer">=0A=
+                <a href=3D"${UserAvatar.Href}" =
+title=3D"${UserAvatar.ToolTip}" =
+class=3D"communityContentAnnotationAvatar"><img =
+src=3D"${UserAvatar.ImageUrl}" alt=3D"${UserAvatar.ImageAltText}" =
+width=3D"34" height=3D"34" /></a>=0A=
+            </div>=0A=
+            <div class=3D"communityContentAnnotationUserDateContainer">=0A=
+                <div class=3D"communityContentAnnotationUserContainer">=0A=
+                    <a href=3D"${UserAvatar.Href}">=0A=
+                        ${User}=0A=
+                    </a>=0A=
+                </div>=0A=
+                <div class=3D"communityContentAnnotationDateContainer">=0A=
+                    <span>${Date}</span>=0A=
+                    =0A=
+                    {{if EditLink}}=0A=
+                        <span>=0A=
+                            <a href=3D"${EditLink.Href}" =
+title=3D"${EditLink.ToolTip}" =
+class=3D"communityContentCommentEditLink">${EditLink.Title}</a>=0A=
+                        </span>=0A=
+                    {{/if}}=0A=
+=0A=
+                    {{if DeleteLink}}=0A=
+                        <span>=0A=
+                            <a href=3D"${DeleteLink.Href}" =
+title=3D"${DeleteLink.ToolTip}" =
+class=3D"communityContentDeleteLink">${DeleteLink.Title}</a>=0A=
+                        </span>=0A=
+                    {{/if}}=0A=
+                </div>=0A=
+            </div>=0A=
+        </div>=0A=
+    </div>=0A=
+</SCRIPT>
+=20
+<DIV class=3D"communityContentContainer">
+<DIV class=3D"communityContentHeader" id=3D"CommunityContentHeader">
+<DIV class=3D"communityContentHeaderTitleContainer">
+<H2>Community Additions</H2><A class=3D"communityContentAddLink" =
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/community=
+/add/aa365247(v=3Dvs.85).aspx"><SPAN=20
+title=3D"Add" class=3D"communityContentAddButton">                       =
+ ADD       =20
+             </SPAN>                 </A></DIV>
+<DIV style=3D"clear: both;"></DIV></DIV>
+<DIV id=3D"CommunityComments" =
+data-url=3D"/en-us/library/windows/desktop/community/comments/aa365247(v=3D=
+vs.85).aspx"></DIV></DIV>
+<DIV class=3D"libraryMemberFilter">
+<DIV class=3D"filterContainer"><SPAN>Show:</SPAN>         <LABEL><INPUT =
+class=3D"libraryFilterInherited"=20
+type=3D"checkbox" checked=3D"checked" value=3D"Inherit">Inherited        =
+ </LABEL>    =20
+    <LABEL><INPUT class=3D"libraryFilterProtected" type=3D"checkbox" =
+checked=3D"checked"=20
+value=3D"Protected">Protected         </LABEL>     </DIV></DIV><INPUT =
+id=3D"libraryMemberFilterEmptyWarning" type=3D"hidden" value=3D"There =
+are no members available with your current filter settings.">=20
+ </DIV></DIV>
+<DIV=20
+class=3D"clear"></DIV><INPUT name=3D"__RequestVerificationToken" =
+type=3D"hidden" =
+value=3D"SSv6aJo9qYHzYab3mj7-CZMEUr6VZlQEZlOQ0R5d8YMjytvSQO_QThIt06_qoMiF=
+S9baitQBkmMo2g8OggyHEkbO22BNLbZJGUl7-naxR1a576rdS7sAt1AJRKFeb1bYXBi4kw2">=
+=20
+<INPUT id=3D"ratingSubmitUrl" type=3D"hidden" =
+value=3D"http://msdn.microsoft.com/en-us/library/feedback/add/aa365247(v=3D=
+vs.85).aspx">=20
+<INPUT id=3D"isTopicRated" type=3D"hidden" value=3D"false">        =20
+<DIV class=3D"IE IE11 ltr" id=3D"ux-footer">
+<DIV id=3D"footerSock">
+<DIV id=3D"footerSockInner"><A name=3D"feedback"></A>                    =
+=20
+<DIV id=3D"Fragment_Survey" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"Survey">
+<DIV class=3D"DetailedLink">
+<DIV class=3D"Content"></DIV></DIV></DIV>
+<DIV class=3D"rating">
+<DIV id=3D"ratingSection1">
+<DIV class=3D"title">            Was this page helpful?         </DIV>
+<DIV class=3D"description">            Your feedback about this content =
+is=20
+important.<BR>Let us know what you think.         </DIV>
+<DIV class=3D"buttons"><BUTTON id=3D"ratingYes">Yes</BUTTON>             =
+<BUTTON id=3D"ratingNo">No</BUTTON>=20
+        </DIV><INPUT id=3D"ratingValue" type=3D"hidden">     </DIV>
+<DIV id=3D"ratingSection2">
+<DIV class=3D"title">            Additional feedback?         =
+</DIV><TEXTAREA id=3D"ratingText" rows=3D"6" cols=3D"20"></TEXTAREA>=20
+       =20
+<DIV class=3D"buttons"><BUTTON id=3D"ratingSubmit">Submit</BUTTON>       =
+     =20
+<BUTTON id=3D"ratingSkipThis">Skip this</BUTTON>         </DIV></DIV>
+<DIV id=3D"ratingSection3">
+<DIV class=3D"title">            Thank you!         </DIV>
+<DIV class=3D"description">            We appreciate your feedback.      =
+  =20
+</DIV></DIV>
+<DIV id=3D"contentFeedbackQAContainer" style=3D"display: =
+none;"></DIV></DIV>
+<DIV id=3D"Fragment_SockLinks" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"SockLinks">
+<DIV class=3D"LinkList">
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"SockLinks_726_11" =
+href=3D"http://go.microsoft.com/fwlink/p/?LinkId=3D317809"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Find us on Facebook</A>         =
+</LI>
+  <LI><A id=3D"SockLinks_726_12" =
+href=3D"http://go.microsoft.com/fwlink/p/?LinkId=3D317811"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Follow us on Twitter</A>        =
+ </LI>
+  <LI><A id=3D"SockLinks_726_42" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D301425"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Get the newsletter</A>        =20
+</LI></UL></DIV></DIV></DIV>
+<DIV class=3D"clear"></DIV></DIV></DIV>
+<DIV id=3D"footerContainer">
+<DIV id=3D"fourColumnFooter">
+<DIV id=3D"Fragment_Column1" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"Column1">
+<DIV class=3D"ListOfLinkLists">
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Centers</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column1_726_13" =
+href=3D"http://msdn.microsoft.com/windows" =
+xmlns=3D"http://www.w3.org/1999/xhtml">Dev=20
+  Center Home</A>           </LI>
+  <LI><A id=3D"Column1_726_14" =
+href=3D"http://msdn.microsoft.com/windows/apps"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows Store apps</A>          =
+ </LI>
+  <LI><A id=3D"Column1_726_15" href=3D"http://msdn.microsoft.com/ie" =
+xmlns=3D"http://www.w3.org/1999/xhtml">Internet=20
+  Explorer</A>           </LI>
+  <LI><A id=3D"Column1_726_16" =
+href=3D"http://msdn.microsoft.com/windows/desktop"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Desktop</A>           </LI>
+  <LI><A id=3D"Column1_726_17" =
+href=3D"http://msdn.microsoft.com/windows/hardware"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Hardware</A>          =20
+</LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=3D"Fragment_Column2" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"Column2">
+<DIV class=3D"ListOfLinkLists">
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Related developer sites</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column2_726_18" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285622"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Microsoft Connect</A>           =
+</LI>
+  <LI><A id=3D"Column2_726_19" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285623"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">.NET Framework</A>           =
+</LI>
+  <LI><A id=3D"Column2_726_20" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D282089"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Visual Studio</A>           =
+</LI>
+  <LI><A id=3D"Column2_726_21" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D280293"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows Phone</A>           =
+</LI>
+  <LI><A id=3D"Column2_726_22" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D282087"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows Server</A>          =20
+</LI></UL></DIV></DIV>
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Other Windows sites</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column2_726_23" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D280294"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Enterprise</A>           </LI>
+  <LI><A id=3D"Column2_726_24" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D280295"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Small business</A>           =
+</LI>
+  <LI><A id=3D"Column2_726_25" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D280296"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Students</A>           </LI>
+  <LI><A id=3D"Column2_726_26" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D280297"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Home users</A>          =20
+</LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=3D"Fragment_Column3" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"Column3">
+<DIV class=3D"ListOfLinkLists">
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Downloads</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column3_726_27" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D267554"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows 8.1</A>           </LI>
+  <LI><A id=3D"Column3_726_28" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D328183"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows SDK</A>           </LI>
+  <LI><A id=3D"Column3_726_29" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D316619"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Visual Studio Express 2013</A>  =
+        =20
+  </LI>
+  <LI><A id=3D"Column3_726_30" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285626"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">More downloads</A>          =20
+</LI></UL></DIV></DIV>
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Support</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column3_726_43" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285632"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Forums</A>           </LI>
+  <LI><A id=3D"Column3_726_44" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285633"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">More support options</A>        =
+  =20
+</LI></UL></DIV></DIV></DIV></DIV>
+<DIV id=3D"Fragment_Column4" xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"Column4">
+<DIV class=3D"ListOfLinkLists">
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Essentials</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column4_726_35" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285627"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows APIs</A>           =
+</LI>
+  <LI><A id=3D"Column4_726_36" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285628"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Samples</A>           </LI>
+  <LI><A id=3D"Column4_726_37" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285629"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Compatibility and =
+certification</A>      =20
+      </LI>
+  <LI><A id=3D"Column4_726_45" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285630"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Desktop dashboard</A>           =
+
+</LI></UL></DIV></DIV>
+<DIV class=3D"LinkList" xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV class=3D"LinkListTitle">Stay connected</DIV>
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn" style=3D"width: 100%;">
+  <LI><A id=3D"Column4_726_41" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D285954"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Microsoft events</A>           =
+</LI>
+  <LI><A id=3D"Column4_726_39" =
+href=3D"http://go.microsoft.com/fwlink/p/?linkid=3D313895"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Windows App Builder Blog</A>    =
+      =20
+  </LI></UL></DIV></DIV></DIV></DIV></DIV>
+<DIV id=3D"baseFooterLogos"><SPAN title=3D"Microsoft" =
+class=3D"microsoftlogo"></SPAN> =20
+               <A title=3D"MSDN" class=3D"msdnlogo" =
+href=3D"http://msdn.microsoft.com/en-us"></A>=20
+            </DIV>
+<DIV id=3D"baseFooter">
+<DIV id=3D"FooterCopyright">=C2=A9 2014 Microsoft</DIV>
+<DIV id=3D"Fragment_BaseFooterContent" =
+xmlns=3D"http://www.w3.org/1999/xhtml"=20
+data-fragmentname=3D"BaseFooterContent">
+<DIV xmlns=3D"http://www.w3.org/1999/xhtml">
+<DIV xmlns:mtps=3D"http://msdn2.microsoft.com/mtps">
+<DIV id=3D"Fragment_BaseFooter" data-fragmentname=3D"BaseFooter">
+<DIV class=3D"LinkList">
+<DIV class=3D"LinkListDescription"></DIV>
+<DIV class=3D"Links">
+<UL class=3D"LinkColumn horizontal">
+  <LI><A id=3D"BaseFooter_35351_1" =
+href=3D"http://msdn.microsoft.com/windows/apps/cc300389"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Terms of Use</A>               =
+</LI>
+  <LI><A id=3D"BaseFooter_35351_2" =
+href=3D"http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.msp=
+x"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Trademarks</A>               =
+</LI>
+  <LI><A id=3D"BaseFooter_35351_3" =
+href=3D"http://www.microsoft.com/info/privacy.mspx"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Privacy and Cookies</A>         =
+     =20
+  </LI>
+  <LI><A id=3D"BaseFooter_730_5" =
+href=3D"http://msdn.microsoft.com/en-us/windows/dn554289"=20
+  xmlns=3D"http://www.w3.org/1999/xhtml">Site map</A>              =20
+</LI></UL></DIV></DIV></DIV>
+<DIV id=3D"Fragment_HelloText" data-fragmentname=3D"HelloText">Hello =
+from Seattle.=20
+</DIV></DIV></DIV></DIV>
+<FORM class=3D"selectLocale" id=3D"selectLocaleForm" =
+action=3D"http://msdn.microsoft.com/en-us/windows/desktop/SelectLocale"><=
+INPUT name=3D"fromPage" type=3D"hidden" =
+value=3D"http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fwindows%2fde=
+sktop%2faa365247(v%3dvs.85).aspx">=20
+        <A title=3D"Change your language" =
+onclick=3D"$('#selectLocaleForm').submit();return false;"=20
+href=3D"http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(=
+v=3Dvs.85).aspx#">United=20
+States (English)</A>     </FORM>
+<DIV class=3D"clear"></DIV></DIV></DIV></DIV>
+<DIV class=3D"footerPrintView">
+<DIV class=3D"footerCopyrightPrintView">=C2=A9 2014 Microsoft. All =
+rights=20
+reserved.</DIV></DIV><INPUT id=3D"MtpsDevice" type=3D"hidden" =
+value=3D"Default"> <!--[CDATA[ Third party scripts and code linked to or =
+referenced from this website are licensed to you by the parties that own =
+such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use =
+=E2=80=93 http://www.asp.net/ajaxlibrary/CDN.ashx. ]]-->=20
+                                                                         =
+  =20
+<NOSCRIPT>&lt;div&gt;&lt;img alt=3D"DCSIMG" id=3D"Img1" width=3D"1" =
+height=3D"1"=20
+src=3D"http://m.webtrends.com/dcsmgru7m99k7mqmgrhudo0k8_8c6m/njs.gif?dcsu=
+ri=3D/nojavascript&amp;amp;WT.js=3DNo"=20
+/&gt;&lt;/div&gt;</NOSCRIPT> <NOSCRIPT>  &lt;a =
+href=3D"http://www.omniture.com"=20
+title=3D"Web Analytics"&gt;    &lt;img=20
+src=3D"//msstonojsmsdn.112.2o7.net/b/ss/msstonojsmsdn/1/H.20.2--NS/0" =
+height=3D"1"=20
+width=3D"1" border=3D"0" alt=3D"" /&gt;  &lt;/a&gt; </NOSCRIPT>=20
+<DIV=20
+id=3D"globalRequestVerification"><INPUT =
+name=3D"__RequestVerificationToken" type=3D"hidden" =
+value=3D"elAzMevzN5bLdZo4RAvvgI-9vSCUh-l8lxFjzubX0qIxZHdJZyoSdwBD476dDl9t=
+y71IVldWIpVN4gsMX_hfs8zgyTmFbXzt_aZohqwuEe5cjc7_--BchexYOHoj-mlc1DOzeQ2">=
+=20
+</DIV></DIV>
+<SCRIPT class=3D"mtps-injected" type=3D"text/javascript">=0A=
+/*<![CDATA[*/=0A=
+(function(window,document){"use strict";function =
+preload(scripts){for(var =
+result=3D[],script,e,i=3D0;i<scripts.length;i++)script=3Dscripts[i],scrip=
+t.hasOwnProperty("url")&&(e=3Ddocument.createElement("script"),e.src=3Dsc=
+ript.url,script.throwaway=3De),result.push(script);return =
+result}function inject(scripts,index){var =
+script,elem;if(index>=3Dscripts.length){delete =
+mtps.injectScripts;return}script=3Dscripts[index];elem=3Ddocument.createE=
+lement("script");elem.className=3D"mtps-injected";elem.async=3D!1;var =
+isLoaded=3D!1,timeoutId=3D0,injectNextFnName=3D"",injectNext=3Delem.onerr=
+or=3Dfunction(){isLoaded||(isLoaded=3D!0,inject(scripts,index+1),window.c=
+learTimeout(timeoutId),elem.onload=3Delem.onerror=3Delem.onreadystatechan=
+ge=3Dnull,injectNextFnName&&delete =
+mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener=
+("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("loa=
+d",injectNext,!1):elem.readyState=3D=3D=3D"uninitialized"?elem.onreadysta=
+techange=3Dfunction(){(this.readyState=3D=3D=3D"loaded"||this.readyState=3D=
+=3D=3D"complete")&&injectNext()}:elem.onload=3DinjectNext;script.hasOwnPr=
+operty("url")?(timeoutId=3Dwindow.setTimeout(injectNext,12e4),elem.src=3D=
+script.url):(injectNextFnName=3D"_injectNextScript_"+index,mtps[injectNex=
+tFnName]=3DinjectNext,timeoutId=3Dwindow.setTimeout(injectNext,2e3),elem.=
+text=3D"try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && =
+MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var =
+mtps=3Dwindow.MTPS||(window.MTPS=3D{}),parent=3Ddocument.getElementsByTag=
+Name("head")[0];mtps.injectScripts=3Dfunction(scripts){inject(preload(scr=
+ipts),0)}})(window,document);=0A=
+MTPS.injectScripts([=0A=
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS =3D {})).cdnDomains || =
+(window.MTPS.cdnDomains =3D { \r\n\t\"image\": =
+\"http://i.msdn.microsoft.com\", \r\n\t\"js\": =
+\"http://i2.msdn.microsoft.com\", \r\n\t\"css\": =
+\"http://i3.msdn.microsoft.com\"\r\n});\r\n/**/" },=0A=
+	{ url: "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" },=0A=
+	{ txt: "//\n  var literalNormalizedUrl =3D =
+\u0027/en-us/library/windows/desktop/aa365247(d=3Ddefault,l=3Den-us,v=3Dv=
+s.85).aspx\u0027;\n  var wt_nvr_ru =3D \u0027WT_NVR_RU\u0027;\n  var =
+wt_fpcdom =3D \u0027.microsoft.com\u0027;\n  var wt_domlist =3D =
+\u0027msdn.microsoft.com\u0027;\n  var wt_pathlist =3D \u0027\u0027;\n  =
+var wt_paramlist =3D \u0027DCSext.mtps_devcenter\u0027;\n  var wt_siteid =
+=3D \u0027MSDN\u0027;\n  var gDomain =3D \u0027m.webtrends.com\u0027;\n  =
+var gDcsId =3D \u0027dcsmgru7m99k7mqmgrhudo0k8_8c6m\u0027;\n  var gFpc =
+=3D \u0027WT_FPC\u0027;\n\n\n\n  if (document.cookie.indexOf(gFpc + =
+\"=3D\") =3D=3D -1) {\n    var wtidJs =3D =
+document.createElement(\"script\");\n    wtidJs.src =3D \"//\" + gDomain =
++ \"/\" + gDcsId + \"/wtid.js\";\n    =
+document.getElementsByTagName(\"head\")[0].appendChild(wtidJs);\n  =
+}\n\n\n\n  var detectedLocale =3D \u0027en-us\u0027;\n  var wtsp =3D =
+\u0027_msdn_\u0027;\n  var gTrackEvents =3D \u00270\u0027;\n/**/" },=0A=
+	{ txt: "/**/\n  var omni_guid =3D =
+\"e0d51f4e-8ed7-4bf5-aaa3-9ef93da2e6e0\";\n/**/" },=0A=
+	{ url: =
+"http://i2.msdn.microsoft.com/Combined.js?resources=3D0:Utilities,0:Topic=
+,1:webtrendsscript,2:omni_rsid_MSDN,3:SearchBox;/Areas/Epx/Content/Script=
+s:0,/Areas/Global/Content/Webtrends/resources:1,/Areas/Global/Content/Omn=
+iture/resources/MSDN:2,/Areas/Epx/Themes/Base/Content:3\u0026amp;hashKey=3D=
+AC40DC07C2F88B6A80A221CF8CE96C71" },=0A=
+	{ url: =
+"http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?box=
+id=3DHeaderSearchTextBox\u0026btnid=3DHeaderSearchButton\u0026brand=3DMSD=
+N\u0026loc=3Den-us\u0026Refinement=3D181\u0026focusOnInit=3Dfalse\u0026ir=
+oot=3Dwindows%2fdesktop\u0026emptyWatermark=3Dtrue\u0026searchButtonToolt=
+ip=3DSearch" },=0A=
+	{ url: =
+"http://i2.msdn.microsoft.com/Combined.js?resources=3D0:Header,1:Toc;/Are=
+as/Epx/Themes/Windows/Content:0,/Areas/Library/Content:1\u0026amp;hashKey=
+=3DB046CF4083BA9678132B518022920A8B" },=0A=
+	{ url: =
+"http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js=
+" },=0A=
+	{ url: =
+"http://i2.msdn.microsoft.com/Combined.js?resources=3D0:CommunityContent,=
+0:LibraryMemberFilter,1:Toc_Fixed,2:Rating,1:CodeSnippet,1:TopicNotInScop=
+e,1:CollapsibleArea,1:VersionSelector,1:SurveyBroker;/Areas/Library/Conte=
+nt:0,/Areas/Epx/Content/Scripts:1,/Areas/Epx/Themes/Base/Content:2\u0026a=
+mp;hashKey=3D2A77ECEF93C0F9056A5010870FC593DD" },=0A=
+	{ txt: "$(document).ready(function() {\n        try {\n            var =
+token =3D $(\"#globalRequestVerification =
+input[name=3D\u0027__RequestVerificationToken\u0027]\").clone();\n       =
+     $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n   =
+         \n        }\n    });" }=0A=
+]);=0A=
+=0A=
+/*]]>*/=0A=
+</SCRIPT>
+ </BODY></HTML>
+
+------=_NextPart_000_0000_01CF3E27.A3A68680
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://i.msdn.microsoft.com/Areas/Epx/Themes/Windows/Content/Windows_logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAgCAYAAADjRcF+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOkQzMzRCNDFFNUMzOTExRTJCMkFFRDM2NkM2NjVCRENBIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOkQzMzRCNDFGNUMzOTExRTJCMkFFRDM2NkM2NjVCRENBIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDMzNEI0MUM1QzM5MTFFMkIyQUVE
+MzY2QzY2NUJEQ0EiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDMzNEI0MUQ1QzM5MTFFMkIy
+QUVEMzY2QzY2NUJEQ0EiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz7uKvDWAAAFnElEQVR42uxc3W3jRhCmD34NolQQXgXmAXm6
+F9EVkK7AUgXWVSCpAssVWFeBqQpMv+QpgHkVHFNBFKSAy67xrfx5MkuKhCxH1g5A0KR2Oavdb775
+WVon0R7lt9//ScxpYA53Hv7x+afzKMhRydXV5MfpjoEVmxMfZwJoQYI8yWkPcCWGpSpznpnLXwXQ
+ggTpDzwDqpSY6mecGVwn5piG6QvSG3hgLucS0zAlQfbFeIG5/sv4AxNOrPes84c9G70nIcb7/wDB
+MvE9LudmcWZNoDGnv3C5NG3HDW1zc7rDpW1XQE9iPluYvl+CGb6OfDiEQRoAlObkGGjY0jz3/K0J
+P6tELJvgehTgceTAI2BYScFq24BpgNqhT1xMWxlw1wC40xPY7thdLWRFDJbCLbYxnmtbKW42JnYr
+iV1DQTsw3gspPKzGYOJCdY1z1sJ2DtRBAuOpcd7aAKsCS+UeV+jYrgKYppG/RDQUMWSnrBcxYCbA
+u/Rlw+gzMcdl9FwPtcbx1RyLLXTaPlfE0lvp3XGSl2AMMes3uhfvFng0yU/FbLsQNi4Tn2fkOksA
+7ykrVsCVKkzqLWu4+0Y+IvONleddmnbnEgQA3b0CmhhjzFoW/Bqg9TH31LQZG70F2t/CMNbm3i8e
+AD26bN60WSog/47LC/tcc88+79ajvzPwPhwY8AqPq3SL6xb2QWTCmTKxDjgPHcdwi752sm08eEEx
+YuIByL2IJ8foO8cYky1BV4PpnV4HGPvd7yiRWlFypTH+pWKsahgC0MUEugq6efzvOrmIsEe8xkRn
+NPEvkgpn+VjkXHG3qQfM24jt+8mOhZ9hxvUIANlFnRFwRgQsWVcszeeudjhQQJcS6Kw+yaZW7w2x
+1zXaFDRPKSdPSgKmATMTc8PteQx2/ItewOtbKX/DCnsBN5J6YrZCyYQTsRvh2taKu26TpQCdkxti
+Q5Yr0jX2GNMXjxtjZrrQ4jj0n7t41r3EQUaXCUNwbF8BmDH1kWBcEaN6Y+9ewKPYpRPo+vTbEYBX
+AN5ATFiuuM5STKa04KLHkL967teehCIhYEbb9pVxaIuBFNHz1mdCyZVmdDl9jzPMZe5KTvSCCM8P
+g/LWGkoPgz3oGE+CKVfKKAWBuqZJy5S2Dz301x3uc+xWNTzT95ljz29tIYjSp/C41kv6fKXEeQ7s
+pQMrQhc28O82gQF7HgfwMBmlcJl5g+ssxYSmSizYRX/d5X6H7/Qa81TwPFHRvMJ4N0kR7QZlws1u
+YjsRU48AwOtjYTyeFLd9ljW4TsdqMSZ+qDDnm4on89yFPAjDTPm7CyPORWhQSCAjRv0oADjpA75D
+BZ50t4nPdQpWy5XA+TWl9rhdKYOW/mcdgFspGbvbs86UOHVFrLgpwDcxOwD4icY3OgrgIaapRdbY
+xGIFtR3si/GweGtlnJEn8/UZWN7ysoOL25jBZIyb46hFTFjS58NtjRLPmLdlve+N8RhMiQyGm9wt
+xYLVnsZ5Q67+VmGrSeTf1pvT33ca+NDfMc6NMgeO3aYeF+qMmN9ALxQ9s4bkp3OMenrAwLNgmigu
+o8017zu+WxDTjuAW7cL+DdeXYOEGGmParbDouT74iILzN0oEEnKxC4+BXitGKOdjBB0+o7Tbcpdo
++yfcv3PNy6NhPCUjLbd0zfuK7zi7PCf9MQxmSqC7aOhvF3VMrJKj75RAZ9ucewrMNeleezL5leJJ
+fOWdEXRvQNfnTe2TAywgH6xg+2yIBVyDfYptSjHIOPPo5c7Ietv+Oxh7DP3MzEWfkGXn/9AdpNXI
+ln3cEjHn8g3HXkc93kJpivHm8NdxS8ofJMjO5FT+xxZtIm9+3yQKvxQQZNfAawhGS8XP8z6nZcrw
+ExZBdgO8Fj9f0d+zBmDakoH20xdBgnQHXgdglp6sSLrw8AtSRyr/CjAAbyF5gam5QW0AAAAASUVO
+RK5CYII=
+
+------=_NextPart_000_0000_01CF3E27.A3A68680
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://i3.msdn.microsoft.com/Combined.css?resources=0:Topic,0:CodeSnippet,0:ExpandableCollapsibleArea,1:CommunityContent,0:TopicNotInScope,0:FeedViewerBasic,0:ImageSprite,2:Header,2:sprite,1:Toc,1:LibraryMemberFilter,2:Footer,3:DetailedLinkList,3:LinkList,4:Windows;/Areas/Epx/Content/Css:0,/Areas/Library/Content:1,/Areas/Epx/Themes/Windows/Content:2,/Areas/Epx/Themes/Base/Content:3,/Areas/Library/Themes/Windows/Content:4&amp;hashKey=E1AF301680B6D838738C2F52E9149624
+
+body {
+	font: 0.87em/1.35 "Segoe UI", "Lucida Grande", Verdana, Arial, =
+Helvetica, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+h1 {
+	font: 100 2.57em/1.167 "Segoe UI Light", "Segoe UI", "Lucida Grande", =
+Verdana, Arial, Helvetica, sans-serif; color: rgb(112, 112, 112); =
+margin-top: 0px; font-size-adjust: none; font-stretch: normal;
+}
+h2 {
+	margin: 0px; color: rgb(219, 113, 0); padding-top: 5px; padding-bottom: =
+5px; font-family: "Segoe UI Light","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1.28em; =
+font-weight: normal;
+}
+h3 {
+	margin: 0px; color: rgb(219, 113, 0); padding-top: 5px; padding-bottom: =
+5px; font-family: "Segoe UI Light","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1.28em; =
+font-weight: normal;
+}
+.contentWrapper h2 a {
+	margin: 0px; color: rgb(219, 113, 0); padding-top: 5px; padding-bottom: =
+5px; font-family: "Segoe UI Light","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1.28em; =
+font-weight: normal;
+}
+.contentWrapper h3 a {
+	margin: 0px; color: rgb(219, 113, 0); padding-top: 5px; padding-bottom: =
+5px; font-family: "Segoe UI Light","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1.28em; =
+font-weight: normal;
+}
+.heading {
+	margin: 0px; color: rgb(219, 113, 0); padding-top: 5px; padding-bottom: =
+5px; font-family: "Segoe UI Light","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1.28em; =
+font-weight: normal;
+}
+h4 {
+	margin: 0px; color: rgb(42, 42, 42); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 0.85em; =
+font-weight: bold;
+}
+.subheading {
+	margin: 0px; color: rgb(42, 42, 42); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 0.85em; =
+font-weight: bold;
+}
+h5 {
+	margin: 0px; line-height: 130%; font-size: 0.85em; font-weight: normal;
+}
+h6 {
+	margin: 0px; line-height: 130%; font-size: 0.85em; font-weight: normal;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+div#body {
+	padding-top: 35px; clear: both;
+}
+div#content {
+	-ms-overflow-x: auto !important; -ms-word-wrap: break-word; min-height: =
+300px;
+}
+.BostonPostCard > div + div + div {
+	width: auto !important;
+}
+*:first-child + html .BostonPostCard > div + div + div {
+	width: 740px !important; height: 30px !important;
+}
+*:first-child + html #contentFeedback {
+	height: 20px !important;
+}
+*:first-child + html div#content {
+	overflow: hidden;
+}
+*:first-child + html div#nstext img[usemap=3D'#excel2'] {
+	border: currentColor; border-image: none;
+}
+div#nstext img[usemap=3D'#excel2'] {
+	border: 0px currentColor; border-image: none;
+}
+.clear {
+	clear: both;
+}
+.majorTitle {
+	display: none;
+}
+.parameter {
+	font-style: italic;
+}
+.multicol th {
+	padding: 0px 12px 0px 0px; border: currentColor; border-image: none;
+}
+.multicol td {
+	padding: 0px 12px 0px 0px; border: currentColor; border-image: none;
+}
+td.innercol {
+	padding: 0px 12px 0px 0px; border: currentColor; border-image: none;
+}
+.innercol table td {
+	padding: 0px 12px 0px 0px; border: currentColor; border-image: none;
+}
+#mainBody ul li {
+	list-style-image: none;
+}
+p {
+	color: rgb(42, 42, 42); line-height: 18px; padding-bottom: 15px; =
+margin-top: 0px; margin-bottom: 0px;
+}
+.topic a {
+	color: rgb(0, 112, 159); text-decoration: none;
+}
+.topic a:link {
+	color: rgb(0, 112, 159); text-decoration: none;
+}
+.topic a:visited {
+	color: rgb(3, 105, 122); text-decoration: none;
+}
+.topic a:active {
+	color: rgb(3, 105, 122); text-decoration: none;
+}
+.topic a:hover {
+	color: rgb(51, 144, 177); text-decoration: none;
+}
+.topic a.active {
+	color: rgb(42, 42, 42);
+}
+.topic a.active:link {
+	color: rgb(42, 42, 42);
+}
+.topic a.active:hover {
+	color: rgb(42, 42, 42);
+}
+.topic a.active:visited {
+	color: rgb(42, 42, 42);
+}
+.topic a.active:active {
+	color: rgb(42, 42, 42);
+}
+table {
+	padding-top: 20px; padding-bottom: 20px; border-collapse: collapse;
+}
+div#content table {
+	width: 100%;
+}
+td {
+	margin: 10px; padding: 10px 8px; border-bottom-color: rgb(219, 219, =
+219); border-bottom-width: 1px; border-bottom-style: solid;
+}
+th {
+	margin: 10px; padding: 10px 8px; border-bottom-color: rgb(219, 219, =
+219); border-bottom-width: 1px; border-bottom-style: solid;
+}
+th {
+	text-align: left; color: rgb(99, 99, 99); background-color: rgb(237, =
+237, 237);
+}
+td {
+	color: rgb(42, 42, 42); vertical-align: top;
+}
+table p {
+	padding-bottom: 0px;
+}
+.errorMessage {
+	color: rgb(112, 112, 112); font-family: "Segoe UI Light","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 36px;
+}
+.errormessageSpacing {
+	margin-top: 3px;
+}
+table .BostonPostCard p {
+	padding-bottom: 5px;
+}
+table.members {
+	width: 100%;
+}
+table.members td {
+	min-width: 72px;
+}
+span.sup {
+	vertical-align: super;
+}
+span.sub {
+	font-size: smaller; vertical-align: sub;
+}
+.summary {
+	margin-top: 15px;
+}
+div.mtps-table {
+	display: inline-table;
+}
+div.mtps-thead {
+	display: table-header-group;
+}
+span.mtps-caption {
+	padding: 4pt; display: table-caption;
+}
+div.mtps-row {
+	padding: 4pt; display: table-row;
+}
+span.mtps-cell {
+	padding: 4pt; display: table-cell;
+}
+span.mtps-th {
+	padding: 4pt; display: table-cell;
+}
+div.alert > table {
+	border-width: 0px;
+}
+div.alert th {
+	border-width: 0px; border-style: hidden; padding: 10px 11px 5px; =
+font-weight: bold; border-collapse: collapse; border-spacing: 0; =
+background-color: rgb(237, 237, 237);
+}
+div.alert td {
+	border-width: 0px; padding: 10px 8px;
+}
+div.alert img {
+	border: 0px currentColor; border-image: none; padding-right: 5px;
+}
+div.alert p {
+	margin: 0px;
+}
+div.FVB_date {
+	color: rgb(85, 85, 85); font-size: smaller; font-style: italic; =
+margin-bottom: 5px;
+}
+.controlPlaceholder {
+	padding: 10px; color: rgb(170, 170, 170); font-style: italic; =
+background-color: rgb(238, 238, 238);
+}
+.input {
+	font-weight: 700;
+}
+.label {
+	font-weight: 700;
+}
+div.footerPrintView {
+	padding-top: 10px; clear: both; font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; display: none;
+}
+.code {
+	color: rgb(0, 100, 0); font-family: Consolas,Courier,monospace;
+}
+.multiViewItemHeading {
+	font-style: italic; margin-top: 15px; margin-bottom: 3px;
+}
+.topic .title {
+	font-family: Segoe UI,Verdana,Arial;
+}
+#curversion {
+	color: rgb(93, 93, 93); font-size: 13px;
+}
+ol ol {
+	list-style-type: lower-alpha;
+}
+ol ol ol {
+	list-style-type: lower-roman;
+}
+.codeSnippetContainer {
+	clear: both; min-width: 260px;
+}
+.codeSnippetContainerTabs {
+	height: 23px; vertical-align: middle; position: relative; z-index: 1;
+}
+.codeSnippetContainerTab {
+	padding: 0px 15px; width: auto; height: 22px; color: rgb(42, 42, 42); =
+font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 12px; =
+font-style: normal !important; vertical-align: baseline; float: left;
+}
+.codeSnippetContainerTabActive {
+	background: rgb(248, 248, 248); padding: 0px 15px; width: auto; height: =
+22px; color: rgb(112, 112, 112); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 12px; =
+font-style: normal !important; vertical-align: baseline; =
+border-top-color: rgb(147, 147, 147); border-right-color: rgb(147, 147, =
+147); border-left-color: rgb(147, 147, 147); border-top-width: 1px; =
+border-right-width: 1px; border-left-width: 1px; border-top-style: =
+solid; border-right-style: solid; border-left-style: solid; float: left;
+}
+.codeSnippetContainerTabPhantom {
+	background: rgb(248, 248, 248); padding: 0px 15px; width: auto; height: =
+22px; color: rgb(194, 194, 194); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 12px; =
+font-style: normal !important; vertical-align: baseline; =
+border-top-color: rgb(147, 147, 147); border-right-color: rgb(147, 147, =
+147); border-left-color: rgb(147, 147, 147); border-top-width: 1px; =
+border-right-width: 1px; border-left-width: 1px; border-top-style: =
+solid; border-right-style: solid; border-left-style: solid; float: left;
+}
+.codeSnippetContainerTabSingle {
+	padding: 0px 8px; left: 7px; top: 14px; width: auto; height: 22px; =
+color: rgb(112, 112, 112); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 12px; =
+font-style: normal !important; vertical-align: baseline; float: left; =
+position: relative; background-color: rgb(255, 255, 255);
+}
+.codeSnippetContainerTab a {
+	top: 2px; color: rgb(42, 42, 42); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTab a:link {
+	top: 2px; color: rgb(42, 42, 42); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTab a:visited {
+	top: 2px; color: rgb(42, 42, 42); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTab a:active {
+	top: 2px; color: rgb(42, 42, 42); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabActive a {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabActive a:link {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabActive a:visited {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabActive a:active {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabPhantom a {
+	top: 2px; color: rgb(139, 139, 139) !important; text-decoration: none; =
+position: relative;
+}
+.codeSnippetContainerTabPhantom a:link {
+	top: 2px; color: rgb(139, 139, 139) !important; text-decoration: none; =
+position: relative;
+}
+.codeSnippetContainerTabPhantom a:visited {
+	top: 2px; color: rgb(139, 139, 139) !important; text-decoration: none; =
+position: relative;
+}
+.codeSnippetContainerTabPhantom a:active {
+	top: 2px; color: rgb(139, 139, 139) !important; text-decoration: none; =
+position: relative;
+}
+.codeSnippetContainerTabSingle a {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabSingle a:link {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabSingle a:visited {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTabSingle a:active {
+	top: 2px; color: rgb(112, 112, 112); text-decoration: none; position: =
+relative;
+}
+.codeSnippetContainerTab a:hover {
+	top: 2px; color: rgb(112, 112, 112); position: relative;
+}
+.codeSnippetContainerTabActive a:hover {
+	top: 2px; color: rgb(112, 112, 112); position: relative;
+}
+.codeSnippetContainerTabPhantom a:hover {
+	top: 2px; color: rgb(194, 194, 194); position: relative;
+}
+.codeSnippetContainerTabSingle a:hover {
+	top: 2px; color: rgb(112, 112, 112); position: relative;
+}
+.codeSnippetContainerCodeContainer {
+	border: 1px solid rgb(147, 147, 147); top: -1px; clear: both; =
+margin-bottom: 12px; position: relative;
+}
+.codeSnippetToolBar {
+	width: auto; height: auto;
+}
+.codeSnippetToolBarText {
+	top: -8px; width: auto; height: 0px; padding-right: 0px; padding-left: =
+0px; vertical-align: top; float: right; position: relative; =
+background-color: rgb(255, 255, 255);
+}
+.codeSnippetToolBarText a:link {
+	color: rgb(42, 42, 42); padding-right: 8px; padding-left: 8px; =
+font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 10px; =
+font-style: normal !important; text-decoration: none; margin-right: =
+15px; margin-left: 15px; background-color: rgb(255, 255, 255);
+}
+.codeSnippetToolBarText a:visited {
+	color: rgb(42, 42, 42); padding-right: 8px; padding-left: 8px; =
+font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 10px; =
+font-style: normal !important; text-decoration: none; margin-right: =
+15px; margin-left: 15px; background-color: rgb(255, 255, 255);
+}
+.codeSnippetToolBarText a:active {
+	color: rgb(42, 42, 42); padding-right: 8px; padding-left: 8px; =
+font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif !important; font-size: 10px; =
+font-style: normal !important; text-decoration: none; margin-right: =
+15px; margin-left: 15px; background-color: rgb(255, 255, 255);
+}
+.codeSnippetToolBarText a:hover {
+	color: rgb(112, 112, 112);
+}
+.codeSnippetContainerCode {
+	margin: 0px; padding: 10px 21px; width: auto;
+}
+.codeSnippetContainerCode div {
+	margin: 0px; padding: 0px;
+}
+.codeSnippetContainerCode pre {
+	margin: 0px; padding: 5px; overflow: auto; font-family: =
+Consolas,Courier,monospace !important; font-style: normal; font-weight: =
+normal; -ms-word-wrap: normal;
+}
+.highlight {
+	background: rgb(255, 255, 198);
+}
+.LW_CollapsibleArea_TitleDiv {
+	padding-top: 20px; padding-bottom: 5px; font-family: "Segoe UI =
+Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif =
+!important; font-size: 18px; font-style: normal !important;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed {
+	padding-top: 20px; padding-bottom: 20px; font-family: "Segoe UI =
+Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif =
+!important; font-size: 18px; font-style: normal !important;
+}
+.LW_CollapsibleArea_TitleDiv a:hover {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed a:hover {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_Title {
+	padding-left: 10px;
+}
+.LW_CollapsibleArea_HrDiv {
+	padding-top: 0px;
+}
+.LW_CollapsibleArea_Hr {
+	color: rgb(229, 229, 229); display: none;
+}
+.sectionblock {
+	padding-bottom: 20px; padding-left: 15px; display: block;
+}
+.sectionblock ol {
+	list-style-type: decimal;
+}
+.sectionblock ol ol {
+	list-style-type: lower-alpha;
+}
+.sectionblock ol ol ol {
+	list-style-type: lower-roman;
+}
+.sectionnone {
+	padding-left: 15px; display: none;
+}
+.LW_CollapsibleArea_TitleAhref {
+=09
+}
+.LW_CollapsibleArea_Img {
+	border-width: 0px; margin-top: 7px; margin-bottom: 0px; vertical-align: =
+middle; float: left; display: inline-block;
+}
+.LW_CollapsibleArea_TitleDiv div a:link {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv div a:hover {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv div a:visited {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv div a:focus {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed div a:link {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed div a:hover {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed div a:visited {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv_Collapsed div a:focus {
+	color: rgb(219, 113, 0); text-decoration: none;
+}
+.LW_CollapsibleArea_TitleDiv a span {
+	overflow: hidden; display: block;
+}
+.communityContentContainer {
+	clear: both; margin-top: 34px; border-top-color: rgb(219, 219, 219); =
+border-top-width: 1px; border-top-style: solid; min-height: 40px;
+}
+.communityContentHeader {
+	padding: 16px 0px; border-bottom-color: rgb(213, 213, 213); =
+border-bottom-width: 1px; border-bottom-style: solid;
+}
+.communityContentHeaderTitle {
+	color: rgb(219, 113, 0); font-family: "Segoe UI Light","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 18px;
+}
+.communityContentAddButton {
+	padding: 12px 16px 0px; text-align: center; color: rgb(44, 114, 156); =
+float: left; cursor: pointer;
+}
+a.communityContentAddLink {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.communityContentAnnotationTitle {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.communityContentAnnotationBody {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.communityContentAnnotationUserContainer {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.communityContentAnnotationDateContainer {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+a.communityContentCommentEditLink {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+a.communityContentDeleteLink {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+a.communityContentAddLink {
+	color: rgb(255, 255, 255); font-size: 12px; display: block; cursor: =
+pointer;
+}
+.communityContentAnnotation {
+	color: rgb(42, 42, 42); padding-top: 20px; padding-bottom: 10px; =
+border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+.communityContentAnnotationTitle {
+	padding-bottom: 5px; font-size: 14px;
+}
+.communityContentAnnotationBody {
+	line-height: 18px; padding-bottom: 10px; font-size: 12px; =
+-ms-word-wrap: break-word;
+}
+.communityContentAnnotationBody > pre {
+	white-space: pre-wrap;
+}
+.communityContentAnnotationAvatarContainer {
+	width: 34px; padding-right: 5px; float: left;
+}
+.communityContentAnnotationAvatar img {
+	border: 0px currentColor; border-image: none;
+}
+.communityContentAnnotationUserDateContainer {
+	padding-top: 3px;
+}
+.communityContentAnnotationUserContainer {
+	line-height: 1.35; padding-bottom: 5px; font-size: 10px;
+}
+.communityContentAnnotationUserContainer {
+	color: rgb(44, 114, 156);
+}
+.communityContentAnnotationUserContainer a {
+	color: rgb(44, 114, 156);
+}
+.communityContentAnnotationDateContainer {
+	line-height: 1.35; font-size: 10px;
+}
+a.communityContentCommentEditLink {
+	color: rgb(44, 114, 156); padding-left: 20px; font-size: 10px;
+}
+a.communityContentDeleteLink {
+	color: rgb(44, 114, 156); padding-left: 20px; font-size: 10px;
+}
+.communityContentHeaderTitleContainer h2 {
+	color: green; font-size: 18px; float: left;
+}
+.topicNotInScope {
+	padding-bottom: 10px; clear: both; position: relative;
+}
+.topicNotInScopeDisclaimer {
+	padding: 9px 10px; border: 1px solid rgb(147, 147, 147); border-image: =
+none; color: rgb(42, 42, 42); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 12px; =
+background-color: rgb(239, 238, 239);
+}
+.topicNotInScopeDisclaimerText {
+	padding-right: 0px; padding-left: 26px;
+}
+.topicNotInScopeSwitchCollectionContainer {
+	float: right;
+}
+.topicNotInScopeSwitchCollection {
+	padding-right: 5px; padding-left: 5px; float: left;
+}
+.topicNotInScopeCollectionPicker {
+	margin: 0px; border: 1px solid rgb(147, 147, 147); border-image: none; =
+top: 30px; width: auto; right: 10px; padding-top: 5px; padding-right: =
+10px; padding-left: 10px; display: none; list-style-type: none; =
+position: absolute; z-index: 2; background-color: rgb(255, 255, 255);
+}
+.topicNotInScopeCollectionPickerItem {
+	height: 20px; margin-bottom: 2px;
+}
+.topicNotInScopeImageContainer {
+	float: left;
+}
+.topicNotInScopeImageContainer2 {
+	margin-top: 5px; float: left;
+}
+.topicNotInScopeImageContainer > img {
+	max-width: none !important;
+}
+.feedViewerBulletList ul {
+	padding-top: 0px; padding-bottom: 0px;
+}
+.feedViewerBulletList ul li {
+	padding-bottom: 0px;
+}
+.feedViewerBasic {
+=09
+}
+.feedViewerItem {
+	padding-bottom: 15px;
+}
+a.feedViewerLink {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 12px;
+}
+a.feedViewerLink {
+	color: rgb(0, 112, 159);
+}
+a.feedViewerLink:active {
+	color: rgb(0, 112, 159);
+}
+a.feedViewerLink:hover {
+	color: rgb(51, 144, 177);
+}
+a.feedViewerLink:visited {
+	color: rgb(3, 105, 122);
+}
+.feedViewerDescription {
+	padding-top: 5px;
+}
+.feedViewerDescription {
+	color: rgb(42, 42, 42); line-height: 18px; font-family: "Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 12px; =
+margin-top: 0px; margin-bottom: 0px;
+}
+.feedViewerDateAuthor {
+	color: rgb(42, 42, 42); line-height: 18px; font-family: "Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 12px; =
+margin-top: 0px; margin-bottom: 0px;
+}
+.feedViewerDate {
+=09
+}
+.feedViewerAuthor {
+=09
+}
+.clip10x10 {
+	overflow: hidden; position: relative;
+}
+.clip10x46 {
+	overflow: hidden; position: relative;
+}
+.clip11x6 {
+	overflow: hidden; position: relative;
+}
+.clip11x12 {
+	overflow: hidden; position: relative;
+}
+.clip16x16 {
+	overflow: hidden; position: relative;
+}
+.clip20x20 {
+	overflow: hidden; position: relative;
+}
+.clip20x21 {
+	overflow: hidden; position: relative;
+}
+.clip22x30 {
+	overflow: hidden; position: relative;
+}
+.clip23x23 {
+	overflow: hidden; position: relative;
+}
+.clip25x25 {
+	overflow: hidden; position: relative;
+}
+.clip26x23 {
+	overflow: hidden; position: relative;
+}
+.clip29x29 {
+	overflow: hidden; position: relative;
+}
+.clip30x24 {
+	overflow: hidden; position: relative;
+}
+.clip30x25 {
+	overflow: hidden; position: relative;
+}
+.clip31x24 {
+	overflow: hidden; position: relative;
+}
+.clip32x24 {
+	overflow: hidden; position: relative;
+}
+.clip38x23 {
+	overflow: hidden; position: relative;
+}
+.clip51x24 {
+	overflow: hidden; position: relative;
+}
+.clip10x10 {
+	width: 10px; height: 10px;
+}
+.clip10x46 {
+	width: 10px; height: 46px;
+}
+.clip11x6 {
+	width: 11px; height: 6px;
+}
+.clip11x12 {
+	width: 11px; height: 12px;
+}
+.clip16x16 {
+	width: 16px; height: 16px;
+}
+.clip20x20 {
+	width: 20px; height: 20px;
+}
+.clip20x21 {
+	width: 20px; height: 21px;
+}
+.clip22x30 {
+	width: 22px; height: 30px;
+}
+.clip23x23 {
+	width: 23px; height: 23px;
+}
+.clip25x25 {
+	width: 25px; height: 25px;
+}
+.clip26x23 {
+	width: 26px; height: 23px;
+}
+.clip29x29 {
+	width: 29px; height: 29px;
+}
+.clip30x24 {
+	width: 30px; height: 24px;
+}
+.clip30x25 {
+	width: 30px; height: 25px;
+}
+.clip31x24 {
+	width: 31px; height: 24px;
+}
+.clip32x24 {
+	width: 32px; height: 24px;
+}
+.clip38x23 {
+	width: 38px; height: 23px;
+}
+.clip51x24 {
+	width: 51px; height: 24px;
+}
+.clip10x10 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip10x10 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip10x46 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip10x46 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip11x6 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip11x6 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip11x12 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip11x12 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip16x16 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip16x16 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip20x20 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip20x20 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip20x21 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip20x21 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip22x30 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip22x30 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip23x23 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip23x23 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip25x25 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip25x25 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip26x23 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip26x23 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip29x29 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip29x29 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip30x24 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip30x24 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip30x25 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip30x25 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip31x24 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip31x24 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip32x24 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip32x24 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip38x23 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip38x23 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip51x24 img {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.clip51x24 input {
+	margin: 0px; padding: 0px; width: auto; height: auto; position: =
+absolute;
+}
+.cl_footer_logo {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-3px -3px; width: 90px; height: 16px; overflow: hidden;
+}
+.isd_search {
+	left: -99px; top: -3px;
+}
+.search_icon_technet {
+	left: -125px; top: -3px;
+}
+.search_gray {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-160px -3px; width: 17px; height: 17px; overflow: hidden;
+}
+.cl_footer_feedback_icon {
+	left: -183px; top: -3px;
+}
+.cl_ContentFallback_Alert {
+	left: -209px; top: -3px;
+}
+.cl_msdn_close {
+	left: -240px; top: -3px;
+}
+.cl_printhelp_logo {
+	left: -268px; top: -3px;
+}
+.cl_nav_resize_close {
+	left: -297px; top: -3px;
+}
+.cl_nav_resize_open {
+	left: -313px; top: -3px;
+}
+.toc_collapsed {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-329px -3px; width: 17px; height: 17px; overflow: hidden;
+}
+.toc_expanded {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-352px -3px; width: 17px; height: 17px; overflow: hidden;
+}
+.toc_empty {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-375px -3px; width: 17px; height: 17px; overflow: hidden;
+}
+.cl_rss_button {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-398px -3px; width: 17px; height: 17px; overflow: hidden;
+}
+.cl_CollapsibleArea_expanding {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-421px -3px; width: 9px; height: 12px; overflow: hidden;
+}
+.cl_CollapsibleArea_collapsing {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-436px -3px; width: 9px; height: 12px; overflow: hidden;
+}
+.topicNotInScopeInformationImage {
+	left: -451px; top: -3px;
+}
+.cl_lw_vs_seperator {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-473px -3px; width: 1px; height: 17px; overflow: hidden;
+}
+.cl_lw_vs_arrow {
+	left: -480px; top: -3px;
+}
+.isd_settings {
+	left: -496px; top: -3px;
+}
+.isd_print {
+	left: -528px; top: -3px;
+}
+.isd_print_arrow {
+	left: -560px; top: -3px;
+}
+.closedCaptionImage {
+	left: -604px; top: -3px;
+}
+.muteImage {
+	left: -642px; top: -3px;
+}
+.pausedImage {
+	left: -679px; top: -3px;
+}
+.playImage {
+	left: -736px; top: -3px;
+}
+.restartImage {
+	left: -793px; top: -3px;
+}
+.rewindImage {
+	left: -831px; top: -3px;
+}
+.skipImage {
+	left: -867px; top: -3px;
+}
+.soundImage {
+	left: -904px; top: -3px;
+}
+.tickImage {
+	left: -940px; top: -3px;
+}
+.topicNotInScopeDropdownImage {
+	left: -957px; top: -3px;
+}
+.cl_IC46226 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-974px -3px; width: 11px; height: 11px; overflow: hidden;
+}
+.cl_IC28506 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-991px -3px; width: 11px; height: 11px; overflow: hidden;
+}
+.cl_IC90381 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1008px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC131682 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1030px -3px; width: 15px; height: 15px; overflow: hidden;
+}
+.cl_IC160177 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1051px -3px; width: 10px; height: 10px; overflow: hidden;
+}
+.cl_IC131792 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1067px -3px; width: 17px; height: 11px; overflow: hidden;
+}
+.cl_IC128933 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1090px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC169559 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1112px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC116110 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1134px -3px; width: 12px; height: 10px; overflow: hidden;
+}
+.cl_IC101471 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1152px -3px; width: 16px; height: 14px; overflow: hidden;
+}
+.cl_IC103139 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1174px -3px; width: 10px; height: 10px; overflow: hidden;
+}
+.cl_IC6709 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1190px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC115567 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1212px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC155188 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1234px -3px; width: 17px; height: 16px; overflow: hidden;
+}
+.cl_IC9948 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1257px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC100399 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1279px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC166620 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1301px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC29808 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1323px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC11304 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1345px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC134134 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1367px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC90369 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1389px -3px; width: 10px; height: 12px; overflow: hidden;
+}
+.cl_IC79755 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1405px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC157541 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1427px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC141795 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1449px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC89523 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1471px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC157062 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1493px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC34952 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1515px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC91302 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1537px -3px; width: 16px; height: 11px; overflow: hidden;
+}
+.cl_IC53205 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1559px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC148674 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1581px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC74937 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1603px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC82306 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1625px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC36774 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1647px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC169559 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1669px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC101171 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1691px -3px; width: 7px; height: 10px; overflow: hidden;
+}
+.cl_IC130242 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1704px -3px; width: 13px; height: 10px; overflow: hidden;
+}
+.cl_IC150820 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1723px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC25161 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1745px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC64394 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1767px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.cl_IC153696 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1789px -3px; width: 14px; height: 18px; overflow: hidden;
+}
+.cl_IC37116 {
+	background: url("/Areas/Epx/Content/Images/ImageSprite.png") no-repeat =
+-1809px -3px; width: 16px; height: 16px; overflow: hidden;
+}
+.Clear {
+	clear: both;
+}
+#ux-header {
+	color: rgb(207, 207, 207); line-height: 12px; font-size: 12px; =
+min-width: 998px; background-color: rgb(69, 69, 69);
+}
+#ux-header #headerContainer {
+	margin: auto; width: 998px; height: 105px; position: relative; z-index: =
+1000;
+}
+#ux-header li {
+	list-style-type: none; background-image: none;
+}
+#ux-header a {
+	color: rgb(207, 207, 207); background-image: none;
+}
+#ux-header a:hover {
+	color: rgb(255, 255, 255);
+}
+#ux-header a:focus {
+	outline: rgb(255, 255, 255) dotted 1px;
+}
+#ux-header .scarabLink {
+	padding: 0px; float: left;
+}
+#ux-header .createProfileLink {
+	padding: 0px 8px 0px 0px; float: left;
+}
+#ux-header #logo {
+	height: 32px; float: left; display: inline-block;
+}
+#ux-header #selectedTab {
+	margin-top: -1px; float: left;
+}
+#ux-header #logoAndSearchBox {
+	padding: 30px 0px 0px;
+}
+#ux-header div.SearchBox {
+	margin: 6px 0px 0px; border: currentColor; border-image: none; width: =
+227px; height: 24px; float: right; background-color: rgb(40, 40, 40);
+}
+#ux-header div.SearchBox button {
+	border: currentColor; border-image: none; float: right; display: =
+inline-block; cursor: pointer;
+}
+#ux-header div.SearchBoxOnFocus button {
+	background-color: rgb(0, 204, 255);
+}
+.IE7#ux-header div.SearchBox button {
+	float: none;
+}
+#ux-header div.SearchBox input {
+	border-width: 0px; padding: 0px 0px 0px 8px; width: 191px; height: =
+24px; color: rgb(255, 255, 255); font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 100%; =
+font-weight: 600; background-color: rgb(40, 40, 40);
+}
+#ux-header div.SearchBoxOnFocus input {
+	color: rgb(69, 69, 69); background-color: rgb(255, 255, 255);
+}
+#ux-header div.SearchBoxOnFocus {
+	padding: 0px; background-color: rgb(255, 255, 255);
+}
+#ux-header #SearchFlyoutContainer {
+	color: rgb(69, 69, 69) !important;
+}
+#ux-header div.ux-internav {
+	margin: 18px 0px 0px; padding: 0px; height: auto; font-size: 100%; =
+float: left; display: inline-block;
+}
+.rtl#ux-header div.ux-internav {
+	float: right;
+}
+#ux-header div#selectedTab a.dropDownToggle::after {
+	margin: 15px 0px 0px 12px; float: right; display: block; content: " ";
+}
+#ux-header div#selectedTab a {
+	padding: 0px; line-height: 1.09; font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 225%; =
+margin-left: 11px;
+}
+#ux-header div#selectedTab a:hover {
+	color: rgb(0, 204, 255);
+}
+#ux-header #toclevel1_menu {
+	font-size: 225%; position: absolute; z-index: 1001;
+}
+#ux-header #toclevel1_menu a {
+	font-family: "Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+#ux-header #toclevel1_menu ul {
+	margin: 0px; padding: 3px 13px 5px; line-height: 40px; min-width: =
+261px; background-color: rgb(40, 40, 40);
+}
+#ux-header #toclevel1_menu li {
+	padding: 0px; margin-bottom: 5px;
+}
+#ux-header a.active {
+	color: rgb(0, 204, 255);
+}
+#ux-header div.toclevel2 {
+	float: left; max-width: 741px;
+}
+#ux-header div.toclevel2 a {
+	padding: 0px 9px; font-family: "Segoe UI Semibold","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-weight: 600;
+}
+#ux-header div.toclevel3 a {
+	padding: 0px 9px; font-family: "Segoe UI Semibold","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-weight: 600;
+}
+#ux-header div.toclevel2 a:first-child {
+	padding: 0px 9px 0px 0px;
+}
+#ux-header div.toclevel3 a:first-child {
+	padding: 0px 9px 0px 0px;
+}
+#ux-header div.toclevel2 a {
+	margin: 1px 0px; height: auto; text-transform: uppercase; =
+letter-spacing: 1px; float: left;
+}
+#ux-header div.toclevel3 {
+	margin: auto; padding: 9px 0px 12px; width: 998px; overflow: hidden;
+}
+#ux-header div.toclevel3 a {
+	left: 25px; position: relative; opacity: 0;
+}
+#ux-header #blackBar {
+	min-height: 10px; background-color: rgb(40, 40, 40);
+}
+#ux-header #signIn {
+	margin-top: 19px; float: right;
+}
+div.IE7#ux-header #signIn {
+	max-width: 300px;
+}
+.rtl#ux-header .createProfileLink {
+	padding: 0px 0px 0px 8px; float: right;
+}
+.rtl#ux-header div.SearchBox {
+	float: left;
+}
+.rtl#ux-header div.SearchBox button {
+	float: left;
+}
+.rtl#ux-header #signIn {
+	float: left;
+}
+.rtl#ux-header #logo {
+	float: right;
+}
+.rtl#ux-header #selectedTab {
+	float: right;
+}
+.rtl#ux-header .scarabLink {
+	float: right;
+}
+.rtl#ux-header div#selectedTab a {
+	margin: 0px 11px 0px 0px;
+}
+.rtl#ux-header div#selectedTab a.dropDownToggle::after {
+	margin: 15px 12px 0px 0px; float: left;
+}
+.rtl#ux-header div.toclevel3 a {
+	left: -25px; float: right;
+}
+.rtl#ux-header div.toclevel2 a {
+	float: right;
+}
+.rtl#ux-header #toclevel1_menu ul {
+	padding: 3px 13px 5px 0px;
+}
+#ux-banner {
+	min-width: 998px;
+}
+#ux-banner div.banner div.row {
+	width: 998px;
+}
+.microsoftlogo {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat 0px 0px; width: 85px; height: 16px; overflow: hidden;
+}
+.msdnlogo {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -85px 0px; width: 46px; height: 16px; overflow: hidden;
+}
+.selectLocale a::after {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -131px 0px; width: 24px; height: 24px; overflow: hidden;
+}
+.header-search-button {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -155px 0px; width: 24px; height: 24px; overflow: hidden;
+}
+.SearchBoxOnFocus .header-search-button {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -179px 0px; width: 24px; height: 24px; overflow: hidden;
+}
+.dropDownToggle::after {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -203px 0px; width: 13px; height: 9px; overflow: hidden;
+}
+.dropDownToggle:hover::after {
+	background: url("/Areas/Epx/Themes/Windows/Content/sprite.min.png") =
+no-repeat -216px 0px; width: 13px; height: 9px; overflow: hidden;
+}
+div#leftNav {
+	margin: 0px 28px 0px 0px; width: 215px; float: left; position: =
+relative; min-height: 10px;
+}
+div#tocnav {
+	line-height: normal; font-family: "Segoe UI",Verdana,Arial; font-size: =
+1em; -ms-overflow-x: hidden;
+}
+div#tocnav > div {
+	width: auto; margin-bottom: 10px; white-space: normal; -ms-overflow-x: =
+hidden;
+}
+div#leftNav a {
+	color: rgb(19, 100, 196); text-decoration: none;
+}
+div#leftNav a:link {
+	color: rgb(19, 100, 196); text-decoration: none;
+}
+div#leftNav a:visited {
+	color: rgb(19, 100, 196); text-decoration: none;
+}
+div#tocnav > div > a {
+	overflow: hidden; margin-left: 22px; display: block;
+}
+div#tocnav > div > a:link {
+	overflow: hidden; margin-left: 22px; display: block;
+}
+div#tocnav > div > a:visited {
+	overflow: hidden; margin-left: 22px; display: block;
+}
+div#tocnav > div > span.emptyHref {
+	overflow: hidden; text-decoration: none; margin-left: 22px; display: =
+block;
+}
+div#tocnav > div.current > a {
+	color: rgb(230, 106, 56); text-decoration: none;
+}
+div#tocnav > div.current > a:link {
+	color: rgb(230, 106, 56); text-decoration: none;
+}
+div#tocnav > div.current > a:visited {
+	color: rgb(230, 106, 56); text-decoration: none;
+}
+div#tocnav > div > a.toc_expanded {
+	margin-left: 0px; vertical-align: top; float: left; display: =
+inline-block;
+}
+div#tocnav > div > a.toc_collapsed {
+	margin-left: 0px; vertical-align: top; float: left; display: =
+inline-block;
+}
+div#tocnav > div > span.toc_empty {
+	margin-left: 0px; vertical-align: top; float: left; display: =
+inline-block;
+}
+div#tocnav > div > span.toc_empty {
+	background: none;
+}
+div#tocnav > div.toclevel1 {
+	padding-left: 13px;
+}
+div#tocnav > div.toclevel2 {
+	padding-left: 26px;
+}
+div#tocnav > div.toclevel3 {
+	padding-left: 39px;
+}
+div#tocnav > div.toclevel4 {
+	padding-left: 52px;
+}
+div#tocnav > div.toclevel5 {
+	padding-left: 65px;
+}
+div#tocnav > div.toclevel6 {
+	padding-left: 78px;
+}
+div#tocnav > div.toclevel7 {
+	padding-left: 91px;
+}
+div#tocnav > div.toclevel8 {
+	padding-left: 104px;
+}
+div#tocnav > div.toclevel9 {
+	padding-left: 117px;
+}
+div#tocnav > div.toclevel10 {
+	padding-left: 130px;
+}
+.libraryMemberFilter {
+	overflow: auto; margin-bottom: 5px; display: none;
+}
+.libraryMemberFilter .filterContainer {
+	float: right;
+}
+.libraryMemberFilter .filterContainer label {
+	display: inline;
+}
+.libraryMemberFilter .libraryFilterInherited {
+	margin: 0px 5px; vertical-align: middle;
+}
+.libraryMemberFilter .libraryFilterProtected {
+	margin: 0px 5px 0px 15px; vertical-align: middle;
+}
+html[dir=3D'rtl'] .libraryMemberFilter .filterContainer {
+	float: left;
+}
+#ux-footer {
+	padding: 0px; color: rgb(255, 255, 255); line-height: 15px; clear: =
+both; font-family: "Segoe UI Semibold","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 12px; =
+font-weight: 600; border-top-color: rgb(40, 40, 40); border-top-width: =
+10px; border-top-style: solid; min-width: 998px; background-color: =
+rgb(69, 69, 69);
+}
+#ux-footer .clear {
+	clear: both;
+}
+#ux-footer #footerContainer {
+	margin: auto; width: 998px;
+}
+#ux-footer #footerSockInner {
+	margin: auto; width: 998px;
+}
+#ux-footer #footerSock {
+	background-color: rgb(40, 40, 40);
+}
+#ux-footer #footerSockInner {
+	padding: 42px 0px 52px;
+}
+#ux-footer #footerSock #Fragment_Survey {
+	width: 227px; margin-right: 30px; float: left;
+}
+#ux-footer #footerSock div.rating {
+	width: 484px; float: left; display: none;
+}
+#ux-footer #footerSock div.title {
+	color: rgb(255, 255, 255); font-size: 1.66em; margin-bottom: 8px;
+}
+#ux-footer #footerSock div.description {
+	font: 1.2em/1.4 "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, =
+sans-serif; color: rgb(255, 255, 255); margin-bottom: 8px; =
+font-size-adjust: none; font-stretch: normal;
+}
+#ux-footer #footerSock #Fragment_Survey div.RichText {
+	font: 1.2em/1.4 "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, =
+sans-serif; color: rgb(255, 255, 255); margin-bottom: 8px; =
+font-size-adjust: none; font-stretch: normal;
+}
+#ux-footer #footerSock div.buttons > button {
+	font: 1.2em "Segoe UI Semibold", "Lucida Grande", Verdana, Arial, =
+Helvetica, sans-serif; margin: 2px 5px 0px 0px; padding: 10px 18px; =
+border: currentColor; border-image: none; color: rgb(255, 255, 255); =
+cursor: pointer; font-size-adjust: none; font-stretch: normal; =
+background-color: rgb(0, 188, 242);
+}
+#ux-footer #footerSock #Fragment_Survey div.link a {
+	font: 1.2em "Segoe UI Semibold", "Lucida Grande", Verdana, Arial, =
+Helvetica, sans-serif; margin: 2px 5px 0px 0px; padding: 10px 18px; =
+border: currentColor; border-image: none; color: rgb(255, 255, 255); =
+cursor: pointer; font-size-adjust: none; font-stretch: normal; =
+background-color: rgb(0, 188, 242);
+}
+#ux-footer #footerSock #Fragment_Survey div.link a {
+	display: inline-block;
+}
+#ux-footer #footerSock div.buttons > button:hover {
+	background-color: rgb(30, 117, 187);
+}
+#ux-footer #footerSock #Fragment_Survey div.link a:hover {
+	background-color: rgb(30, 117, 187);
+}
+#ux-footer #ratingSection2 {
+	display: none;
+}
+#ux-footer #ratingSection3 {
+	display: none;
+}
+#ux-footer div.rating textarea {
+	font: 1.2em/1.4 "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, =
+sans-serif; padding: 15px 24px; border: 0px currentColor; border-image: =
+none; width: 436px; height: 120px; margin-bottom: 10px; =
+font-size-adjust: none; font-stretch: normal; resize: none;
+}
+#ux-footer #fourColumnFooter {
+	overflow: hidden; margin-top: 30px;
+}
+#ux-footer a {
+	color: rgb(255, 255, 255); line-height: 15px;
+}
+#ux-footer a:focus {
+	outline: rgb(255, 255, 255) dotted 1px;
+}
+#ux-footer #Fragment_Column1 {
+	margin: 0px 0px 0px 30px; width: 227px; float: left;
+}
+#ux-footer #Fragment_Column2 {
+	margin: 0px 0px 0px 30px; width: 227px; float: left;
+}
+#ux-footer #Fragment_Column3 {
+	margin: 0px 0px 0px 30px; width: 227px; float: left;
+}
+#ux-footer #Fragment_Column4 {
+	margin: 0px 0px 0px 30px; width: 227px; float: left;
+}
+#ux-footer #Fragment_Column1 {
+	margin: 0px;
+}
+#ux-footer #fourColumnFooter .LinkListTitle {
+	line-height: 1.5; margin-bottom: 14px;
+}
+#ux-footer #fourColumnFooter #Fragment_Column1 .LinkListTitle {
+	line-height: 15px; margin-bottom: 5px;
+}
+#ux-footer #fourColumnFooter li {
+	margin-bottom: 4px;
+}
+#ux-footer #fourColumnFooter #Fragment_Column1 li {
+	margin-bottom: 0px;
+}
+#ux-footer #fourColumnFooter li a {
+	color: rgb(187, 189, 191);
+}
+#ux-footer #fourColumnFooter #Fragment_Column1 li a {
+	color: rgb(255, 255, 255); line-height: 40px; font-size: 20px;
+}
+#ux-footer #fourColumnFooter div.LinkList {
+	margin: 37px 0px 0px; padding: 0px;
+}
+#ux-footer .microsoftlogo {
+	margin-right: -4px; float: right; display: inline-block;
+}
+#ux-footer .msdnlogo {
+	margin-right: 44px; float: right; display: inline-block;
+}
+#ux-footer #FooterCopyright {
+	margin: 6px 0px 0px; float: right;
+}
+#ux-footer #Fragment_BaseFooter {
+	margin: 6px 16px 0px 0px; float: right; max-width: 520px;
+}
+#ux-footer #Fragment_BaseFooter a {
+	margin: 0px 16px 0px 0px;
+}
+#ux-footer .selectLocale {
+	height: 24px; margin-top: 3px; float: left; background-color: rgb(40, =
+40, 40);
+}
+#ux-footer .selectLocale a {
+	padding: 0px 0px 0px 10px; line-height: 20px; float: left;
+}
+#ux-footer .selectLocale a::after {
+	margin-left: 10px; float: right; display: block; content: " "; =
+background-color: rgb(0, 204, 255);
+}
+#ux-footer .selectLocale a:hover::after {
+	background-color: rgb(30, 117, 187);
+}
+#ux-footer #Fragment_HelloText {
+	margin: 3px 16px 0px 0px; padding: 3px 0px 6px; float: left; display: =
+inline-block;
+}
+#ux-footer #baseFooterLogos {
+	margin-top: 122px;
+}
+#ux-footer #baseFooter {
+	padding-bottom: 13px; clear: both;
+}
+#ux-footer #Fragment_SockLinks {
+	width: 227px; margin-left: 30px; float: left; display: inline-block;
+}
+#ux-footer #Fragment_SockLinks li {
+	margin-bottom: 14px;
+}
+#ux-footer #Fragment_SockLinks a {
+	color: rgb(0, 204, 255); line-height: 1.25em; font-size: 1.66em;
+}
+#ux-footer .LinkList ul {
+	padding: 0px;
+}
+.rtl#ux-footer #footerSock #Fragment_Survey {
+	margin-right: 0px; margin-left: 30px; float: right;
+}
+.rtl#ux-footer #footerSock div.rating {
+	float: right;
+}
+.rtl#ux-footer #Fragment_SockLinks {
+	margin-right: 30px; margin-left: 0px; float: right;
+}
+.rtl#ux-footer #FooterCopyright {
+	float: left;
+}
+.rtl#ux-footer .microsoftlogo {
+	margin-right: 0px; margin-left: -1px; float: left;
+}
+.rtl#ux-footer .msdnlogo {
+	margin: 0px 0px 0px 44px; float: left;
+}
+.rtl#ux-footer #Fragment_BaseFooter {
+	margin: 6px 0px 0px 16px; float: left;
+}
+.rtl#ux-footer #Fragment_BaseFooter a {
+	margin: 0px 0px 0px 16px;
+}
+.rtl#ux-footer #Fragment_Column1 {
+	float: right;
+}
+.rtl#ux-footer #Fragment_Column2 {
+	float: right;
+}
+.rtl#ux-footer #Fragment_Column3 {
+	float: right;
+}
+.rtl#ux-footer #Fragment_Column4 {
+	float: right;
+}
+.rtl#ux-footer .selectLocale {
+	float: right;
+}
+.rtl#ux-footer #Fragment_Column2 {
+	margin: 0px 30px 0px 0px;
+}
+.rtl#ux-footer #Fragment_Column3 {
+	margin: 0px 30px 0px 0px;
+}
+.rtl#ux-footer #Fragment_Column4 {
+	margin: 0px 30px 0px 0px;
+}
+.rtl#ux-footer .selectLocale a {
+	padding: 0px 10px 0px 0px;
+}
+.rtl#ux-footer .selectLocale a::after {
+	margin: 0px 10px 0px 0px; float: left;
+}
+.rtl#ux-footer #Fragment_HelloText {
+	margin: 3px 0px 0px 16px; float: right;
+}
+.DetailedLinkWithImage div.titleAndImage.leftImage div.image {
+	float: left;
+}
+.DetailedLinkWithImage div.titleAndImage.rightImage div.image {
+	float: right;
+}
+.DetailedLinkMetro a.tile {
+	display: block;
+}
+.DetailedLinkWithImageMetro a.tile {
+	display: block;
+}
+.leftImage.DetailedLinkWithImage div.textContent {
+	float: right;
+}
+.leftImage.DetailedLinkWithImageMetro div.textContent {
+	float: right;
+}
+.leftImage.DetailedLinkWithImage div.image {
+	float: right;
+}
+.leftImage.DetailedLinkWithImageMetro div.image {
+	float: right;
+}
+.leftImage.DetailedLinkWithImage div.media {
+	float: right;
+}
+.leftImage.DetailedLinkWithImageMetro div.media {
+	float: right;
+}
+.rightImage.DetailedLinkWithImage div.textContent {
+	float: left;
+}
+.rightImage.DetailedLinkWithImageMetro div.textContent {
+	float: left;
+}
+.rightImage.DetailedLinkWithImage div.image {
+	float: left;
+}
+.rightImage.DetailedLinkWithImageMetro div.image {
+	float: left;
+}
+.rightImage.DetailedLinkWithImage div.media {
+	float: left;
+}
+.rightImage.DetailedLinkWithImageMetro div.media {
+	float: left;
+}
+.leftImage.DetailedLinkWithImage {
+	display: inline-block;
+}
+.rightImage.DetailedLinkWithImage {
+	display: inline-block;
+}
+div.DetailedLinkWithImageMetro div.title {
+	display: inline-block;
+}
+div.DetailedLinkMetro div.title {
+	display: inline-block;
+}
+div.DetailedLinkWithImageList {
+	display: inline-block;
+}
+div.DetailedLinkListTextFormat {
+	display: inline-block;
+}
+div.DetailedLinkList {
+	display: inline-block;
+}
+.LinkList div.Bulleted a {
+	background: url("/Areas/Epx/Content/Images/Arrow.gif") no-repeat left; =
+padding-left: 24px;
+}
+.LinkList ul {
+	margin: 0px; padding: 0px; float: left; list-style-type: none;
+}
+.LinkList div:last-child.Links ul {
+	float: none;
+}
+.LinkList ul li {
+	background: none; margin: 0px; padding: 0px; list-style-type: none;
+}
+.LinkList ul.horizontal li {
+	float: left;
+}
+.rtl .LinkList ul.horizontal li {
+	float: right;
+}
+.LinkList .LinksDivider {
+	float: left;
+}
+body {
+	margin: 0px; color: rgb(69, 69, 69); line-height: 1.429; font-size: =
+0.87em;
+}
+#body {
+	margin: 0px auto; width: 998px;
+}
+div#content {
+	padding-left: 30px; margin-top: 15px;
+}
+div#leftNav {
+	margin: 25px -1px 0px 0px;
+}
+p {
+	margin: 0px; color: rgb(69, 69, 69); line-height: 1.42em !important;
+}
+ol {
+	margin: 5px 0px 20px; padding: 0px 0px 0px 1px; list-style-position: =
+inside;
+}
+ul {
+	margin: 5px 0px 20px; padding: 0px 0px 0px 1px; list-style-position: =
+inside;
+}
+body.IE ul {
+	padding-right: 1em; padding-left: 1em; list-style-position: outside;
+}
+body.FF ul {
+	padding-right: 1.1em; padding-left: 1.1em; list-style-position: =
+outside;
+}
+body.FF ol {
+	padding-right: 1.4em; padding-left: 1.4em; list-style-position: =
+outside;
+}
+body.IE ol {
+	padding-right: 1.4em; padding-left: 1.4em; list-style-position: =
+outside;
+}
+body.FF ol .codeSnippetContainer {
+	margin-right: -20px; margin-left: -20px;
+}
+body.FF ul .codeSnippetContainer {
+	margin-right: -20px; margin-left: -20px;
+}
+ul ul {
+	margin-left: 18px;
+}
+ol ol {
+	margin-left: 18px;
+}
+ul ol {
+	margin-left: 18px;
+}
+ol ul {
+	margin-left: 18px;
+}
+th {
+	background-color: inherit;
+}
+a {
+	line-height: 1.42em; font-family: "Segoe UI Semibold","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em; =
+text-decoration: none;
+}
+a:link {
+	line-height: 1.42em; font-family: "Segoe UI Semibold","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em; =
+text-decoration: none;
+}
+a:hover {
+	line-height: 1.42em; font-family: "Segoe UI Semibold","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em; =
+text-decoration: none;
+}
+a:active {
+	line-height: 1.42em; font-family: "Segoe UI Semibold","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em; =
+text-decoration: none;
+}
+a:visited {
+	line-height: 1.42em; font-family: "Segoe UI Semibold","Segoe =
+UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em; =
+text-decoration: none;
+}
+a {
+	color: rgb(30, 117, 187);
+}
+a:link {
+	color: rgb(30, 117, 187);
+}
+a:hover {
+	color: rgb(0, 188, 242);
+}
+a:visited {
+	color: rgb(0, 24, 143);
+}
+a:active {
+	color: rgb(0, 24, 143);
+}
+.topic a {
+	color: rgb(30, 117, 187);
+}
+.topic a:link {
+	color: rgb(30, 117, 187);
+}
+.topic a:hover {
+	color: rgb(0, 188, 242);
+}
+.topic a:active {
+	color: rgb(0, 24, 143);
+}
+.topic a:visited {
+	color: rgb(0, 24, 143);
+}
+#TopicTitle {
+	font: 3em/1.2 "Segoe UI Light", "Segoe UI", "Lucida Grande", Verdana, =
+Arial, Helvetica, sans-serif; margin: 54px auto 0px; width: 998px; =
+font-size-adjust: none; font-stretch: normal;
+}
+h1 {
+	margin: 0px 0px 0px -3px; padding: 0px 0px 20px; color: rgb(69, 69, =
+69); line-height: 1.2em; clear: both; font-family: "Segoe UI =
+Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; =
+font-size: 3em; font-weight: normal;
+}
+.topic h1.title {
+	margin: 0px 0px 0px -3px; padding: 0px 0px 20px; color: rgb(69, 69, =
+69); line-height: 1.2em; clear: both; font-family: "Segoe UI =
+Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; =
+font-size: 3em; font-weight: normal;
+}
+h1.api_ref {
+	line-height: 1.35em; font-size: 2em; margin-left: -2px;
+}
+h2 {
+	color: rgb(69, 69, 69) !important; line-height: 1.24em !important; =
+padding-top: 0px; padding-bottom: 0px; font-family: "Segoe UI =
+Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; =
+font-size: 1.45em !important; margin-bottom: 15px; margin-left: -1px =
+!important;
+}
+.communityContentHeaderTitleContainer h2 {
+	margin: 0px; padding-top: 5px; padding-bottom: 5px;
+}
+h3 {
+	margin: 0px 0px 5px -1px !important; padding: 0px !important; color: =
+rgb(69, 69, 69) !important; line-height: 1.45em !important; font-family: =
+"Segoe UI bold","Segoe UI","Lucida =
+Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 1em !important; =
+font-weight: bold !important;
+}
+h4 {
+	margin: 0px 0px 5px -1px !important; padding: 0px !important;
+}
+h2 > a {
+	color: rgb(30, 117, 187) !important;
+}
+h2 > a:link {
+	color: rgb(30, 117, 187) !important;
+}
+h2 > a:active {
+	color: rgb(30, 117, 187) !important;
+}
+h2 > a:visited {
+	color: rgb(30, 117, 187) !important;
+}
+div#tocnav {
+	font-size: 0.85em !important;
+}
+.TestCaseList pre {
+	font-size: 1.18em;
+}
+.breadCrumb {
+	margin: 0px; line-height: 0.917;
+}
+.breadCrumb > a {
+	color: rgb(42, 42, 42); font-size: 10px;
+}
+.breadCrumb > a:link {
+	color: rgb(42, 42, 42); font-size: 10px;
+}
+.breadCrumb > a:visited {
+	color: rgb(42, 42, 42); font-size: 10px;
+}
+.breadCrumb > span {
+	font-size: 10px;
+}
+.breadCrumb > a:hover {
+	color: rgb(112, 112, 112); text-decoration: none;
+}
+div#leftNav {
+	width: 227px;
+}
+div.leftNavResize1#leftNav {
+	width: 227px;
+}
+div.leftNavResize2#leftNav {
+	width: 327px;
+}
+div.leftNavResize3#leftNav {
+	width: 427px;
+}
+div#tocnav > div.current > a {
+	color: rgb(30, 117, 187);
+}
+div#tocnav > div.current > a:link {
+	color: rgb(30, 117, 187);
+}
+div#tocnav > div.current > a:visited {
+	color: rgb(30, 117, 187);
+}
+div#tocnav > div > a {
+	color: rgb(112, 112, 112);
+}
+div#tocnav > div > a:link {
+	color: rgb(112, 112, 112);
+}
+div#tocnav > div > a:visited {
+	color: rgb(112, 112, 112);
+}
+div#tocnav > div {
+	margin-left: -6px;
+}
+.Nav_Sidebar .sidebar_heading {
+	font: 1.45em/normal "Segoe UI Semibold", "Segoe UI", "Lucida Grande", =
+Verdana, Arial, Helvetica, sans-serif; color: rgb(69, 69, 69); =
+font-size-adjust: none; font-stretch: normal;
+}
+.win8LinkList > p {
+	padding-top: 0px; padding-bottom: 0px;
+}
+.win8LinkList > p > a:link {
+	font: 1em/28px "Segoe UI Semibold", "Segoe UI", "Lucida Grande", =
+Verdana, Arial, Helvetica, sans-serif; color: rgb(30, 117, 187) =
+!important; font-size-adjust: none; font-stretch: normal;
+}
+.win8LinkList > p > a:active {
+	font: 1em/28px "Segoe UI Semibold", "Segoe UI", "Lucida Grande", =
+Verdana, Arial, Helvetica, sans-serif; color: rgb(30, 117, 187) =
+!important; font-size-adjust: none; font-stretch: normal;
+}
+.win8LinkList > p > a:visited {
+	font: 1em/28px "Segoe UI Semibold", "Segoe UI", "Lucida Grande", =
+Verdana, Arial, Helvetica, sans-serif; color: rgb(30, 117, 187) =
+!important; font-size-adjust: none; font-stretch: normal;
+}
+.buttonBlue a {
+	font: 1em "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, =
+Arial, Helvetica, sans-serif; padding: 10px 18px; color: rgb(255, 255, =
+255) !important; display: inline-block; min-width: 50px; =
+font-size-adjust: none; font-stretch: normal;
+}
+.buttonGray a {
+	font: 1em "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, =
+Arial, Helvetica, sans-serif; padding: 10px 18px; color: rgb(255, 255, =
+255) !important; display: inline-block; min-width: 50px; =
+font-size-adjust: none; font-stretch: normal;
+}
+.buttonCyan a {
+	font: 1em "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, =
+Arial, Helvetica, sans-serif; padding: 10px 18px; color: rgb(255, 255, =
+255) !important; display: inline-block; min-width: 50px; =
+font-size-adjust: none; font-stretch: normal;
+}
+.buttonCyan a {
+	color: rgb(69, 69, 69);
+}
+.buttonBlue a {
+	background-color: rgb(30, 117, 187);
+}
+.buttonBlue a:hover {
+	background-color: rgb(0, 188, 242);
+}
+.buttonBlue a:active {
+	background-color: rgb(0, 24, 143);
+}
+.buttonGray a {
+	background-color: rgb(69, 69, 69);
+}
+.buttonGray a:hover {
+	background-color: rgb(81, 81, 81);
+}
+.buttonGray a:active {
+	background-color: rgb(42, 42, 42);
+}
+.buttonCyan a {
+	background-color: rgb(0, 188, 242);
+}
+.buttonCyan a:hover {
+	background-color: rgb(30, 117, 187);
+}
+.buttonCyan a:active {
+	background-color: rgb(0, 24, 143);
+}
+.LW_CollapsibleArea_TitleDiv {
+	padding-top: 15px;
+}
+.LW_CollapsibleArea_TitleDiv div a:link {
+	color: rgb(30, 117, 187);
+}
+.LW_CollapsibleArea_TitleDiv div a:hover {
+	color: rgb(30, 117, 187);
+}
+.LW_CollapsibleArea_TitleDiv div a:visited {
+	color: rgb(30, 117, 187);
+}
+.LW_CollapsibleArea_TitleDiv div a:focus {
+	color: rgb(30, 117, 187);
+}
+hr {
+	border-width: 1px; border-style: solid; color: rgb(237, 237, 240);
+}
+hr.horizontalRule {
+	margin-top: 0px; margin-bottom: 20px;
+}
+.libraryMemberFilter .filterContainer span {
+	font-weight: bold;
+}
+div.alert {
+	padding: 10px 12px; margin-bottom: 26px; background-color: rgb(237, =
+237, 240);
+}
+div.alert th img {
+	display: none;
+}
+
+------=_NextPart_000_0000_01CF3E27.A3A68680--
