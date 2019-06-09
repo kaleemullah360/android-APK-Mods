@@ -1,9 +1,9 @@
 # android-APK-Mods
 
 #### Description
-> A tool for reverse engineering Android apk files.
+A tool for reverse engineering Android apk files.
 
-> Hack into android applications, some tools and instructions. decode, modify and recompile APK
+Hack into android applications, some tools and instructions. decode, modify and recompile APK
 
 #### Instructions
 
@@ -25,9 +25,13 @@
 
 #### Prerequists 
 > java must installed
+
 > apk-signer.jar
+
 > keystore files for signing (`testkey.x509.pem`, `testkey.pk8`)
+
 > keystore explorer
+
 > framework.apk
 
 
